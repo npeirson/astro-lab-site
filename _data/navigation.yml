@@ -1,0 +1,77 @@
+# main links
+main:
+  - title: "Instruments"
+    url: /instruments/
+  - title: "People"
+    url: /people/
+  - title: "Publications"
+    url: /publications/
+  - title: "Press"
+    url: /press/
+
+side:
+    - title: Instruments
+      url: /instruments/
+      children:
+        - title: Giant Magellan Telescope
+          url: /instruments/gmt/
+          kiddos:
+          - title: "GMACS"
+            url: /instruments/gmacs/
+          - title: "Cargille Test"
+            url: /instruments/cargille/
+          - title: "MooSci"
+            url: /instruments/moosci/
+        - title: Dark Energy Survey
+          url: /instruments/des/
+          kiddos:
+            - title: "DECal"
+              url: /instruments/decal/
+            - title: "Astrocal"
+              url: /instruments/astrocal/
+            - title: "aTmCam"
+              url: /instruments/atmcam/
+        - title: HETDEX
+          kiddos:
+            - title: VIRUS Enclosures
+            - title: VIRUS Collimators
+        - title: DuOCam
+        - title: B&C Telescope
+        - title: Past Projects
+    - title: Other Pages
+      children:
+        - title: Awards and Honors
+        - title: TAMU Astronomy
+        - title: TAMU Observatory
+        - title: Star Parties
+        - title: Useful Documents
+        - title: Physics Festival
+        - title: REU Program
+        - title: Calendar
+        - title: Contact Us
+
+publications:
+    - title: Documents
+      children:
+        - title: Journal Articles
+        - title: Reports
+        - title: Presentations
+    - title: Recognition
+      children:
+        - title: Awards and Honors
+        - title: Ph.D. Degree Alumni
+        - title: Useful Documents
+
+userguide:
+    - title: User Guide
+      children:
+        - title: Overview
+          url: /userguide/
+        - title: Making New Pages
+          url: /userguide/pages/
+        - title: Making New Press Releases
+          url: /userguide/posts/
+        - title: Permalinks
+          url: /userguide/permalinks/
+        - title: Figures, Tables, Captions
+          url: /userguide/figtabcap/
