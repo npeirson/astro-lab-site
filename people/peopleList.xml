@@ -1,0 +1,30 @@
+<!--
+List of people to auto-populate the "people" page. Removes the hassle of CSS formatting when making changes. Use HTML to add links.
+Note: You must use escape characters!
+  <   &lt;
+  >   &gt;
+  "   &quot;
+  '   &apos;
+  &   &amp;
+
+To add a person, do:
+
+<person
+  name="person's name"
+  picture="url of person's headshot"
+  profile="all the juicy details you want to share about them"
+  \>
+
+-->
+<resources>
+  <person
+    name="Darren DePoy"
+    picture="../people/assets/DarrenDePoy_1.jpg"
+    profile="<a href=&quot;http://physics.tamu.edu/people/depoy&quot;>Darren DePoy</a> is the Rachal/Mitchell/Heep endowed professor of Physics and Astronomy and is the head of the Astronomical Instrumentation Lab. He came to Texas A&amp;M in 2008 after working at The Ohio State University for 18 years, where he was the Vice-Chair for Instrumentation. Dr. DePoy has designed and built state-of-the-art optical and infrared astronomical instruments for telescopes all over the world, including OSIRIS currently on the SOAR telescope in Chile, TIFKAM at the MDM Observatory in Arizona, ANDICam at the Cerro-Tololo Interamerican Observatory (CTIO) in Chile, DANDICam at South African Astronomical Observatory, MODS on the LBT telescope in Arizona, a new instrument called <a href=&quot;http://instrumentation.tamu.edu/DeCal.html&quot;>DECam</a> for the CTIO 4-meter telescope, and <a href=&quot;http://instrumentation.tamu.edu/virus.html&quot;>VIRUS</a>, the instrument that supports the Hobby-Eberly Telescope Dark Energy Experiment."
+    \>
+  <person
+    name="Jennifer Marshall"
+    picture="../people/assets/DarrenDePoy_1.jpg"
+    profile="<a href=&quot;http://physics.tamu.edu/people/jlm076&quot;>Jennifer Marshall</a> manages the day-to-day operations of the Astronomical Instrumentation Lab. Professor Marshall's background is in instrumentation, having earned a Ph.D. in instrumentation and observational astronomy in 2006. She is the lead for Texas A&amp;M’s involvement in the VIRUS project, is a co-PI on the Giant Magellan Telescope Wide-Field Optical Spectrograph <a href=&quot;/instruments/gmacs/&quot;>GMACS</a>, and is generally involved in all other ongoing activities in the lab."
+    \>
+</resources>
