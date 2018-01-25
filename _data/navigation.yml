@@ -54,6 +54,7 @@ publications:
     - title: Documents
       children:
         - title: Journal Articles
+          url: /publications/journals/
         - title: Reports
         - title: Presentations
     - title: Recognition

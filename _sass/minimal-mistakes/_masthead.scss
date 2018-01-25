@@ -17,7 +17,6 @@
     background-color: $masthead-fill-color;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
     max-width: 100%;
     display: -webkit-box;
     display: flex;
@@ -54,6 +53,7 @@
 
 .tamu-logo { // there's probably a better way to do this...
   max-height: 32px;
+  padding: 0 0 0 1em;
   margin-left: -295px;
   margin-right: 64px;
 }

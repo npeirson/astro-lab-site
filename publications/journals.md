@@ -2,7 +2,7 @@
 layout: single
 title: "Publications, Reports & Presentations"
 sidebar:
-  nav: "side"
+  nav: "publications"
 toc: true
 ---
 ## Publications in Refereed Journals

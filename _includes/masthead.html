@@ -1,10 +1,10 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav" style="background-color:#000000;">
-        <img src="../assets/tamu/TAM-reduced.png" class="tamu-logo">
+      <nav id="site-nav" class="greedy-nav" style="background-color:#0a0a0a;">
+        <img src="http://instrumentation.tamu.edu/jekylltest/_site/assets/tamu/TAM-reduced.png" class="tamu-logo">
         <a class="site-title" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
-        <ul class="visible-links" style="background-color:#000000;">
+        <ul class="visible-links" style="background-color:#0a0a0a;">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -14,7 +14,7 @@
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
-        <button type="button" style="background-color:#000000; overflow: auto;">
+        <button type="button" style="background-color:#0a0a0a; overflow: auto;">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</span>
           <div class="navicon"></div>
         </button>
