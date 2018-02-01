@@ -5,6 +5,8 @@
 .masthead {
   background-color: $masthead-fill-color;
   position: relative;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
           animation: $intro-transition;
@@ -51,12 +53,19 @@
   z-index: 20;
 }
 
+.tamu-logo{
+  max-height: 32px;
+  padding: 0 1em 0 1em;
+}
+
+/*
 .tamu-logo { // there's probably a better way to do this...
   max-height: 32px;
   padding: 0 0 0 1em;
   margin-left: -295px;
   margin-right: 64px;
 }
+*/
 
 .masthead__menu {
   background-color: $masthead-fill-color;

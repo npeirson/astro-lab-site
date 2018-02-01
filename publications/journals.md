@@ -6,7 +6,7 @@ sidebar:
 toc: true
 ---
 ## Publications in Refereed Journals
-### Assessment of Systematic Chromatic Errors that Impact Sub-1% Photometric Precision in Large-area Sky Surveys  
+### Assessment of Systematic Chromatic Errors that Impact Sub-1% Photometric Precision in Large-area Sky Surveys
 Li, T. S.; DePoy, D. L.; Marshall, J. L.; Tucker, D.; Kessler, R.; Annis, J.; Bernstein, G. M.; Boada, S.; Burke, D. L.; Finley, D. A.; James, D. J.; Kent, S.; Lin, H.; Marriner, J.; Mondrik, N.; Nagasawa, D.; Rykoff, E. S.; Scolnic, D.; Walker, A. R.; Wester, W.; Abbott, T. M. C.; Allam, S.; Benoit-Lévy, A.; Bertin, E.; Brooks, D.; Capozzi, D.; Carnero Rosell, A.; Carrasco Kind, M.; Carretero, J.; Crocce, M.; Cunha, C. E.; D'Andrea, C. B.; da Costa, L. N.; Desai, S.; Diehl, H. T.; Doel, P.; Flaugher, B.; Fosalba, P.; Frieman, J.; Gaztanaga, E.; Goldstein, D. A.; Gruen, D.; Gruendl, R. A.; Gutierrez, G.; Honscheid, K.; Kuehn, K.; Kuropatkin, N.; Maia, M. A. G.; Melchior, P.; Miller, C. J.; Miquel, R.; Mohr, J. J.; Neilsen, E.; Nichol, R. C.; Nord, B.; Ogando, R.; Plazas, A. A.; Romer, A. K.; Roodman, A.; Sako, M.; Sanchez, E.; Scarpine, V.; Schubnell, M.; Sevilla-Noarbe, I.; Smith, R. C.; Soares-Santos, M.; Sobreira, F.; Suchyta, E.; Tarle, G.; Thomas, D.; Vikram, V. [adsabs:2016AJ....151..157L](http://adsabs.harvard.edu/abs/2016AJ....151..157L)
 
 ### Spectral (600-1050 nm) Time Exposures (99.6 microseconds) of a Lightning Stepped Leader    

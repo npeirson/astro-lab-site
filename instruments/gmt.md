@@ -4,7 +4,7 @@ title: Giant Magellan Telescope
 sidebar:
   nav: "side"
 header:
-  image: /assets/splash.png
+  image: /instruments/assets/LastPieceofGlass_wb.jpg
 ---
 Thanks to a generous contribution from George P. Mitchell '40 in 2004, Texas A&M was named a founding partner in the Giant Magellan Telescope. The GMT, to be constructed in northern Chile, will be the largest telescope on earth and produce images up to ten times clearer than the Hubble Space Telescope.
 
