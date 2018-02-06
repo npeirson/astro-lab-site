@@ -42,13 +42,18 @@ side:
       children:
         - title: Awards and Honors
         - title: TAMU Astronomy
+          url: http://mitchell.tamu.edu/research/astronomy/
         - title: TAMU Observatory
+          url: http://observatory.tamu.edu/
         - title: Star Parties
+          url: /pages/starparty/
         - title: Useful Documents
         - title: Physics Festival
+          url: /pages/physicsfestival/
         - title: REU Program
         - title: Calendar
         - title: Contact Us
+          url: /pages/contact/
 
 publications:
     - title: Documents

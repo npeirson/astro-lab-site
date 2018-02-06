@@ -441,8 +441,14 @@
 
 .profile {
   float: left;
-  clear: right;
-  margin: 15px 15px 0 0;
+  clear: both;
+  margin: .5em 0.9em 0 0;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+    overflow: auto;
 }
 
 .clearfix::after {
