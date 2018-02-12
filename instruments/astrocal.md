@@ -3,6 +3,8 @@ layout: single
 title: Astrocal
 sidebar:
   nav: "side"
+header:
+  image: /instruments/assets/banner_des.jpg
 ---
 Daniel Freeman
 
@@ -13,7 +15,7 @@ Astrocal is intended to be used on all telescopes used for a follow up on the da
 Astrocal works fundamentally the same as DECal. Like DECal, Astrocal consists of seven major components: a light source; monochromator; spectrometer; fiber bundle; projectors; photodiodes; and a lambertian screen, Figure 1.
 
 <figure>
-  <img src="/instruments/assets/DeCal_layout.png" alt="DECal Layout">
+  <img src="../instruments/assets/DeCal_layout.png" alt="DECal Layout">
   <figcaption>Figure 1: a systems diagram of DECal<sup>[1]</sup> and Astrocal. The light source provides light to the monochromator. The monochromater mechanically selects a specific wavelength of light. The light is carried by the fiber optic cable, and evenly projected through engineered diffusers onto a lambertian screen. Photodiodes mounted around the top of the telescope see the light being bounced off the lambertian screen. The amount of light seen by the photodiodes is compared to the amount of light seen by the CCD in the telescope. The relative throughput of the telescope can be determined from this.</figcaption>
 </figure>
 

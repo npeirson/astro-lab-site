@@ -32,9 +32,10 @@ side:
             - title: "aTmCam"
               url: /instruments/atmcam/
         - title: HETDEX
+          url: /instruments/hetdex/
           kiddos:
-            - title: VIRUS Enclosures
-            - title: VIRUS Collimators
+            - title: VIRUS
+              url: /instruments/hetdex/
         - title: DuOCam
         - title: B&C Telescope
         - title: Past Projects
