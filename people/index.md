@@ -34,5 +34,7 @@ Mary Anne Limbach is an Optical Engineer in the Astronomical Instrumentation Lab
 <div class="clearfix" />
 <img src="../people/assets/nate.jpg" width="150" alt="Nate Peirson" class="profile"/> [Nate Peirson](http://npeirson.github.io/) is an undergraduate who tickles the keyboard while on an intravenous caffeine drip. He maintains the lab website, gives great high-fives, and hopes one day to do something with turquoise. He also serves as the President of the Students for Exploration and Development of Space ([SEDS](http://seds.org)) Texas A&M University Chapter.
 
+
+
 ## Previous Team Members
 [Click here](http://instrumentation.tamu.edu/people/previous/) for a list of previous team members. *Please note that some information may be outdated.*
