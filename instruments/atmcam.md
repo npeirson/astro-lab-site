@@ -17,12 +17,12 @@ Here, we present a way to get the atmospheric throughput in real time, by measur
 
 <figure>
   <img src="../assets/atmcam1.png" alt="Figure 1">
-  <figcaption>Relative atmospheric transmission spectrum for varying amounts of precipitable water.</figcaption>
+  <figcaption>Figure 1: Relative atmospheric transmission spectrum for varying amounts of precipitable water.</figcaption>
 </figure>
 
 <figure>
   <img src="../assets/atmcam2.png" alt="Figure 2">
-  <figcaption>Relative atmospheric transmission spectrum for varying aerosol optical thickness.</figcaption>
+  <figcaption>Figure 2: Relative atmospheric transmission spectrum for varying aerosol optical thickness.</figcaption>
 </figure>
 
 This simulation can also be used in reverse. We could measure the amount of each component by knowing the color pattern of the transmission curve. Therefore, we proposed the Atmospheric Transmission Monitoring Camera, or aTmCam, which uses simultaneous measurements of stars with known spectral energy distributions through a set of narrow-band filters. The filters are chosen to allow determination of specific features in the atmospheric transmission spectrum, which then can be used to develop a model that accurately represents the throughput of the atmosphere.

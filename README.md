@@ -1,4 +1,10 @@
 # Jekyll + MinimalMistakes + Elbow Grease = AIL
+## TODO:
+Floating footnotes
+Magnifiable figures
+Cleanup on asile 12
+Finish the slideshow widgets
+
 ## Adding pages
 Individual pages are added as markdown files. They need only have a header referencing a layout in /\_layouts, and a title.
 ```
