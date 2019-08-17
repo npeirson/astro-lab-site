@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
+  Munnerlyn Astronomical Instrumentation Laboratory site 2.0 by the Kwisatz Haderach, built on Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
   Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
@@ -19,7 +19,7 @@
 
 
 
-<title>Figures, Tables, Captions - Astronomical Instrumentation Laboratory</title>
+<title>Figures, Captions, and Tables - Astronomical Instrumentation Laboratory</title>
 
 
 
@@ -33,11 +33,11 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="Astronomical Instrumentation Laboratory">
-<meta property="og:title" content="Figures, Tables, Captions">
+<meta property="og:title" content="Figures, Captions, and Tables">
 
 
-  <link rel="canonical" href="http://localhost:4000/jekylltest/_site/userguide/figtabcap/">
-  <meta property="og:url" content="http://localhost:4000/jekylltest/_site/userguide/figtabcap/">
+  <link rel="canonical" href="http://localhost:4000/userguide/figtabcap/">
+  <meta property="og:url" content="http://localhost:4000/userguide/figtabcap/">
 
 
 
@@ -77,7 +77,7 @@
       "@context" : "http://schema.org",
       "@type" : "Person",
       "name" : "Astronomical Instrumentation Laboratory",
-      "url" : "http://localhost:4000/jekylltest/_site",
+      "url" : "http://localhost:4000",
       "sameAs" : null
     }
   </script>
@@ -91,7 +91,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/jekylltest/_site/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -103,7 +103,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/jekylltest/_site/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
 
 <!--[if lte IE 9]>
   <style>
@@ -123,10 +123,31 @@
 
 
     <!-- start custom head snippets -->
-
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
+<script defer src="/assets/js/jquery.flexslider.js"></script>
 <!-- end custom head snippets -->
+<style type="text/css">
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgb(80,0,0);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+</style>
+<script>
+$(window).on('load',function(){
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
   </head>
 
   <body class="layout--single">
@@ -139,20 +160,23 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav" style="background-color:#0a0a0a;">
         <img src="http://instrumentation.tamu.edu/jekylltest/_site/assets/tamu/TAM-Logo-white-reduced.png"  class="tamu-logo">
-        <a class="site-title" href="http://localhost:4000/jekylltest/_site/">Astronomical Instrumentation Laboratory</a>
+        <a class="site-title" href="http://localhost:4000/">Astronomical Instrumentation Laboratory</a>
         <ul class="visible-links" style="background-color:#0a0a0a;">
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/instruments/">Instruments</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/instruments/">Instruments</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/people/">People</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/pages/">Information</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/publications/">Publications</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/people/">People</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/press/">Press</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/press/">Press</a></li>
           
         </ul>
         <button type="button" style="background-color:#0a0a0a; overflow: auto;">
@@ -171,6 +195,7 @@
 
 
 <div id="main" role="main">
+  
   
   <div class="sidebar sticky">
   
@@ -203,7 +228,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/" class="">Overview</a>
+            <li><a href="http://localhost:4000/userguide/" class="">Overview</a>
 
             
             </li>
@@ -214,7 +239,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/pages/" class="">Making New Pages</a>
+            <li><a href="http://localhost:4000/userguide/pages/" class="">Making New Pages</a>
 
             
             </li>
@@ -225,7 +250,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/posts/" class="">Making New Press Releases</a>
+            <li><a href="http://localhost:4000/userguide/posts/" class="">Making New Press Releases</a>
 
             
             </li>
@@ -236,7 +261,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/permalinks/" class="">Permalinks</a>
+            <li><a href="http://localhost:4000/userguide/figtabcap/" class="active">Figures, Tables, Captions</a>
 
             
             </li>
@@ -247,7 +272,29 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/figtabcap/" class="active">Figures, Tables, Captions</a>
+            <li><a href="http://localhost:4000/userguide/imagestuff/" class="">Image Overlays and Sliders</a>
+
+            
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/userguide/rebuilding/" class="">Rebuilding</a>
+
+            
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/userguide/notes/" class="">Rolling Developer's Notes</a>
 
             
             </li>
@@ -267,7 +314,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Figures, Tables, Captions">
+    <meta itemprop="headline" content="Figures, Captions, and Tables">
     
     
     
@@ -275,7 +322,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Figures, Tables, Captions
+          <h1 class="page__title" itemprop="headline">Figures, Captions, and Tables
 </h1>
           
         </header>
@@ -288,36 +335,39 @@
               <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Quick Navigation</h4></header>
               <div style="text-align:left">
 <ul class="toc__menu">
-  <li><a href="#overview">Overview</a></li>
+  <li><a href="#figures">Figures</a></li>
+  <li><a href="#tables">Tables</a></li>
 </ul>
 </div>
 
             </nav>
           </aside>
         
-        <h2 id="overview">Overview</h2>
-<p>You can add figures, tables, images, and captions to your page content using either Markdown or HTML notation. In fact, even advanced HTML commands can be used in your .md page file’s content to get as fancy as you’d like.</p>
+        
+        
+        <p>You can add figures, tables, images, and captions to your page content using either Markdown or HTML notation. In fact, even advanced HTML commands can be used in your .md page file’s content to get as fancy as you’d like.</p>
 
-<h1 id="figures">Figures</h1>
+<h2 id="figures">Figures</h2>
 <p>I’d recommend using the following LaTeX-like snippet for adding figures:</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;figure&gt;
-  &lt;img src="../../instruments/assets/gmacs-ms.jpg"&gt;
+  &lt;a href="/instruments/assets/gmacs-ms.jpg" target="_blank"&gt;
+  &lt;img src="/instruments/assets/gmacs-ms.jpg"&gt;&lt;/a&gt;
   &lt;figcaption&gt;Figure 3: The GMACS-MS interface with a DSS image.&lt;/figcaption&gt;
 &lt;/figure&gt;
 </code></pre></div></div>
 <figure>
-  <img src="../../instruments/assets/gmacs-ms.jpg" />
+  <a href="/instruments/assets/gmacs-ms.jpg" target="_blank">
+  <img src="/instruments/assets/gmacs-ms.jpg" /></a>
   <figcaption>Figure 3: The GMACS-MS interface with a DSS image.</figcaption>
 </figure>
 
-<h1 id="tables">Tables</h1>
-<p>Markdown’s approach to tables is similar to that of LaTeX. There are also <a href="https://www.tablesgenerator.com/markdown_tables">table generators</a> available for markdown. You can read more on the <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables">markdown cheatsheet</a>.</p>
-
-<p>Here’s their example:</p>
+<h2 id="tables">Tables</h2>
+<p>Markdown’s approach to tables is similar to that of LaTeX. There are also <a href="https://www.tablesgenerator.com/markdown_tables">table generators</a> available for markdown. You can read more on the <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables">markdown cheatsheet</a>.<br />
+Here’s their example:</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
+| column 3 is      | right-aligned | $1600 |
+| column 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 </code></pre></div></div>
 
@@ -331,12 +381,12 @@
   </thead>
   <tbody>
     <tr>
-      <td>col 3 is</td>
+      <td>column 3 is</td>
       <td style="text-align: center">right-aligned</td>
       <td style="text-align: right">$1600</td>
     </tr>
     <tr>
-      <td>col 2 is</td>
+      <td>column 2 is</td>
       <td style="text-align: center">centered</td>
       <td style="text-align: right">$12</td>
     </tr>
@@ -348,7 +398,7 @@
   </tbody>
 </table>
 
-<p>Or, if you prefer good old fashioned HTML tables, that’ll work too.</p>
+<p>Or, if you prefer good ol’ HTML tables, that’ll work too.</p>
 
         
       </section>
@@ -388,7 +438,7 @@
     </div>
 
     
-  <script src="http://localhost:4000/jekylltest/_site/assets/js/main.min.js"></script>
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
 
 
 

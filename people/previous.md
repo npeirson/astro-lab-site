@@ -4,12 +4,13 @@ title: "Previous Team Members"
 sidebar:
   nav: "side"
 ---
-Click [here](../previous.pdf) for a PDF version.
 
 ### Former Full Time Employees
 
 | Name | Lab Position | Current Position | Current Employer |
 | ---- | :----------: | :--------------: | :--------------: |
+|Travis Prochaska|Mechanical Engineer|Mechanical Engineer|Denver|
+|Walter "Dee" Grant|Research Assistant|||
 | Zach Allen | Public Relations |   |   |
 |Amanda Collins|Mechanical Engineer|Mechanical Engineer|Cameron|
 |John Januskey|Machinist|   |   |
@@ -20,10 +21,13 @@ Click [here](../previous.pdf) for a PDF version.
 |Ting Li|   |   |   |
 |Ryan Oelkers|   |   |   |
 
-### Former Undergraduates
+### Former Graduates and Undergraduates
 
 |Name|Current Position|Current Employer|Graduated|Major|
 |----|:----------:|:--------------:|:--------------:|:----:|
+|Marcus Sauseda|Aerospace Engineer|Boeing| |Aerospace Engineering|
+|Hugh Sharp||||Physics|
+|Zain Abbas||||Electrical Engineer|
 |Chris Akers|Graduate Student|Berkeley|Spring 2014|Physics|
 |Chris Alexander|   |   |   |Industrial Engineering|
 |Michael Allen   |   |   |Spring 2014   |Mechanical Engineer   |

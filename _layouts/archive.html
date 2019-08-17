@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-archive
 ---
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -21,6 +21,98 @@ layout: default
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
-    {{ content }}
+    <!-- uncomment below to add categorical and tag pages -->
+    <!--
+    <style>
+      .chronButton {
+        background-color:#500000;
+        width: 33%;
+        -moz-border-top-left-radius:12px;
+        -moz-border-bottom-left-radius:12px;
+        -webkit-border-top-left-radius:12px;
+        -webkit-border-bottom-left-radius:12px;
+        border-top-left-radius:12px;
+        border-bottom-left-radius:12px;
+        display:inline-block;
+        cursor:pointer;
+        color:white;
+        float:left;
+        font-size:17px;
+        padding-top:8px;
+        padding-bottom:8px;
+        text-align: center;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #3b1515;
+      }
+      .chronButton:hover {
+        background-color:#800000;
+      }
+      .chronButton:active {
+        position:relative;
+        top:1px;
+      }
+      .catButton {
+        background-color:#500000;
+        width: 33%;
+        display:inline-block;
+        cursor:pointer;
+        color:white;
+        float:left;
+        font-size:17px;
+        padding-top:8px;
+        padding-bottom:8px;
+        text-align: center;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #3b1515;
+        margin-left:1px;
+        margin-right:1px;
+      }
+      .catButton:hover {
+        background-color:#800000;
+      }
+      .catButton:active {
+        position:relative;
+        top:1px;
+      }
+      .tagButton {
+        background-color:#500000;
+        width: 33%;
+        -moz-border-top-right-radius:12px;
+        -moz-border-bottom-right-radius:12px;
+        -webkit-border-top-right-radius:12px;
+        -webkit-border-bottom-right-radius:12px;
+        border-top-right-radius:12px;
+        border-bottom-right-radius:12px;
+        display:inline-block;
+        cursor:pointer;
+        color:white;
+        float:left;
+        font-size:17px;
+        padding-top:8px;
+        padding-bottom:8px;
+        text-align: center;
+        vertical-align:middle;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #3b1515;
+      }
+      .tagButton:hover {
+        background-color:#800000;
+      }
+      .tagButton:active {
+        position:relative;
+        top:1px;
+      }
+    </style>
+    <div style="color:white;clear:both">
+      <a href="/press/" class="chronButton">Chronological</a>
+      <a href="/categories/" class="catButton">Categorical</a>
+      <a href="/tags/" class="tagButton">By Tag</a>
+    </div>
+    <div style="clear:both"></div>
+    -->
+    <div style="margin-top:8px;">
+      {{ content }}
+    </div>
+  
   </div>
 </div>

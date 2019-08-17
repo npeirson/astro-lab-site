@@ -15,6 +15,7 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
+  {% if page.rtt %}{% include rtt.html %}{% endif %}
   {% include sidebar.html %}
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
@@ -42,6 +43,12 @@ layout: default
             </nav>
           </aside>
         {% endif %}
+        {% if page.rtt %}
+          <aside class="sidebar__right">
+            <div style="display:block;position:absolute;right:50px;);"><a href="#site-nav" id="return-to-top"><i class="icon-chevron-up"></i></a></div>
+          </aside>
+        {% endif %}
+        
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>

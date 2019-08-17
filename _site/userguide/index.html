@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
+  Munnerlyn Astronomical Instrumentation Laboratory site 2.0 by the Kwisatz Haderach, built on Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
   Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
@@ -36,8 +36,8 @@
 <meta property="og:title" content="User Guide">
 
 
-  <link rel="canonical" href="http://localhost:4000/jekylltest/_site/userguide/">
-  <meta property="og:url" content="http://localhost:4000/jekylltest/_site/userguide/">
+  <link rel="canonical" href="http://localhost:4000/userguide/">
+  <meta property="og:url" content="http://localhost:4000/userguide/">
 
 
 
@@ -77,7 +77,7 @@
       "@context" : "http://schema.org",
       "@type" : "Person",
       "name" : "Astronomical Instrumentation Laboratory",
-      "url" : "http://localhost:4000/jekylltest/_site",
+      "url" : "http://localhost:4000",
       "sameAs" : null
     }
   </script>
@@ -91,7 +91,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/jekylltest/_site/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -103,7 +103,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/jekylltest/_site/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
 
 <!--[if lte IE 9]>
   <style>
@@ -123,10 +123,31 @@
 
 
     <!-- start custom head snippets -->
-
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
+<script defer src="/assets/js/jquery.flexslider.js"></script>
 <!-- end custom head snippets -->
+<style type="text/css">
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgb(80,0,0);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+</style>
+<script>
+$(window).on('load',function(){
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
   </head>
 
   <body class="layout--single">
@@ -139,20 +160,23 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav" style="background-color:#0a0a0a;">
         <img src="http://instrumentation.tamu.edu/jekylltest/_site/assets/tamu/TAM-Logo-white-reduced.png"  class="tamu-logo">
-        <a class="site-title" href="http://localhost:4000/jekylltest/_site/">Astronomical Instrumentation Laboratory</a>
+        <a class="site-title" href="http://localhost:4000/">Astronomical Instrumentation Laboratory</a>
         <ul class="visible-links" style="background-color:#0a0a0a;">
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/instruments/">Instruments</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/instruments/">Instruments</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/people/">People</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/pages/">Information</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/publications/">Publications</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/people/">People</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/press/">Press</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/press/">Press</a></li>
           
         </ul>
         <button type="button" style="background-color:#0a0a0a; overflow: auto;">
@@ -171,6 +195,7 @@
 
 
 <div id="main" role="main">
+  
   
   <div class="sidebar sticky">
   
@@ -203,7 +228,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/" class="active">Overview</a>
+            <li><a href="http://localhost:4000/userguide/" class="active">Overview</a>
 
             
             </li>
@@ -214,7 +239,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/pages/" class="">Making New Pages</a>
+            <li><a href="http://localhost:4000/userguide/pages/" class="">Making New Pages</a>
 
             
             </li>
@@ -225,7 +250,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/posts/" class="">Making New Press Releases</a>
+            <li><a href="http://localhost:4000/userguide/posts/" class="">Making New Press Releases</a>
 
             
             </li>
@@ -236,7 +261,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/permalinks/" class="">Permalinks</a>
+            <li><a href="http://localhost:4000/userguide/figtabcap/" class="">Figures, Tables, Captions</a>
 
             
             </li>
@@ -247,7 +272,29 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/figtabcap/" class="">Figures, Tables, Captions</a>
+            <li><a href="http://localhost:4000/userguide/imagestuff/" class="">Image Overlays and Sliders</a>
+
+            
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/userguide/rebuilding/" class="">Rebuilding</a>
+
+            
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/userguide/notes/" class="">Rolling Developer's Notes</a>
 
             
             </li>
@@ -283,32 +330,26 @@
 
       <section class="page__content" itemprop="text">
         
+        
+        
         <h2 id="overview">Overview</h2>
+<p>This website uses the static site generator Jekyll. When you want to change something, you’ll need to recompile the website after making changes to the source code. This is ideal because the vast majority of laborous coding can be left to automation. Although this is intended to make it easier to design new pages, you’ll need to know the syntax, which spans six or seven programming languages. It’s easy, I promise.</p>
 
-<p>The website uses the static site generator Jekyll. When you want to change something on the website, you’ll actually be changing the source code, and then recompiling the website. This is ideal because the vast majority of laborous coding can be left to automation.</p>
+<h3 id="important-to-understand">Important to Understand</h3>
+<p>The <strong>entire project’s</strong> root folder <em>is not</em> the same as the <strong>site’s</strong> root folder. When the entire project is built, the output—which resides in <code class="highlighter-rouge">/_site</code>—is the <strong>site’s</strong> root folder, and contains all content necessary for site operation. Changes to the site are made to the content in the <strong>project’s</strong> root directory, but <strong>http://instrumentation.tamu.edu</strong> should point specifically to the <code class="highlighter-rouge">_site</code> folder.<br />
+To be clear: do not make content alterations within the <code class="highlighter-rouge">_site</code> folder—allow it to be populated programmatically. Instead, make your changes/additions to the content in the other folders, which will become built into <code class="highlighter-rouge">_site</code>.</p>
 
-<h3 id="rebuilding">Rebuilding</h3>
+<h2 id="rebuilding-the-site">Rebuilding the site</h2>
+<p>After any changes are made, the site must be rebuilt before they will become live. Please follow <a href="/userguide/rebuilding/">these instructions</a>.</p>
 
-<p>For this reason, when you go to add or change anything on the website, you’ll need to send a ‘rebuild’ command to the server before your changes will go live.</p>
-<ol>
-  <li>Upload your new or revised files</li>
-  <li>Open command consol and navigate to the site’s root folder</li>
-  <li>Run the command <code class="highlighter-rouge">bundle exec jekyll build</code></li>
-</ol>
+<h2 id="the-markdown-thing">The Markdown thing</h2>
+<p>Pages are written as Markdown files (suffix <code class="highlighter-rouge">.md</code>), but contain YAML headers, and can contain Markdown or HTML content. Markdown is much easier than HTML, as you’ll soon see.</p>
 
-<h3 id="coding">Coding</h3>
+<h3 id="markdown-cheatsheet">Markdown Cheatsheet</h3>
+<p>The language you can learn in 45 seconds. <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Click here for the cheat-sheet.</a></p>
 
-<p>Rather than creating and editing HTML files, you’ll be using Markdown (‘.md’) files. Markdown is a language so simple that you can learn every function in 15 minutes. <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">This cheatsheet has it all.</a></p>
-
-<p>For our purposes, all markdown files will have two sections:</p>
-<ol>
-  <li>‘YAML Header,’ much like <em>&lt;head&gt;</em> in HTML</li>
-  <li>Everything else, much like <em>&lt;body&gt;</em> in HTML</li>
-</ol>
-
-<h3 id="detailed-user-manual">Detailed User Manual</h3>
-
-<p>A comprehensive user manual is <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/">available here</a>.</p>
+<h2 id="base-theme-user-manual">Base Theme User Manual</h2>
+<p>The base theme user manual is <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/">available here</a>.</p>
 
         
       </section>
@@ -348,7 +389,7 @@
     </div>
 
     
-  <script src="http://localhost:4000/jekylltest/_site/assets/js/main.min.js"></script>
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
 
 
 

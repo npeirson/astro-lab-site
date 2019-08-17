@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Other Pages"
+title: Information Pages
 sidebar:
-  nav: "side"
+  nav: "info"
 ---
-Please select from the options on the left side-bar.
+Please navigate using the Information Sidebar (left).

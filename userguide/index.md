@@ -5,24 +5,20 @@ sidebar:
   nav: "userguide"
 ---
 ## Overview
+This website uses the static site generator Jekyll. When you want to change something, you'll need to recompile the website after making changes to the source code. This is ideal because the vast majority of laborous coding can be left to automation. Although this is intended to make it easier to design new pages, you'll need to know the syntax, which spans six or seven programming languages. It's easy, I promise.
 
-The website uses the static site generator Jekyll. When you want to change something on the website, you'll actually be changing the source code, and then recompiling the website. This is ideal because the vast majority of laborous coding can be left to automation.
+### Important to Understand
+The **entire project's** root folder *is not* the same as the **site's** root folder. When the entire project is built, the output---which resides in `/_site`---is the **site's** root folder, and contains all content necessary for site operation. Changes to the site are made to the content in the **project's** root directory, but **http://instrumentation.tamu.edu** should point specifically to the `_site` folder.  
+To be clear: do not make content alterations within the `_site` folder---allow it to be populated programmatically. Instead, make your changes/additions to the content in the other folders, which will become built into `_site`.
 
-### Rebuilding
+## Rebuilding the site
+After any changes are made, the site must be rebuilt before they will become live. Please follow [these instructions](/userguide/rebuilding/).
 
-For this reason, when you go to add or change anything on the website, you'll need to send a 'rebuild' command to the server before your changes will go live.
-1. Upload your new or revised files
-2. Open command consol and navigate to the site's root folder
-3. Run the command `bundle exec jekyll build`
+## The Markdown thing
+Pages are written as Markdown files (suffix `.md`), but contain YAML headers, and can contain Markdown or HTML content. Markdown is much easier than HTML, as you'll soon see.  
 
-### Coding
+### Markdown Cheatsheet
+The language you can learn in 45 seconds. [Click here for the cheat-sheet.](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-Rather than creating and editing HTML files, you'll be using Markdown ('.md') files. Markdown is a language so simple that you can learn every function in 15 minutes. [This cheatsheet has it all.](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-For our purposes, all markdown files will have two sections:
-1. 'YAML Header,' much like *<head>* in HTML
-2. Everything else, much like *<body>* in HTML
-
-### Detailed User Manual
-
-A comprehensive user manual is [available here](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
+## Base Theme User Manual
+The base theme user manual is [available here](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).

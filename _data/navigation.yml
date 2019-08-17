@@ -2,6 +2,8 @@
 main:
   - title: "Instruments"
     url: /instruments/
+  - title: "Information"
+    url: /pages/
   - title: "People"
     url: /people/
   - title: "Publications"
@@ -18,10 +20,12 @@ side:
           kiddos:
           - title: "GMACS"
             url: /instruments/gmacs/
-          - title: "Cargille Test"
-            url: /instruments/cargille/
+          - title: "GMACS-MS"
+            url: /instruments/gmacs-ms/
           - title: "MooSci"
             url: /instruments/moosci/
+          - title: Cargille Test
+            url: /instruments/cargille/
         - title: Dark Energy Survey
           url: /instruments/des/
           kiddos:
@@ -37,22 +41,43 @@ side:
             - title: VIRUS
               url: /instruments/hetdex/
         - title: DuOCam
-        - title: B&C Telescope
+          url: /instruments/duocam/
+        - title: AggieSpec
+          url: /instruments/aggiespec/
+        - title: PreCal
+          url: /instruments/precal/
+        - title: MADLaSR
+          url: /instruments/madlasr/
+        - title: Reflectance
+          url: /instruments/reflectance/
         - title: Past Projects
-    - title: Other Pages
+          url: /instruments/pastprojects/
+info:    
+    - title: Information
+      url: /pages/
       children:
+        - title: People
+          url: /people/
         - title: Awards and Honors
+          url: /pages/honors/
+        - title: Ph.D. Degree Alumni
+          url: /pages/phdalumni/
         - title: TAMU Astronomy
           url: http://mitchell.tamu.edu/research/astronomy/
         - title: TAMU Observatory
           url: http://observatory.tamu.edu/
+        - title: Outreach
+          url: /pages/outreach/
         - title: Star Parties
           url: /pages/starparty/
-        - title: Useful Documents
         - title: Physics Festival
           url: /pages/physicsfestival/
         - title: REU Program
-        - title: Calendar
+          url: /pages/reu/
+        - title: Useful Documents
+          url: /pages/usefuldocs/
+        - title: Schedule
+          url: /pages/calendar/
         - title: Contact Us
           url: /pages/contact/
 
@@ -61,13 +86,18 @@ publications:
       children:
         - title: Journal Articles
           url: /publications/journals/
-        - title: Reports
         - title: Presentations
+          url: /publications/presentations/
+        - title: Reports
+          url: /publications/reports/
     - title: Recognition
       children:
         - title: Awards and Honors
+          url: /pages/honors/
         - title: Ph.D. Degree Alumni
+          url: /pages/phdalumni/
         - title: Useful Documents
+          url: /pages/usefuldocs/
 
 userguide:
     - title: User Guide
@@ -78,7 +108,11 @@ userguide:
           url: /userguide/pages/
         - title: Making New Press Releases
           url: /userguide/posts/
-        - title: Permalinks
-          url: /userguide/permalinks/
         - title: Figures, Tables, Captions
           url: /userguide/figtabcap/
+        - title: Image Overlays and Sliders
+          url: /userguide/imagestuff/
+        - title: Rebuilding
+          url: /userguide/rebuilding/
+        - title: Rolling Developer's Notes
+          url: /userguide/notes/

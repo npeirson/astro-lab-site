@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
+  Munnerlyn Astronomical Instrumentation Laboratory site 2.0 by the Kwisatz Haderach, built on Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
   Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
@@ -19,7 +19,7 @@
 
 
 
-<title>HETDEX - Astronomical Instrumentation Laboratory</title>
+<title>HETDEX VIRUS - Astronomical Instrumentation Laboratory</title>
 
 
 
@@ -33,11 +33,11 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="Astronomical Instrumentation Laboratory">
-<meta property="og:title" content="HETDEX">
+<meta property="og:title" content="HETDEX VIRUS">
 
 
-  <link rel="canonical" href="http://localhost:4000/jekylltest/_site/instruments/hetdex/">
-  <meta property="og:url" content="http://localhost:4000/jekylltest/_site/instruments/hetdex/">
+  <link rel="canonical" href="http://localhost:4000/instruments/hetdex/">
+  <meta property="og:url" content="http://localhost:4000/instruments/hetdex/">
 
 
 
@@ -63,7 +63,7 @@
 
 
 
-  <meta property="og:image" content="http://localhost:4000/jekylltest/_site/instruments/assets/banner_virus.jpg">
+  <meta property="og:image" content="http://localhost:4000/instruments/assets/banner_virus.jpg">
 
 
 
@@ -79,7 +79,7 @@
       "@context" : "http://schema.org",
       "@type" : "Person",
       "name" : "Astronomical Instrumentation Laboratory",
-      "url" : "http://localhost:4000/jekylltest/_site",
+      "url" : "http://localhost:4000",
       "sameAs" : null
     }
   </script>
@@ -93,7 +93,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/jekylltest/_site/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -105,7 +105,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/jekylltest/_site/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
 
 <!--[if lte IE 9]>
   <style>
@@ -125,10 +125,31 @@
 
 
     <!-- start custom head snippets -->
-
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
+<script defer src="/assets/js/jquery.flexslider.js"></script>
 <!-- end custom head snippets -->
+<style type="text/css">
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgb(80,0,0);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+</style>
+<script>
+$(window).on('load',function(){
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
   </head>
 
   <body class="layout--single">
@@ -141,20 +162,23 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav" style="background-color:#0a0a0a;">
         <img src="http://instrumentation.tamu.edu/jekylltest/_site/assets/tamu/TAM-Logo-white-reduced.png"  class="tamu-logo">
-        <a class="site-title" href="http://localhost:4000/jekylltest/_site/">Astronomical Instrumentation Laboratory</a>
+        <a class="site-title" href="http://localhost:4000/">Astronomical Instrumentation Laboratory</a>
         <ul class="visible-links" style="background-color:#0a0a0a;">
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/instruments/">Instruments</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/instruments/">Instruments</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/people/">People</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/pages/">Information</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/publications/">Publications</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/people/">People</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/press/">Press</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/press/">Press</a></li>
           
         </ul>
         <button type="button" style="background-color:#0a0a0a; overflow: auto;">
@@ -185,7 +209,7 @@
   style=" "
 >
   
-    <img src="http://localhost:4000/jekylltest/_site/instruments/assets/banner_virus.jpg" alt="HETDEX" class="page__hero-image" style="display:block;margin-left:auto;margin-right:auto;max-width:1280px;height:auto">
+    <img src="http://localhost:4000/instruments/assets/banner_virus.jpg" alt="HETDEX VIRUS" class="page__hero-image" style="display:block;margin-left:auto;margin-right:auto;max-width:1280px;height:auto">
   
   
 </div>
@@ -195,6 +219,7 @@
 
 
 <div id="main" role="main">
+  
   
   <div class="sidebar sticky">
   
@@ -218,7 +243,7 @@
           
           
 
-          <a href="http://localhost:4000/jekylltest/_site/instruments/"><span class="nav__sub-title">Instruments</span></a>
+          <a href="http://localhost:4000/instruments/"><span class="nav__sub-title">Instruments</span></a>
         
 
         
@@ -230,7 +255,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/instruments/gmt/" class="">Giant Magellan Telescope</a>
+            <li><a href="http://localhost:4000/instruments/gmt/" class="">Giant Magellan Telescope</a>
 
             
               <ul>
@@ -239,19 +264,25 @@
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/gmacs/" class="">GMACS</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/gmacs/" class="">GMACS</a></h5></li>
                 
                   
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/cargille/" class="">Cargille Test</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/gmacs-ms/" class="">GMACS-MS</a></h5></li>
                 
                   
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/moosci/" class="">MooSci</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/moosci/" class="">MooSci</a></h5></li>
+                
+                  
+
+                  
+
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/cargille/" class="">Cargille Test</a></h5></li>
                 
               </ul>
             
@@ -263,7 +294,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/instruments/des/" class="">Dark Energy Survey</a>
+            <li><a href="http://localhost:4000/instruments/des/" class="">Dark Energy Survey</a>
 
             
               <ul>
@@ -272,19 +303,19 @@
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/decal/" class="">DECal</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/decal/" class="">DECal</a></h5></li>
                 
                   
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/astrocal/" class="">Astrocal</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/astrocal/" class="">Astrocal</a></h5></li>
                 
                   
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/atmcam/" class="">aTmCam</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/atmcam/" class="">aTmCam</a></h5></li>
                 
               </ul>
             
@@ -296,7 +327,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/instruments/hetdex/" class="active">HETDEX</a>
+            <li><a href="http://localhost:4000/instruments/hetdex/" class="active">HETDEX</a>
 
             
               <ul>
@@ -305,7 +336,7 @@
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/hetdex/" class="active">VIRUS</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/hetdex/" class="active">VIRUS</a></h5></li>
                 
               </ul>
             
@@ -317,7 +348,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">DuOCam</a>
+            <li><a href="http://localhost:4000/instruments/duocam/" class="">DuOCam</a>
 
             
             </li>
@@ -328,7 +359,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">B&C Telescope</a>
+            <li><a href="http://localhost:4000/instruments/aggiespec/" class="">AggieSpec</a>
 
             
             </li>
@@ -339,32 +370,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Past Projects</a>
-
-            
-            </li>
-          
-
-        </ul>
-
-        
-      </li>
-    
-      <li>
-        
-          <span class="nav__sub-title">Other Pages</span>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Awards and Honors</a>
+            <li><a href="http://localhost:4000/instruments/precal/" class="">PreCal</a>
 
             
             </li>
@@ -375,7 +381,7 @@
             
             
 
-            <li><a href="http://mitchell.tamu.edu/research/astronomy/" class="">TAMU Astronomy</a>
+            <li><a href="http://localhost:4000/instruments/madlasr/" class="">MADLaSR</a>
 
             
             </li>
@@ -386,7 +392,7 @@
             
             
 
-            <li><a href="http://observatory.tamu.edu/" class="">TAMU Observatory</a>
+            <li><a href="http://localhost:4000/instruments/reflectance/" class="">Reflectance</a>
 
             
             </li>
@@ -397,62 +403,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/pages/starparty/" class="">Star Parties</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Useful Documents</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site/pages/physicsfestival/" class="">Physics Festival</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">REU Program</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Calendar</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site/pages/contact/" class="">Contact Us</a>
+            <li><a href="http://localhost:4000/instruments/pastprojects/" class="">Past Projects</a>
 
             
             </li>
@@ -472,7 +423,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="HETDEX">
+    <meta itemprop="headline" content="HETDEX VIRUS">
     
     
     
@@ -480,7 +431,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">HETDEX
+          <h1 class="page__title" itemprop="headline">HETDEX VIRUS
 </h1>
           
         </header>
@@ -502,28 +453,30 @@
             </nav>
           </aside>
         
+        
+        
         <h2 id="overview">Overview</h2>
 <p>The Visible Integral-Field Replicable Unit Spectrograph (VIRUS) instrument is being built at Texas A&amp;M University in collaboration with University of Texas–Austin. <a href="http://hetdex.org/hetdex/virus.html">VIRUS</a> is the instrument that enables observations for the Hobby-Eberly Telescope Dark Energy Experiment <a href="http://hetdex.org/">HETDEX project</a>, an experiment designed to learn more about Dark Energy–a mysterious force in our Universe that astronomers are only now beginning to be able to describe.</p>
 
 <figure>
-  <img src="../assets/virus_telescope.jpg" alt="Virus Telescope" />
+  <a href="/instruments/assets/virus_telescope.jpg" target="_blank"><img src="/instruments/assets/virus_telescope.jpg" alt="Virus Telescope" /></a>
   <figcaption>Figure 1: The Hobby-Eberly Telescope with up to 192 spectrographs.</figcaption>
 </figure>
 
 <p>The VIRUS instrument consists of up to 192 identical fiber-fed integral field optical spectrographs. VIRUS provides a unique challenge in astronomical instrumentation: each of the 192 instruments must be identical and each component must be interchangeable amongst every other spectrograph in order to ease assembly and maintenance of the instrument. The spectrographs will be assembled production-line-stye, and will be optically aligned and tested at Texas A&amp;M before being shipped to McDonald Observatory to be installed on the Hobby-Eberly Telescope.</p>
 
 <figure>
-  <img src="../assets/virus_spectrograph.jpg" alt="Virus Spectrograph" />
+  <a href="/instruments/assets/virus_spectrograph.jpg" target="_blank"><img src="/instruments/assets/virus_spectrograph.jpg" alt="Virus Spectrograph" /></a>
   <figcaption>Figure 2: Section-view drawing of a pair of VIRUS spectrographs. The fiber head is shown on the right. Light from the fibers enters the instrument and is collimated by the oblong spherical collimator mirrors (upper center left). The light is reflected by a folding flat located around the fiber feed (center right), and into the grating (lower center left) which is mounted in front of the vacuum Schmidt cameras (left).</figcaption>
 </figure>
 
 <figure>
-  <img src="../assets/virus_ifu.jpg" alt="Virus IFU" />
+  <a href="/instruments/assets/virus_ifu.jpg" target="_blank">  <img src="/instruments/assets/virus_ifu.jpg" alt="Virus IFU" /></a>
   <figcaption>Figure 3: Picture of an IFU input head assembly in a preliminary plug plate using the first nine fiber bundles, featuring some 4000 individual fibers, which will feed 18 VIRUS-spectrographs.</figcaption>
 </figure>
 
 <figure>
-  <img src="../assets/VirusStaff_Photo.jpg" alt="Virus Spectrograph" />
+  <a href="/instruments/assets/VirusStaff_Photo.jpg" target="_blank">  <img src="/instruments/assets/VirusStaff_Photo.jpg" alt="Virus Spectrograph" /></a>
   <figcaption>VIRUS Staff in Summer 2011 with a partially assembled spectrograph.</figcaption>
 </figure>
 
@@ -531,75 +484,107 @@
 
 <p>For more information about VIRUS, please see our <a href="http://instrumentation.tamu.edu/publications.html">Publications</a> section.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Please note that the sections below are under construction, and content may change over time.
-</code></pre></div></div>
-
 <h2 id="virus-enclosures">VIRUS Enclosures</h2>
-<p>The Visible Integral-Field Replicable Unit Spectrograph (VIRUS) instrument will be installed at the Hobby-Eberly Telescope in the near future. The instrument will be housed in two enclosures that are mounted adjacent to the telescope, via the VIRUS Support Structure (VSS). The enclosures have been designed to support and protect the instrument, to enable servicing of the instrument, and to cool the instrument appropriately while not adversely affecting the dome environment. The system uses simple HVAC air handling techniques in conjunction with thermoelectric and standard glycol heat exchangers to provide efficient heat removal. The enclosures also provide power and data transfer to and from each VIRUS unit, liquid nitrogen cooling to the detectors, and environmental monitoring of the instrument and dome environments.
-<!-- enclosures slideshow --></p>
-<div class="w3-content w3-display-container" style="min-height:500px;">
-  <img class="virus1" src="../assets/VirusEnclosureFigure2l.png" style="min-height:100%;max-width:100%;margin:auto;" />
-  <img class="virus1" src="../assets/VirusEnclosureFigure2r.png" style="min-height:100%;max-width:100%;margin:auto;" />
-  <img class="virus1" src="../assets/VirusEnclosureFigure3l.png" style="min-height:100%;max-width:100%;margin:auto;" />
-  <img class="virus1" src="../assets/VirusEnclosureFigure3r.png" style="min-height:100%;max-width:100%;margin:auto;" />
-  <img class="virus1" src="../assets/VirusEnclosureFigure4.png" style="max-height:inherit;max-width:100%;margin:auto;" />
-  <img class="virus1" src="../assets/VirusEnclosureFigure5.png" style="min-height:100%;max-width:100%;margin:auto;" />
-  <img class="virus1" src="../assets/VirusEnclosureFigure6.png" style="min-height:100%;max-width:100%;margin:auto;" />
-  <img class="virus1" src="../assets/VirusEnclosureFigure7.png" style="min-height:100%;max-width:100%;margin:auto;" />
-  <img class="virus1" src="../assets/VirusEnclosureFigure8.png" style="min-height:100%;max-width:100%;margin:auto;" />
-  <img class="virus1" src="../assets/VirusEnclosureFigure9.png" style="min-height:100%;max-width:100%;margin:auto;" />
-  <img class="virus1" src="../assets/VirusEnclosureFigure10.png" style="min-height:100%;max-width:100%;margin:auto;" />
-  <img class="virus1" src="../assets/VirusEnclosureFigure11.png" style="min-height:100%;max-width:100%;margin:auto;" />
-  <img class="virus1" src="../assets/VirusEnclosureFigure12l.png" style="min-height:100%;max-width:100%;margin:auto;" />
-  <img class="virus1" src="../assets/VirusEnclosureFigure12r.png" style="min-height:100%;max-width:100%;margin:auto;" />
-  <button class="w3-button w3-black w3-display-left" style="margin:auto;float:left;" onclick="plusDivs(-1, 0)">&#10094; back</button>
-  <button class="w3-button w3-black w3-display-right" style="margin:auto;float:right;" onclick="plusDivs(1, 0)">next &#10095;</button>
+<p>The Visible Integral-Field Replicable Unit Spectrograph (VIRUS) instrument will be installed at the Hobby-Eberly Telescope in the near future. The instrument will be housed in two enclosures that are mounted adjacent to the telescope, via the VIRUS Support Structure (VSS). The enclosures have been designed to support and protect the instrument, to enable servicing of the instrument, and to cool the instrument appropriately while not adversely affecting the dome environment. The system uses simple HVAC air handling techniques in conjunction with thermoelectric and standard glycol heat exchangers to provide efficient heat removal. The enclosures also provide power and data transfer to and from each VIRUS unit, liquid nitrogen cooling to the detectors, and environmental monitoring of the instrument and dome environments.</p>
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <center><img src="/instruments/assets/VirusEnclosureFigure2l.png" style="height:400px;width:auto;" /></center>
+      <p class="flex-caption">A rendering of the HET with the VSS, enclosures, and IFUs.</p>
+    </li>
+    <li>
+      <center><img src="/instruments/assets/VirusEnclosureFigure2r.png" style="height:400px;width:auto;" /></center>
+      <p class="flex-caption">The VSS and enclosures without HET for clarity.</p>
+    </li>
+    <li>
+      <center><img src="/instruments/assets/VirusEnclosureFigure3l.png" style="height:400px;width:auto;" /></center>
+      <p class="flex-caption">The first VIRUS enclosure being stacked at Texas A&amp;M University.</p>
+    </li>
+    <li>
+      <center><img src="/instruments/assets/VirusEnclosureFigure3r.png" style="height:400px;width:auto;" /></center>
+      <p class="flex-caption">A model of the enclosure with the added annex.</p>
+    </li>
+    <li>
+      <center><img src="/instruments/assets/VirusEnclosureFigure4.png" style="height:400px;width:auto;" /></center>
+      <p class="flex-caption"><small>A model of the enclosure mounting rails that will hold the VIRUS units.</small></p>
+    </li>
+    <li>
+      <center><img src="/instruments/assets/VirusEnclosureFigure5.png" style="height:400px;width:auto;" /></center>
+      <p class="flex-caption">The VIRUS unit will sit on the v-groove and angle iron.</p>
+    </li>
+    <li>
+      <center><img src="/instruments/assets/VirusEnclosureFigure6.png" style="height:400px;width:auto;" /></center>
+      <p class="flex-caption"><small>Enclosure door design installed on the enclosure prototype to test the amount of pressure it can hold.</small></p>
+    </li>
+    <li>
+      <center><img src="/instruments/assets/VirusEnclosureFigure7.png" style="height:400px;width:auto;" /></center>
+      <p class="flex-caption">Seal selected for the enclosure door.</p>
+    </li>
+    <li>
+      <center><img src="/instruments/assets/VirusEnclosureFigure8.png" style="height:400px;width:auto;" /></center>
+      <p class="flex-caption"><small>Illustration of the two HVAC zones. The blue area on the right is for the enclosure which houses the VIRUS units, and the yellow area is for the enclosure annex which holds the VIRUS electronics equipment and enclosure cooling system.</small></p>
+    </li>
+    <li>
+      <center><img src="/instruments/assets/VirusEnclosureFigure9.png" style="height:400px;width:auto;" /></center>
+      <p class="flex-caption">The thermoelectric cooler used in the enclosure HVAC system.</p>
+    </li>
+    <li>
+      <center><img src="/instruments/assets/VirusEnclosureFigure10.png" style="height:400px;width:auto;" /></center>
+      <p class="flex-caption"><small>Temperatures of the air inside and out of the closed loop test system. The bump in internal temperature starts when the 220W heat is activated.</small></p>
+    </li>
+    <li>
+      <center><img src="/instruments/assets/VirusEnclosureFigure11.png" style="height:400px;width:auto;" /></center>
+      <p class="flex-caption"><small>Differential temperatures of the air inside and out of the closed loop test system. The bump in internal temperature starts when the 220W heat is activated. This shows that for the test loop, it was able to track the temperatures within 0.1°C.</small></p>
+    </li>
+    <li>
+      <center><img src="/instruments/assets/VirusEnclosureFigure12l.png" style="height:400px;width:auto;" /></center>
+      <p class="flex-caption">The VIRUS electronics box airflow adapter sitting on a mock electronics box.</p>
+    </li>
+    <li>
+      <center><img src="/instruments/assets/VirusEnclosureFigure12r.png" style="height:400px;width:auto;" /></center>
+      <p class="flex-caption"><small>The adapter on a production electronics box in the enclosure, attached to the flexible hosing and duct work.</small></p>
+    </li>
+  </ul>
 </div>
-
-<!-- collimators slideshow -->
 
 <h2 id="virus-collimators">VIRUS Collimators</h2>
 <p>The Visual Integral-Field Replicable Unit Spectrograph (VIRUS) instrument is a baseline array of 150 identical fiber fed optical spectrographs designed to support observations for the Hobby-Eberly Telescope Dark Energy Experiment (HETDEX). 130 VIRUS collimator sub-assemblies have been assembled in a production line and are now complete. Here we review the design choices and assembly practices used to produce a suite of identical low-cost spectrographs in a timely fashion using primarily unskilled labor.</p>
-<div class="w3-content w3-display-container" style="min-height:500px;">
-  <img class="virus2" src="../assets/VirusEnclosureFigure2l.png" style="min-height:100%;max-width:100%;margin:auto;" />
-  <img class="virus2" src="../assets/VirusEnclosureFigure2r.png" style="max-width:100%;margin:auto;" />
-  <img class="virus2" src="../assets/VirusEnclosureFigure3l.png" style="max-width:100%;margin:auto;" />
-  <img class="virus2" src="../assets/VirusEnclosureFigure3r.png" style="max-width:100%;margin:auto;" />
-  <img class="virus2" src="../assets/VirusEnclosureFigure4.png" style="max-width:100%;margin:auto;" />
-  <img class="virus2" src="../assets/VirusEnclosureFigure5.png" style="max-width:100%;margin:auto;" />
-  <img class="virus2" src="../assets/VirusEnclosureFigure6.png" style="max-width:100%;margin:auto;" />
-  <img class="virus2" src="../assets/VirusEnclosureFigure7.png" style="max-width:100%;margin:auto;" />
-  <img class="virus2" src="../assets/VirusEnclosureFigure8.png" style="max-width:100%;margin:auto;" />
-  <img class="virus2" src="../assets/VirusEnclosureFigure9.png" style="max-width:100%;margin:auto;" />
-  <img class="virus2" src="../assets/VirusEnclosureFigure10.png" style="max-width:100%;margin:auto;" />
-  <img class="virus2" src="../assets/VirusEnclosureFigure11.png" style="max-width:100%;margin:auto;" />
-  <img class="virus2" src="../assets/VirusEnclosureFigure12l.png" style="max-width:100%;margin:auto;" />
-  <img class="virus2" src="../assets/VirusEnclosureFigure12r.png" style="max-width:100%;margin:auto;" />
-  <button class="w3-button w3-black w3-left" style="margin:auto;" onclick="plusDivs(-1, 0)">&#10094; back</button>
-  <button class="w3-button w3-black w3-right" style="margin:auto;" onclick="plusDivs(1, 0)">next &#10095;</button>
+<figure>
+  <a href="/instruments/assets/collimatorsfigure1.png" target="_blank"><img src="/instruments/assets/collimatorsfigure1.png" /></a>
+  <figcaption>
+    The VIRUS spectrograph pairs will be mounted inside two climate-controlled enclosures located on either side of the telescope.
+  </figcaption>
+</figure>
+
+<div class="imgrow" style="clear:both;">
+  <div class="imgcolumn" style="clear:both;">
+    <a href="/instruments/assets/collimatorsfigure2.png" target="_blank"><img src="/instruments/assets/collimatorsfigure2.png" /></a><br />
+    <div style="margin:12px">
+      <font size="-1">Section-view drawing of a pair of VIRUS spectrographs.</font>
+    </div>
+  </div>
+  <div class="imgcolumn" style="clear:both;">
+    <a href="/instruments/assets/collimatorsfigure3.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure3.jpg" /></a><br />
+    <div style="margin:12px">
+      <font size="-1">One complete collimator with all optics installed. Additional completed collimators (with their protective covers installed) may be seen in the background.</font>
+    </div>
+  </div>
 </div>
-
-<script>
-var slideIndex = [1,1];
-var slideId = ["virus1", "virus2"]
-showDivs(1, 0);
-showDivs(1, 1);
-
-function plusDivs(n, no) {
-  showDivs(slideIndex[no] += n, no);
-}
-
-function showDivs(n, no) {
-  var i;
-  var x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}    
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex[no]-1].style.display = "block";  
-}
-</script>
+<figure>
+<div class="img_container">
+  <div class="img_inner">
+    <a href="/instruments/assets/collimatorsfigure4.jpg" target="_blank"><img src="https://instrumentation.tamu.edu/images/virus/collimators/collimatorsfigure4.jpg" /></a>
+    <img src="https://instrumentation.tamu.edu/images/virus/collimators/collimatorsfigure5.jpg" />
+    <img src="https://instrumentation.tamu.edu/images/virus/collimators/collimatorsfigure6.jpg" />
+    <img src="https://instrumentation.tamu.edu/images/virus/collimators/collimatorsfigure7.jpg" />
+  </div>
+</div>
+</figure>
+<div class="clearfix"></div>
+<figcaption>
+    Installation fixture used to install the folding flat into the head plate. Two pairs of mirrors are installed into two head plates in one setup. The fold mirrors are precisely positioned with respect to the head plates using a Faro coordinate measuring machine (CMM) arm having a measurement accuracy of ~25 microns and are held in place with metal shims while RTV is applied around the edges of the mirror.
+  </figcaption>
+<p>&lt;/figure&gt;</p>
 
 <!-- old images thing
 <div style="height:auto;width:99%;padding:5px">
@@ -748,7 +733,7 @@ function showDivs(n, no) {
     </div>
 
     
-  <script src="http://localhost:4000/jekylltest/_site/assets/js/main.min.js"></script>
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
 
 
 

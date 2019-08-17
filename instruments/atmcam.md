@@ -9,7 +9,7 @@ toc: true
 ---
 Story by PHYS.org available [here](https://phys.org/news/2014-10-grad-student-atmcam-cosmic-insight.html).
 ## Overview
-The Atmospheric Transmission Monitoring Camera (aTmCam) is a new calibration system to monitor atmospheric transmission in real time, designed to enable improved photometric calibration of data acquired by large-area imaging surveys. It will be applied first to the Dark Energy Survey (DES), and hopefully to the Large Synoptic Survey Telescope in the future.
+The **Atmospheric Transmission Monitoring Camera (aTmCam)** is a new calibration system to monitor atmospheric transmission in real time, designed to enable improved photometric calibration of data acquired by large-area imaging surveys. It will be applied first to the Dark Energy Survey (DES), and hopefully to the Large Synoptic Survey Telescope in the future.
 
 Both the atmosphere and the instruments play an important role in the photometric extinction for ground-based astronomical observation in the optical wavelengths (~300nm-1100nm). Traditional color and airmass corrections can typically achieve ~0.02 mag precision in photometric observing conditions. A major limiting factor is the variability in atmospheric throughput, which changes on timescales of less than a night.
 

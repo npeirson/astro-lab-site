@@ -1,0 +1,23 @@
+<!--
+These are the image/credit headers for the various splash images
+-->
+
+header:
+  overlay_image: /assets/splash/sun.png
+  overlay_filter: 0.15
+  caption: "Photo credit: [NASA](https://nasa.gov)"
+
+header:
+  overlay_image: /assets/splash/sombraro.jpg
+  overlay_filter: 0.15
+  caption: "Photo credit: [ESA/Hubble](https://esa.int)"
+
+header:
+  overlay_image: /assets/splash/centaurusa.jpg
+  overlay_filter: 0.15
+  caption: "Photo credit: [ESO/WFI](https://eso.org)"
+
+header:
+  overlay_image: /assets/splash/jupiter.jpg
+  overlay_filter: 0.15
+  caption: "Photo credit: [NASA](https://nasa.gov)"

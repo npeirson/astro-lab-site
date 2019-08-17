@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
+  Munnerlyn Astronomical Instrumentation Laboratory site 2.0 by the Kwisatz Haderach, built on Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
   Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
@@ -36,8 +36,8 @@
 <meta property="og:title" content="MooSci: Lunar Scintillometer">
 
 
-  <link rel="canonical" href="http://localhost:4000/jekylltest/_site/instruments/moosci/">
-  <meta property="og:url" content="http://localhost:4000/jekylltest/_site/instruments/moosci/">
+  <link rel="canonical" href="http://localhost:4000/instruments/moosci/">
+  <meta property="og:url" content="http://localhost:4000/instruments/moosci/">
 
 
 
@@ -62,6 +62,8 @@
   
 
 
+
+  <meta property="og:image" content="http://localhost:4000/instruments/assets/Banner_MooSci.jpg">
 
 
 
@@ -77,7 +79,7 @@
       "@context" : "http://schema.org",
       "@type" : "Person",
       "name" : "Astronomical Instrumentation Laboratory",
-      "url" : "http://localhost:4000/jekylltest/_site",
+      "url" : "http://localhost:4000",
       "sameAs" : null
     }
   </script>
@@ -91,7 +93,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/jekylltest/_site/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -103,7 +105,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/jekylltest/_site/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
 
 <!--[if lte IE 9]>
   <style>
@@ -123,10 +125,31 @@
 
 
     <!-- start custom head snippets -->
-
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
+<script defer src="/assets/js/jquery.flexslider.js"></script>
 <!-- end custom head snippets -->
+<style type="text/css">
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgb(80,0,0);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+</style>
+<script>
+$(window).on('load',function(){
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
   </head>
 
   <body class="layout--single">
@@ -139,20 +162,23 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav" style="background-color:#0a0a0a;">
         <img src="http://instrumentation.tamu.edu/jekylltest/_site/assets/tamu/TAM-Logo-white-reduced.png"  class="tamu-logo">
-        <a class="site-title" href="http://localhost:4000/jekylltest/_site/">Astronomical Instrumentation Laboratory</a>
+        <a class="site-title" href="http://localhost:4000/">Astronomical Instrumentation Laboratory</a>
         <ul class="visible-links" style="background-color:#0a0a0a;">
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/instruments/">Instruments</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/instruments/">Instruments</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/people/">People</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/pages/">Information</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/publications/">Publications</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/people/">People</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/press/">Press</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/press/">Press</a></li>
           
         </ul>
         <button type="button" style="background-color:#0a0a0a; overflow: auto;">
@@ -167,10 +193,33 @@
 
 
     
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" "
+>
+  
+    <img src="http://localhost:4000/instruments/assets/Banner_MooSci.jpg" alt="MooSci: Lunar Scintillometer" class="page__hero-image" style="display:block;margin-left:auto;margin-right:auto;max-width:1280px;height:auto">
+  
+  
+</div>
+
+
 
 
 
 <div id="main" role="main">
+  
   
   <div class="sidebar sticky">
   
@@ -194,7 +243,7 @@
           
           
 
-          <a href="http://localhost:4000/jekylltest/_site/instruments/"><span class="nav__sub-title">Instruments</span></a>
+          <a href="http://localhost:4000/instruments/"><span class="nav__sub-title">Instruments</span></a>
         
 
         
@@ -206,7 +255,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/instruments/gmt/" class="">Giant Magellan Telescope</a>
+            <li><a href="http://localhost:4000/instruments/gmt/" class="">Giant Magellan Telescope</a>
 
             
               <ul>
@@ -215,19 +264,13 @@
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/gmacs/" class="">GMACS</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/gmacs/" class="">GMACS</a></h5></li>
                 
                   
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/cargille/" class="">Cargille Test</a></h5></li>
-                
-                  
-
-                  
-
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/moosci/" class="active">MooSci</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/moosci/" class="active">MooSci</a></h5></li>
                 
               </ul>
             
@@ -239,7 +282,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/instruments/des/" class="">Dark Energy Survey</a>
+            <li><a href="http://localhost:4000/instruments/des/" class="">Dark Energy Survey</a>
 
             
               <ul>
@@ -248,19 +291,19 @@
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/decal/" class="">DECal</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/decal/" class="">DECal</a></h5></li>
                 
                   
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/astrocal/" class="">Astrocal</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/astrocal/" class="">Astrocal</a></h5></li>
                 
                   
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/atmcam/" class="">aTmCam</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/atmcam/" class="">aTmCam</a></h5></li>
                 
               </ul>
             
@@ -272,7 +315,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/instruments/hetdex/" class="">HETDEX</a>
+            <li><a href="http://localhost:4000/instruments/hetdex/" class="">HETDEX</a>
 
             
               <ul>
@@ -281,7 +324,7 @@
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/hetdex/" class="">VIRUS</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/hetdex/" class="">VIRUS</a></h5></li>
                 
               </ul>
             
@@ -293,7 +336,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">DuOCam</a>
+            <li><a href="http://localhost:4000/instruments/duocam/" class="">DuOCam</a>
 
             
             </li>
@@ -304,7 +347,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">B&C Telescope</a>
+            <li><a href="http://localhost:4000/instruments/aggiespec/" class="">AggieSpec</a>
 
             
             </li>
@@ -315,32 +358,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Past Projects</a>
-
-            
-            </li>
-          
-
-        </ul>
-
-        
-      </li>
-    
-      <li>
-        
-          <span class="nav__sub-title">Other Pages</span>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Awards and Honors</a>
+            <li><a href="http://localhost:4000/instruments/precal/" class="">PreCal</a>
 
             
             </li>
@@ -351,7 +369,7 @@
             
             
 
-            <li><a href="http://mitchell.tamu.edu/research/astronomy/" class="">TAMU Astronomy</a>
+            <li><a href="http://localhost:4000/instruments/madlasr/" class="">MADLaSR</a>
 
             
             </li>
@@ -362,7 +380,7 @@
             
             
 
-            <li><a href="http://observatory.tamu.edu/" class="">TAMU Observatory</a>
+            <li><a href="http://localhost:4000/instruments/reflectance/" class="">Reflectance</a>
 
             
             </li>
@@ -373,62 +391,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/pages/starparty/" class="">Star Parties</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Useful Documents</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site/pages/physicsfestival/" class="">Physics Festival</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">REU Program</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Calendar</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site/pages/contact/" class="">Contact Us</a>
+            <li><a href="http://localhost:4000/instruments/pastprojects/" class="">Past Projects</a>
 
             
             </li>
@@ -463,6 +426,8 @@
       
 
       <section class="page__content" itemprop="text">
+        
+        
         
         <p>Texas A&amp;M University has developed a Lunar Scintillometer (MooSci) to be used at the Giant Magellan Telescope (GMT) site at the Las Campanas Observatory in Chile. The MooSci uses multiple photoelectric diodes at various distances that monitor minor changes in the light reflected from the moon. The slight changes are the result of scintillation, or the bending of light as it passes through turbulent layers in the Earth’s atmosphere. The signals from the diodes are then compared to one another for corresponding signals patterns to measure the levels of turbulence immediately above the test site. The distances between diodes are used to map turbulent layers of the Earth’s atmosphere at altitudes up to 500m above the instrument. MooSci was designed and built at Texas A&amp;M University and is currently obtaining data at the GMT site at Las Campanas, where it will operate for one year before the mountaintop is leveled in preparation for the construction phase of GMT. The MooSci data will be used with Texas A&amp;M and its GMT partners to inform the design of the GMT telescope and its AO capabilities.</p>
 
@@ -509,7 +474,7 @@
     </div>
 
     
-  <script src="http://localhost:4000/jekylltest/_site/assets/js/main.min.js"></script>
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
 
 
 

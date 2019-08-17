@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
+  Munnerlyn Astronomical Instrumentation Laboratory site 2.0 by the Kwisatz Haderach, built on Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
   Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
@@ -36,8 +36,8 @@
 <meta property="og:title" content="Astrocal">
 
 
-  <link rel="canonical" href="http://localhost:4000/jekylltest/_site/instruments/astrocal/">
-  <meta property="og:url" content="http://localhost:4000/jekylltest/_site/instruments/astrocal/">
+  <link rel="canonical" href="http://localhost:4000/instruments/astrocal/">
+  <meta property="og:url" content="http://localhost:4000/instruments/astrocal/">
 
 
 
@@ -63,7 +63,7 @@
 
 
 
-  <meta property="og:image" content="http://localhost:4000/jekylltest/_site/instruments/assets/banner_des.jpg">
+  <meta property="og:image" content="http://localhost:4000/instruments/assets/banner_des.jpg">
 
 
 
@@ -79,7 +79,7 @@
       "@context" : "http://schema.org",
       "@type" : "Person",
       "name" : "Astronomical Instrumentation Laboratory",
-      "url" : "http://localhost:4000/jekylltest/_site",
+      "url" : "http://localhost:4000",
       "sameAs" : null
     }
   </script>
@@ -93,7 +93,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/jekylltest/_site/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -105,7 +105,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/jekylltest/_site/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
 
 <!--[if lte IE 9]>
   <style>
@@ -125,10 +125,31 @@
 
 
     <!-- start custom head snippets -->
-
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
+<script defer src="/assets/js/jquery.flexslider.js"></script>
 <!-- end custom head snippets -->
+<style type="text/css">
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgb(80,0,0);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+</style>
+<script>
+$(window).on('load',function(){
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
   </head>
 
   <body class="layout--single">
@@ -141,20 +162,23 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav" style="background-color:#0a0a0a;">
         <img src="http://instrumentation.tamu.edu/jekylltest/_site/assets/tamu/TAM-Logo-white-reduced.png"  class="tamu-logo">
-        <a class="site-title" href="http://localhost:4000/jekylltest/_site/">Astronomical Instrumentation Laboratory</a>
+        <a class="site-title" href="http://localhost:4000/">Astronomical Instrumentation Laboratory</a>
         <ul class="visible-links" style="background-color:#0a0a0a;">
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/instruments/">Instruments</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/instruments/">Instruments</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/people/">People</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/pages/">Information</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/publications/">Publications</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/people/">People</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/press/">Press</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/press/">Press</a></li>
           
         </ul>
         <button type="button" style="background-color:#0a0a0a; overflow: auto;">
@@ -185,7 +209,7 @@
   style=" "
 >
   
-    <img src="http://localhost:4000/jekylltest/_site/instruments/assets/banner_des.jpg" alt="Astrocal" class="page__hero-image" style="display:block;margin-left:auto;margin-right:auto;max-width:1280px;height:auto">
+    <img src="http://localhost:4000/instruments/assets/banner_des.jpg" alt="Astrocal" class="page__hero-image" style="display:block;margin-left:auto;margin-right:auto;max-width:1280px;height:auto">
   
   
 </div>
@@ -195,6 +219,7 @@
 
 
 <div id="main" role="main">
+  
   
   <div class="sidebar sticky">
   
@@ -218,7 +243,7 @@
           
           
 
-          <a href="http://localhost:4000/jekylltest/_site/instruments/"><span class="nav__sub-title">Instruments</span></a>
+          <a href="http://localhost:4000/instruments/"><span class="nav__sub-title">Instruments</span></a>
         
 
         
@@ -230,7 +255,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/instruments/gmt/" class="">Giant Magellan Telescope</a>
+            <li><a href="http://localhost:4000/instruments/gmt/" class="">Giant Magellan Telescope</a>
 
             
               <ul>
@@ -239,19 +264,25 @@
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/gmacs/" class="">GMACS</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/gmacs/" class="">GMACS</a></h5></li>
                 
                   
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/cargille/" class="">Cargille Test</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/gmacs-ms/" class="">GMACS-MS</a></h5></li>
                 
                   
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/moosci/" class="">MooSci</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/moosci/" class="">MooSci</a></h5></li>
+                
+                  
+
+                  
+
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/cargille/" class="">Cargille Test</a></h5></li>
                 
               </ul>
             
@@ -263,7 +294,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/instruments/des/" class="">Dark Energy Survey</a>
+            <li><a href="http://localhost:4000/instruments/des/" class="">Dark Energy Survey</a>
 
             
               <ul>
@@ -272,19 +303,19 @@
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/decal/" class="">DECal</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/decal/" class="">DECal</a></h5></li>
                 
                   
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/astrocal/" class="active">Astrocal</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/astrocal/" class="active">Astrocal</a></h5></li>
                 
                   
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/atmcam/" class="">aTmCam</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/atmcam/" class="">aTmCam</a></h5></li>
                 
               </ul>
             
@@ -296,7 +327,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/instruments/hetdex/" class="">HETDEX</a>
+            <li><a href="http://localhost:4000/instruments/hetdex/" class="">HETDEX</a>
 
             
               <ul>
@@ -305,7 +336,7 @@
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/hetdex/" class="">VIRUS</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/hetdex/" class="">VIRUS</a></h5></li>
                 
               </ul>
             
@@ -317,7 +348,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">DuOCam</a>
+            <li><a href="http://localhost:4000/instruments/duocam/" class="">DuOCam</a>
 
             
             </li>
@@ -328,7 +359,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">B&C Telescope</a>
+            <li><a href="http://localhost:4000/instruments/aggiespec/" class="">AggieSpec</a>
 
             
             </li>
@@ -339,32 +370,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Past Projects</a>
-
-            
-            </li>
-          
-
-        </ul>
-
-        
-      </li>
-    
-      <li>
-        
-          <span class="nav__sub-title">Other Pages</span>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Awards and Honors</a>
+            <li><a href="http://localhost:4000/instruments/precal/" class="">PreCal</a>
 
             
             </li>
@@ -375,7 +381,7 @@
             
             
 
-            <li><a href="http://mitchell.tamu.edu/research/astronomy/" class="">TAMU Astronomy</a>
+            <li><a href="http://localhost:4000/instruments/madlasr/" class="">MADLaSR</a>
 
             
             </li>
@@ -386,7 +392,7 @@
             
             
 
-            <li><a href="http://observatory.tamu.edu/" class="">TAMU Observatory</a>
+            <li><a href="http://localhost:4000/instruments/reflectance/" class="">Reflectance</a>
 
             
             </li>
@@ -397,62 +403,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/pages/starparty/" class="">Star Parties</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Useful Documents</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site/pages/physicsfestival/" class="">Physics Festival</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">REU Program</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Calendar</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site/pages/contact/" class="">Contact Us</a>
+            <li><a href="http://localhost:4000/instruments/pastprojects/" class="">Past Projects</a>
 
             
             </li>
@@ -488,16 +439,18 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>Daniel Freeman</p>
+        
+        
+        <p><strong>Daniel Freeman</strong></p>
 
 <p>A standard system for telescope transmission observing and calibration (Astrocal) is a spectrophotometric calibration system used on 0.4 meter to 4 meter telescopes in the 300nm to 1100nm range.</p>
 
 <p>Astrocal is intended to be used on all telescopes used for a follow up on the data Large Synoptic Sky Survey Telescope (LSST) will be gathering. If multiple telescope are used for this they must be calibrated to a common photometry scale, so they can be compared to the data produced by a single telescope.</p>
 
-<p>Astrocal works fundamentally the same as DECal. Like DECal, Astrocal consists of seven major components: a light source; monochromator; spectrometer; fiber bundle; projectors; photodiodes; and a lambertian screen, Figure 1.</p>
+<p>Astrocal works fundamentally the same as <a href="/instruments/decal/">DECal.</a> Like DECal, Astrocal consists of seven major components: a light source; monochromator; spectrometer; fiber bundle; projectors; photodiodes; and a lambertian screen, Figure 1.</p>
 
 <figure>
-  <img src="../assets/DeCal_layout.png" alt="DECal Layout" />
+  <a href="/instruments/assets/DeCal_layout.png" target="_blank"><img src="/instruments/assets/DeCal_layout.png" alt="DECal Layout" /></a>
   <figcaption>Figure 1: a systems diagram of DECal<sup>[1]</sup> and Astrocal. The light source provides light to the monochromator. The monochromater mechanically selects a specific wavelength of light. The light is carried by the fiber optic cable, and evenly projected through engineered diffusers onto a lambertian screen. Photodiodes mounted around the top of the telescope see the light being bounced off the lambertian screen. The amount of light seen by the photodiodes is compared to the amount of light seen by the CCD in the telescope. The relative throughput of the telescope can be determined from this.</figcaption>
 </figure>
 
@@ -505,7 +458,7 @@
 <p>The biggest challenge with making DECal mobile, stems from the wide variety of telescopes it would be calibrating. To get an idea of what Astrocal would face in the real world, a list of 22 telescopes to research was made. These telescopes were chosen because they are candidates for calibration once Astrocal is complete. Research on these telescopes focused on aspects of their design that would influence Astrocal’s mounting system, and projection pattern. These criteria include: Primary mirror diameter; secondary mirror diameter; f/#; dome clearance; and if the telescope is made out of a material that a magnetic mount could attach to, like steel, Figure 2.</p>
 
 <figure>
-  <img src="../assets/telescopes.PNG" alt="Telescopes Researched" />
+  <a href="/instruments/assets/telescopes.PNG" target="_blank"><img src="/instruments/assets/telescopes.PNG" alt="Telescopes Researched" /></a>
   <figcaption>Figure 2: Telescopes Researched</figcaption>
 </figure>
 
@@ -519,7 +472,7 @@
 <p>In order to evenly project light onto the lambertian screen diffusers have to be used. Diffusers take light and project it in a cone at a set angle. The diffusers we chose are polymer on glass engineered diffusers from RPC Photonics<sup>[3]</sup>. Diffusers come in angles ranging from half a degree to 120 degrees. It was determined that diffusers with different angles could be used to alter the necessary dome clearance for a given telescope. The number of projectors used can also alter the clearance needed. More projectors require less clearance because they don’t need to spread out to as large of a diameter. Figure 3 shows the patterns for different numbers of projectors.</p>
 
 <figure>
-  <img src="../assets/projectionpattern.PNG" alt="Projection Pattern" />
+  <a href="/instruments/assets/projectionpattern.PNG" target="_blank"><img src="/instruments/assets/projectionpattern.PNG" alt="Projection Pattern" /></a>
   <figcaption>Figure 3: Projection Pattern<sup>[4]</sup></figcaption>
 </figure>
 
@@ -528,19 +481,19 @@
 <p>If a telescope falls over a line it has more than the necessary dome clearance. If it falls under a line it has less than the necessary clearance. Any telescope that falls under the widest angle diffuser will need to mount its lambertian screen externally to get the appropriate clearance.</p>
 
 <figure>
-  <img src="../assets/fourprojectors.PNG" alt="Figure Four" />
+  <a href="/instruments/assets/fourprojectors.PNG" target="_blank"><img src="/instruments/assets/fourprojectors.PNG" alt="Figure Four" /></a>
   <figcaption>Figure 4: Primary Mirror Diameter vs Dome Clearance for a four projector system</figcaption>
 </figure>
 
 <figure>
-  <img src="../assets/oneprojectergraph.PNG" alt="Figure Five" />
+  <a href="/instruments/assets/oneprojectergraph.PNG" target="_blank"><img src="/instruments/assets/oneprojectergraph.PNG" alt="Figure Five" /></a>
   <figcaption>Figure 5: Primary Mirror Diameter vs Dome Clearance for a single projector system</figcaption>
 </figure>
 
 <p>Some telescopes will need to mount their screens externally due to their dome clearance or the shape of their dome. Skymapper is a good example of this. Skymapper is the telescope that falls below the maximum angled diffuser for both graphs. Skymapper’s dome clearance is 4cm, as visible in Figure 6.</p>
 
 <figure>
-  <img src="../assets/skymapper.jpg" alt="Skymapper" />
+  <a href="/instruments/assets/skymapper.jpg" target="_blank"><img src="/instruments/assets/skymapper.jpg" alt="Skymapper" /></a>
   <figcaption>Figure 6: Skymapper</figcaption>
 </figure>
 
@@ -550,13 +503,14 @@
 
 <p>In addition to the fiber bundle itself, some thought was given to how the bundle connects to the monochromator. The main problem with the fiber port currently on the monochromator is how inconsistent it is. The fiber ferrule is held in by eight set screws in an aluminum rectangular tube. Its inconsistency stems from the possibility that some of the screws would push the ferrule off-center. In addition to getting less light, the wavelength of light slightly left or right of a slit is different than at the center. Figures 7 and 8 show a more consistent port that doesn’t use set screws.</p>
 
-<figure>
-  <img src="../assets/FerrulePortPlate.jpg" alt="Ferrule Port Plate" />
+<figure style="width:335px">
+  <a href="/instruments/assets/FerrulePortPlate.jpg" target="_blank"><img src="/instruments/assets/FerrulePortPlate.jpg" alt="Ferrule Port Plate" /></a>
   <figcaption>Figure 7: Ferrule Port Plate</figcaption>
 </figure>
+<div class="clearfix" />
 
 <figure>
-  <img src="../assets/FiberFerrule.jpg" alt="Fiber Ferrule" />
+  <a href="/instruments/assets/FiberFerrule.jpg" target="_blank"><img src="/instruments/assets/FiberFerrule.jpg" alt="Fiber Ferrule" /></a>
   <figcaption>Figure 8: Fiber Ferrule</figcaption>
 </figure>
 
@@ -565,13 +519,20 @@
 <p><a href="../assets/DanielFreemanAstrocal_Poster.pdf" target="_blank">Click here</a> to view the Astrocal poster.</p>
 
 <h2 id="references">References</h2>
-<p>[1] : Jean-Philippe Rheault, D. L. DePoy, J. L. Marshall, T. Prochaska, R. Allen, J. Wise, E. Martin. (2012) <a href="../assets/DECal_Fermilab2012_Marshall.pdf" target="_blank">“DECal: A Spectrophotometric Calibration System For DECam”</a></p>
-
-<p>[2] : Energetiq. <a href="http://www.energetiq.com/ldls-laser-driven-light-source-duv-broadband.php" target="_blank">EQ-99X LDLS.</a></p>
-
-<p>[3] : RPC Photonics. <a href="http://www.rpcphotonics.com/engineered-diffusers-information/" target="_blank">Engineered Diffusers.</a></p>
-
-<p>[4] : <a href="http://www2.stetson.edu/~efriedma/circovcir/" target="_blank">Circles Covering Circles,</a> Erich’s Packing Center.</p>
+<ul>
+  <li>
+    <small>[1] : Jean-Philippe Rheault, D. L. DePoy, J. L. Marshall, T. Prochaska, R. Allen, J. Wise, E. Martin. (2012) <a href="../assets/DECal_Fermilab2012_Marshall.pdf" target="_blank">"DECal: A Spectrophotometric Calibration System For DECam"</a></small>
+  </li>
+  <li>
+    <small>[2] : Energetiq. <a href="http://www.energetiq.com/ldls-laser-driven-light-source-duv-broadband.php" target="_blank">EQ-99X LDLS.</a></small>
+  </li>
+  <li>
+    <small>[3] : RPC Photonics. <a href="http://www.rpcphotonics.com/engineered-diffusers-information/" target="_blank">Engineered Diffusers.</a></small>
+  </li>
+  <li>
+    <small>[4] : <a href="http://www2.stetson.edu/~efriedma/circovcir/" target="_blank">Circles Covering Circles,</a> Erich's Packing Center.</small>
+  </li>
+</ul>
 
         
       </section>
@@ -611,7 +572,7 @@
     </div>
 
     
-  <script src="http://localhost:4000/jekylltest/_site/assets/js/main.min.js"></script>
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
 
 
 

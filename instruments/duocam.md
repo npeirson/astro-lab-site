@@ -17,7 +17,7 @@ toc: true
 </div>
 
 ## Introduction
-We have designed the Dual Observation Camera (DuOCam), which is capable of simultaneous photometric observations at red and blue wavelengths. The instrument was designed for implementation on the 0.9 m, f/13.5  telescope at McDonald Observatory. Light collected by the telescope passes into DuOCam’s optical assembly, where it is collimated, split into red and blue wavelengths and focused onto two independent charge-coupled devices (CCDs). In order to test the effectiveness of the camera, observations of both open and globular stellar clusters were carried out at McDonald Observatory. The resulting data was used to construct an R vs. B-R color-magnitude diagram for the cluster M 56.
+We have designed the Dual Observation Camera (DuOCam), which is capable of simultaneous photometric observations at red and blue wavelengths. The instrument was designed for implementation on the 0.9m, f/13.5  telescope at McDonald Observatory. Light collected by the telescope passes into DuOCam’s optical assembly, where it is collimated, split into red and blue wavelengths and focused onto two independent charge-coupled devices (CCDs). In order to test the effectiveness of the camera, observations of both open and globular stellar clusters were carried out at McDonald Observatory. The resulting data was used to construct an R vs. B-R color-magnitude diagram for the cluster M 56.
 
 Color-magnitude diagrams are used to determine key attributes of stellar clusters, including age, metallicity, and distance, which can shed light on the evolution of stars and the formation of structure in our Galaxy (Figure 1). They are created by plotting the magnitude of stars in a cluster in a color band versus the difference in magnitude of that color band and another color band. When these values are plotted for a stellar cluster, a clear evolutionary track can be seen, the parameters of which are used to determine cluster attributes.
 
@@ -54,18 +54,21 @@ The effectiveness of the design was hindered by the use of a mounting box inheri
 ## Observations
 <div class="clearfix" />
 <div style="margin:auto;">
-<figure>
-  <img src="../assets/duo9.jpg" alt="DuOCam Optical System" style="float:right;max-width:45%;">
-  <figcaption>Figure 4a: The 0.9 m telescope at McDonald Observatory.</figcaption>
-</figure>
-<figure>
-  <img src="../assets/duo10.jpg" alt="DuOCam Optical System" style="float:right;max-width:45%;">
-  <figcaption>Figure 4b: DuOCam installed on the 0.9 m telescope.
-</figcaption>
+<div style="margin:auto;">
+<figure style="margin:auto;">
+  <img src="../assets/duo9.jpg" alt="DuOCam Optical System" style="max-width:55%;">
+  <figcaption>Figure 4a: The 0.9m telescope at McDonald Observatory.</figcaption>
 </figure>
 </div>
+<div style="margin:auto;">
+<figure style="margin:auto;">
+  <img src="../assets/duo10.jpg" alt="DuOCam Optical System" style="max-width:45%;">
+  <figcaption>Figure 4b: DuOCam installed on the 0.9m telescope.</figcaption>
+</figure>
+</div>
+</div>
 <div class="clearfix" />
-Observations occurred on four nights from July 21 to July 24 using the 0.9 m telescope at McDonald Observatory (Figure 4). The first night was devoted to focusing both CCDs. Data taking of previously selected stellar clusters (Table 1) began on the second night, using the OBSCCD_M software designed by Don Carona, which allows simultaneous data collection from multiple CCDs. Exposures of various lengths (10s, 30s, 60s, 90s, and 120s) were taken. The 60s exposures proved the most effective, balancing the need for a long exposure to capture dimmer stars with the telescope’s limited tracking ability.  
+Observations occurred on four nights from July 21 to July 24 using the 0.9m telescope at McDonald Observatory (Figure 4). The first night was devoted to focusing both CCDs. Data taking of previously selected stellar clusters (Table 1) began on the second night, using the OBSCCD_M software designed by Don Carona, which allows simultaneous data collection from multiple CCDs. Exposures of various lengths (10s, 30s, 60s, 90s, and 120s) were taken. The 60s exposures proved the most effective, balancing the need for a long exposure to capture dimmer stars with the telescope’s limited tracking ability.  
 
 |Name|Type|Size|Magnitude|Transit Height|Transit Time|
 |------|------|:------:|:------:|:------:|:------:|

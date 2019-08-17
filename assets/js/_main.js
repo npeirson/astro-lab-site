@@ -68,5 +68,15 @@ $(document).ready(function(){
     closeOnContentClick: true,
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
+  // Initialise FlexSlider for Carousels
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+    animation: "slide",
+    directionNav: true,
+    slideshowSpeed: 3000,
+    animationSpeed: 600,
+    touch: true
+    });
+});
 
 });

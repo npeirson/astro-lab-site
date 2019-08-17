@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
+  Munnerlyn Astronomical Instrumentation Laboratory site 2.0 by the Kwisatz Haderach, built on Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
   Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
@@ -36,8 +36,8 @@
 <meta property="og:title" content="Publications, Reports &amp; Presentations">
 
 
-  <link rel="canonical" href="http://localhost:4000/jekylltest/_site/publications/">
-  <meta property="og:url" content="http://localhost:4000/jekylltest/_site/publications/">
+  <link rel="canonical" href="http://localhost:4000/publications/">
+  <meta property="og:url" content="http://localhost:4000/publications/">
 
 
 
@@ -77,7 +77,7 @@
       "@context" : "http://schema.org",
       "@type" : "Person",
       "name" : "Astronomical Instrumentation Laboratory",
-      "url" : "http://localhost:4000/jekylltest/_site",
+      "url" : "http://localhost:4000",
       "sameAs" : null
     }
   </script>
@@ -91,7 +91,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/jekylltest/_site/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -103,7 +103,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/jekylltest/_site/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
 
 <!--[if lte IE 9]>
   <style>
@@ -123,10 +123,31 @@
 
 
     <!-- start custom head snippets -->
-
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
+<script defer src="/assets/js/jquery.flexslider.js"></script>
 <!-- end custom head snippets -->
+<style type="text/css">
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgb(80,0,0);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+</style>
+<script>
+$(window).on('load',function(){
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
   </head>
 
   <body class="layout--single">
@@ -139,20 +160,23 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav" style="background-color:#0a0a0a;">
         <img src="http://instrumentation.tamu.edu/jekylltest/_site/assets/tamu/TAM-Logo-white-reduced.png"  class="tamu-logo">
-        <a class="site-title" href="http://localhost:4000/jekylltest/_site/">Astronomical Instrumentation Laboratory</a>
+        <a class="site-title" href="http://localhost:4000/">Astronomical Instrumentation Laboratory</a>
         <ul class="visible-links" style="background-color:#0a0a0a;">
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/instruments/">Instruments</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/instruments/">Instruments</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/people/">People</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/pages/">Information</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/publications/">Publications</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/people/">People</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/press/">Press</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/press/">Press</a></li>
           
         </ul>
         <button type="button" style="background-color:#0a0a0a; overflow: auto;">
@@ -171,6 +195,7 @@
 
 
 <div id="main" role="main">
+  
   
   <div class="sidebar sticky">
   
@@ -203,7 +228,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/publications/journals/" class="">Journal Articles</a>
+            <li><a href="http://localhost:4000/publications/journals/" class="">Journal Articles</a>
 
             
             </li>
@@ -214,7 +239,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Reports</a>
+            <li><a href="http://localhost:4000/publications/presentations/" class="">Presentations</a>
 
             
             </li>
@@ -225,7 +250,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Presentations</a>
+            <li><a href="http://localhost:4000/publictions/reports/" class="">Reports</a>
 
             
             </li>
@@ -250,7 +275,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Awards and Honors</a>
+            <li><a href="http://localhost:4000/pages/honors/" class="">Awards and Honors</a>
 
             
             </li>
@@ -261,7 +286,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Ph.D. Degree Alumni</a>
+            <li><a href="http://localhost:4000" class="">Ph.D. Degree Alumni</a>
 
             
             </li>
@@ -272,7 +297,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Useful Documents</a>
+            <li><a href="http://localhost:4000" class="">Useful Documents</a>
 
             
             </li>
@@ -307,6 +332,8 @@
       
 
       <section class="page__content" itemprop="text">
+        
+        
         
         <p>The dedicated researchers and engineers of the Munnerlyn Astronomical Laboratory are pleased to provide access to their scholarly publications, as well as annals of honors and awards received, and a list of their esteemed Ph.D. alumni.</p>
 
@@ -350,7 +377,7 @@
     </div>
 
     
-  <script src="http://localhost:4000/jekylltest/_site/assets/js/main.min.js"></script>
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
 
 
 

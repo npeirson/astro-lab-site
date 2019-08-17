@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
+  Munnerlyn Astronomical Instrumentation Laboratory site 2.0 by the Kwisatz Haderach, built on Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
   Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
@@ -19,7 +19,7 @@
 
 
 
-<title>Publications, Reports &amp; Presentations - Astronomical Instrumentation Laboratory</title>
+<title>Publications - Astronomical Instrumentation Laboratory</title>
 
 
 
@@ -33,11 +33,11 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="Astronomical Instrumentation Laboratory">
-<meta property="og:title" content="Publications, Reports &amp; Presentations">
+<meta property="og:title" content="Publications">
 
 
-  <link rel="canonical" href="http://localhost:4000/jekylltest/_site/publications/journals/">
-  <meta property="og:url" content="http://localhost:4000/jekylltest/_site/publications/journals/">
+  <link rel="canonical" href="http://localhost:4000/publications/journals/">
+  <meta property="og:url" content="http://localhost:4000/publications/journals/">
 
 
 
@@ -77,7 +77,7 @@
       "@context" : "http://schema.org",
       "@type" : "Person",
       "name" : "Astronomical Instrumentation Laboratory",
-      "url" : "http://localhost:4000/jekylltest/_site",
+      "url" : "http://localhost:4000",
       "sameAs" : null
     }
   </script>
@@ -91,7 +91,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/jekylltest/_site/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -103,7 +103,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/jekylltest/_site/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
 
 <!--[if lte IE 9]>
   <style>
@@ -123,10 +123,31 @@
 
 
     <!-- start custom head snippets -->
-
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
+<script defer src="/assets/js/jquery.flexslider.js"></script>
 <!-- end custom head snippets -->
+<style type="text/css">
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgb(80,0,0);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+</style>
+<script>
+$(window).on('load',function(){
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
   </head>
 
   <body class="layout--single">
@@ -139,20 +160,23 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav" style="background-color:#0a0a0a;">
         <img src="http://instrumentation.tamu.edu/jekylltest/_site/assets/tamu/TAM-Logo-white-reduced.png"  class="tamu-logo">
-        <a class="site-title" href="http://localhost:4000/jekylltest/_site/">Astronomical Instrumentation Laboratory</a>
+        <a class="site-title" href="http://localhost:4000/">Astronomical Instrumentation Laboratory</a>
         <ul class="visible-links" style="background-color:#0a0a0a;">
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/instruments/">Instruments</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/instruments/">Instruments</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/people/">People</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/pages/">Information</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/publications/">Publications</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/people/">People</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/press/">Press</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/press/">Press</a></li>
           
         </ul>
         <button type="button" style="background-color:#0a0a0a; overflow: auto;">
@@ -171,6 +195,7 @@
 
 
 <div id="main" role="main">
+  
   
   <div class="sidebar sticky">
   
@@ -203,7 +228,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/publications/journals/" class="active">Journal Articles</a>
+            <li><a href="http://localhost:4000/publications/journals/" class="active">Journal Articles</a>
 
             
             </li>
@@ -214,7 +239,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Reports</a>
+            <li><a href="http://localhost:4000/publications/presentations/" class="">Presentations</a>
 
             
             </li>
@@ -225,7 +250,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Presentations</a>
+            <li><a href="http://localhost:4000/publictions/reports/" class="">Reports</a>
 
             
             </li>
@@ -250,7 +275,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Awards and Honors</a>
+            <li><a href="http://localhost:4000/pages/honors/" class="">Awards and Honors</a>
 
             
             </li>
@@ -261,7 +286,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Ph.D. Degree Alumni</a>
+            <li><a href="http://localhost:4000" class="">Ph.D. Degree Alumni</a>
 
             
             </li>
@@ -272,7 +297,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Useful Documents</a>
+            <li><a href="http://localhost:4000" class="">Useful Documents</a>
 
             
             </li>
@@ -292,7 +317,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Publications, Reports &amp; Presentations">
+    <meta itemprop="headline" content="Publications">
     
     
     
@@ -300,7 +325,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Publications, Reports &amp; Presentations
+          <h1 class="page__title" itemprop="headline">Publications
 </h1>
           
         </header>
@@ -320,22 +345,9 @@
       <li><a href="#the-carnegie-supernova-project-second-photometry-data-release-of-low-redshift-type-ia-supernovae">The Carnegie Supernova Project: Second Photometry Data Release of Low-redshift Type Ia Supernovae</a></li>
     </ul>
   </li>
-  <li><a href="#white-papers">White Papers</a>
+  <li><a href="#">White Papers</a>
     <ul>
-      <li><a href="#the-dark-energy-spectrometer-despec-a-multi-fiber-spectroscopic-upgrade-of-the-dark-energy-camera-and-survey-for-the-blanco-telescope">The Dark Energy Spectrometer (DESpec): A Multi-Fiber Spectroscopic Upgrade of the Dark Energy Camera and Survey for the Blanco Telescope</a></li>
-    </ul>
-  </li>
-  <li><a href="#conference-presentations">Conference Presentations</a>
-    <ul>
-      <li><a href="#aas-winter-meeting-2017">AAS Winter Meeting 2017</a></li>
-      <li><a href="#measuring-the-stellar-kinematics-of-the-s0-galaxy-ngc-4203">Measuring the Stellar Kinematics of the S0 Galaxy NGC 4203</a></li>
-      <li><a href="#duocam-a-two-channel-camera-for-simultaneous-photometric-observations-of-stellar-clusters">DuOCam: A Two-Channel Camera for Simultaneous Photometric Observations of Stellar Clusters</a></li>
-      <li><a href="#searching-for-rr-lyrae-variables-in-the-dark-energy-survey">Searching for RR Lyrae Variables in the Dark Energy Survey</a></li>
-      <li><a href="#probing-the-debris-disks-of-nearby-stars-with-fermi-lat">Probing the debris disks of nearby stars with Fermi-LAT</a></li>
-      <li><a href="#supernova-classification-using-swift-uvot-photometry">Supernova Classification Using Swift UVOT Photometry</a></li>
-      <li><a href="#spie-meetings-2016">SPIE Meetings 2016</a></li>
-      <li><a href="#optomechanical-design-concept-for-the-giant-magellan-telescope-multi-object-astronomical-and-cosmological-spectrograph-gmacs">Optomechanical Design Concept for the Giant Magellan Telescope Multi-object Astronomical and Cosmological Spectrograph (GMACS)</a></li>
-      <li><a href="#optical-design-concept-for-the-giant-magellan-telescope-multi-object-astronomical-and-cosmological-spectrograph-gmacs">Optical design concept for the Giant Magellan Telescope Multi-object Astronomical and Cosmological Spectrograph (GMACS)</a></li>
+      <li><a href="#">The Dark Energy Spectrometer (DESpec): A Multi-Fiber Spectroscopic Upgrade of the Dark Energy Camera and Survey for the Blanco Telescope</a></li>
     </ul>
   </li>
 </ul>
@@ -344,58 +356,27 @@
             </nav>
           </aside>
         
+        
+        
         <h2 id="publications-in-refereed-journals">Publications in Refereed Journals</h2>
-<h3 id="assessment-of-systematic-chromatic-errors-that-impact-sub-1-photometric-precision-in-large-area-sky-surveys">Assessment of Systematic Chromatic Errors that Impact Sub-1% Photometric Precision in Large-area Sky Surveys</h3>
-<p>Li, T. S.; DePoy, D. L.; Marshall, J. L.; Tucker, D.; Kessler, R.; Annis, J.; Bernstein, G. M.; Boada, S.; Burke, D. L.; Finley, D. A.; James, D. J.; Kent, S.; Lin, H.; Marriner, J.; Mondrik, N.; Nagasawa, D.; Rykoff, E. S.; Scolnic, D.; Walker, A. R.; Wester, W.; Abbott, T. M. C.; Allam, S.; Benoit-Lévy, A.; Bertin, E.; Brooks, D.; Capozzi, D.; Carnero Rosell, A.; Carrasco Kind, M.; Carretero, J.; Crocce, M.; Cunha, C. E.; D’Andrea, C. B.; da Costa, L. N.; Desai, S.; Diehl, H. T.; Doel, P.; Flaugher, B.; Fosalba, P.; Frieman, J.; Gaztanaga, E.; Goldstein, D. A.; Gruen, D.; Gruendl, R. A.; Gutierrez, G.; Honscheid, K.; Kuehn, K.; Kuropatkin, N.; Maia, M. A. G.; Melchior, P.; Miller, C. J.; Miquel, R.; Mohr, J. J.; Neilsen, E.; Nichol, R. C.; Nord, B.; Ogando, R.; Plazas, A. A.; Romer, A. K.; Roodman, A.; Sako, M.; Sanchez, E.; Scarpine, V.; Schubnell, M.; Sevilla-Noarbe, I.; Smith, R. C.; Soares-Santos, M.; Sobreira, F.; Suchyta, E.; Tarle, G.; Thomas, D.; Vikram, V. <a href="http://adsabs.harvard.edu/abs/2016AJ....151..157L">adsabs:2016AJ….151..157L</a></p>
-
-<h3 id="spectral-600-1050-nm-time-exposures-996-microseconds-of-a-lightning-stepped-leader">Spectral (600-1050 nm) Time Exposures (99.6 microseconds) of a Lightning Stepped Leader</h3>
-<p>Orville, R., Warner, T., Marshall, J. L., and Huggins, K. 2011, J. Geophys. Res., 116, D12210, doi:10.1029/2011JD015663</p>
-
-<h3 id="the-carnegie-supernova-project-second-photometry-data-release-of-low-redshift-type-ia-supernovae">The Carnegie Supernova Project: Second Photometry Data Release of Low-redshift Type Ia Supernovae</h3>
-<p>Stritzinger, Maximilian D.; Phillips, M. M.; Boldt, Luis N.; Burns, Chris; Campillay, Abdo; Contreras, Carlos; Gonzalez, Sergio; Folatelli, Gastón; Morrell, Nidia; Krzeminski, Wojtek; Roth, Miguel; Salgado, Francisco; DePoy, D. L.; Hamuy, Mario; Freedman, Wendy L.; Madore, Barry F.; Marshall, J. L.; Persson, Sven E.; Rheault, Jean-Philippe; Suntzeff, Nicholas B.; Villanueva, Steven; Li, Weidong; Filippenko, Alexei V.; 2011, Astronomical Journal, Volume 142, Issue 5; <a href="http://iopscience.iop.org/1538-3881/142/5/156/">doi:10.1088/0004-6256/142/5/156</a></p>
-
-<h2 id="white-papers">White Papers</h2>
-<h3 id="the-dark-energy-spectrometer-despec-a-multi-fiber-spectroscopic-upgrade-of-the-dark-energy-camera-and-survey-for-the-blanco-telescope"><a href="http://instrumentation.tamu.edu/publications/DES_WhitePaper_Abdalla_2012.pdf" style="text-decoration:none">The Dark Energy Spectrometer (DESpec): A Multi-Fiber Spectroscopic Upgrade of the Dark Energy Camera and Survey for the Blanco Telescope</a></h3>
-<p>F. Abdalla, J. Annis, D. Bacon, S. Bridle, F. Castander, M. Colless, D. DePoy, H. T. Diehl, M. Eriksen, B. Flaugher, J. Frieman, E. Gaztanaga, C. Hogan, S. Jouvel, S. Kent, D. Kirk, R. Kron, S. Kuhlmann, O. Lahav , J. Lawrence, H. Lin, J. Marriner, J. Marshall, J. Mohr, R. C. Nichol, M. Sako, W. Saunders, M. Soares-Santos, D. Thomas, R. Wechsler, A. West, H. Wu <a href="http://arxiv.org/abs/1209.2451">arxiv: :1209.2451</a></p>
-
-<h2 id="conference-presentations">Conference Presentations</h2>
-<h3 id="aas-winter-meeting-2017">AAS Winter Meeting 2017</h3>
-<h3 id="measuring-the-stellar-kinematics-of-the-s0-galaxy-ngc-4203"><a href="/publications/Stellar_Kinematics_AAS2017_Calbo_abstract.pdf" style="text-decoration:none">Measuring the Stellar Kinematics of the S0 Galaxy NGC 4203</a></h3>
-<p>Zuzana I. Calbo, J. L. Walsh, A. J. Barth, R. C. E. van den Bosch, J. C. Shields, M. Sarzi 2017 AAS</p>
-<ul>
-  <li><a href="/publications/Stellar_Kinematics_AAS2017_Calbo_poster.pdf">Stellar Kinematics Poster</a></li>
-</ul>
-
-<h3 id="duocam-a-two-channel-camera-for-simultaneous-photometric-observations-of-stellar-clusters"><a href="/publications/DuOCam_AAS2017_Witt&amp;Maier_abstract.pdf">DuOCam: A Two-Channel Camera for Simultaneous Photometric Observations of Stellar Clusters</a></h3>
-<p>Erin R. Maier, Emily M. Witt, D. L. DePoy, L. M. Schmidt 2017 AAS</p>
-<ul>
-  <li><a href="/publications/DuOCam_AAS2017_Witt&amp;Maier_poster.pdf">DuOCam Poster</a></li>
-</ul>
-
-<h3 id="searching-for-rr-lyrae-variables-in-the-dark-energy-survey"><a href="/publications/RR_Lyrae_Variables_AAS2017_Nielsen_abstract.pdf" style="text-decoration:none">Searching for RR Lyrae Variables in the Dark Energy Survey</a></h3>
-<p>Chandler Nielsen, J. L. Marshall, J. Long, Katelyn Stringer 2017 AAS</p>
-<ul>
-  <li><a href="/publications/RR_Lyrae_Variables_AAS2017_Nielsen_poster.pdf">RR Lyrae Variables Poster</a></li>
-</ul>
-
-<h3 id="probing-the-debris-disks-of-nearby-stars-with-fermi-lat"><a href="/publications/Fermi-LAT_AAS2017_Riley_abstract.pdf" style="text-decoration:none">Probing the debris disks of nearby stars with Fermi-LAT</a></h3>
-<p>Alexander Riley, L. Strigari 2017 AAS</p>
-
-<h3 id="supernova-classification-using-swift-uvot-photometry"><a href="/publications/Swift_UVOT_Photometry_AAS2017_Smith_abstract.pdf" style="text-decoration:none">Supernova Classification Using Swift UVOT Photometry</a></h3>
-<p>Madison Smith, P. J. Brown 2017 AAS</p>
-
-<h3 id="spie-meetings-2016">SPIE Meetings 2016</h3>
-<h3 id="optomechanical-design-concept-for-the-giant-magellan-telescope-multi-object-astronomical-and-cosmological-spectrograph-gmacs"><a href="/publications/2016 SPIE 9908-375 - Optomechanical design concept for GMACS - paper.pdf" style="text-decoration:none">Optomechanical Design Concept for the Giant Magellan Telescope Multi-object Astronomical and Cosmological Spectrograph (GMACS)</a></h3>
-<p>Travis Prochaska, Marcus Sauseda, James Beck, Luke Schmidt, Erika Cook, Darren L. DePoy, Jennifer L. Marshall, Rafael Ribeiro, Keith Taylor, Damien Jones, Cynthia Froning, Soojong Pak, Claudia Mendes de Oliveira, Casey Papovich, Tae-Geun Ji, Hye-In Lee 2016, Proc. SPIE, Vol. 9908, 375 <a href="http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=2544362">doi:10.1117/12.2233530</a></p>
-<ul>
-  <li><a href="/publications/2016 SPIE 9908-375 - Optomechanical design concept for GMACS - poster.pdf">Optomechanical Design Poster</a></li>
-</ul>
-
-<h3 id="optical-design-concept-for-the-giant-magellan-telescope-multi-object-astronomical-and-cosmological-spectrograph-gmacs"><a href="/publications/2016 SPIE 9908-376 - Optical design concept for GMACS - paper.pdf" style="text-decoration:none">Optical design concept for the Giant Magellan Telescope Multi-object Astronomical and Cosmological Spectrograph (GMACS)</a></h3>
-<p>Schmidt, L., Ribeiro, R., Taylor, K., Jones, D., Prochaska, DePoy, D.L., Marshall, J.L., Cook, E., Froning, Ji, T., Lee, H., C., Mendes de Oliveira, C., Pak, S., Papovich, C. 2016, Proc. SPIE, Vol. 9908, 376 <a href="http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=2544363">doi:10.1117/12.2233543</a></p>
-<ul>
-  <li><a href="/publications/2016 SPIE 9908-376 - Optical design concept for GMACS - poster.pdf">Optical Design Poster</a></li>
-</ul>
+<h3 id="assessment-of-systematic-chromatic-errors-that-impact-sub-1-photometric-precision-in-large-area-sky-surveys"><a href="https://ui.adsabs.harvard.edu/abs/2016AJ....151..157L/abstract" style="text-decoration:none" target="_blank">Assessment of Systematic Chromatic Errors that Impact Sub-1% Photometric Precision in Large-area Sky Surveys</a></h3>
+<font size="+0">The Astronomical Journal, Volume 151, Issue 6, article id. 157, 16 pp. (2016).</font>
+<font size="-1">
+Li, T. S.; DePoy, D. L.; Marshall, J. L.; Tucker, D.; Kessler, R.; Annis, J.; Bernstein, G. M.; Boada, S.; Burke, D. L.; Finley, D. A.; James, D. J.; Kent, S.; Lin, H.; Marriner, J.; Mondrik, N.; Nagasawa, D.; Rykoff, E. S.; Scolnic, D.; Walker, A. R.; Wester, W.; Abbott, T. M. C.; Allam, S.; Benoit-Lévy, A.; Bertin, E.; Brooks, D.; Capozzi, D.; Carnero Rosell, A.; Carrasco Kind, M.; Carretero, J.; Crocce, M.; Cunha, C. E.; D'Andrea, C. B.; da Costa, L. N.; Desai, S.; Diehl, H. T.; Doel, P.; Flaugher, B.; Fosalba, P.; Frieman, J.; Gaztanaga, E.; Goldstein, D. A.; Gruen, D.; Gruendl, R. A.; Gutierrez, G.; Honscheid, K.; Kuehn, K.; Kuropatkin, N.; Maia, M. A. G.; Melchior, P.; Miller, C. J.; Miquel, R.; Mohr, J. J.; Neilsen, E.; Nichol, R. C.; Nord, B.; Ogando, R.; Plazas, A. A.; Romer, A. K.; Roodman, A.; Sako, M.; Sanchez, E.; Scarpine, V.; Schubnell, M.; Sevilla-Noarbe, I.; Smith, R. C.; Soares-Santos, M.; Sobreira, F.; Suchyta, E.; Tarle, G.; Thomas, D.; Vikram, V. <a href="https://ui.adsabs.harvard.edu/abs/2016AJ....151..157L/abstract" target="_blank">adsabs: 2016AJ....151..157L</a>
+</font>
+<h3 id="spectral-600-1050-nm-time-exposures-996-microseconds-of-a-lightning-stepped-leader"><a href="https://ui.adsabs.harvard.edu/abs/2011JGRD..11612210W/abstract" style="text-decoration:none" target="_blank">Spectral (600-1050 nm) Time Exposures (99.6 microseconds) of a Lightning Stepped Leader</a></h3>
+<font size="+0">Journal of Geophysical Research: Atmospheres, Volume 116, Issue D12, CiteID D12210</font>
+<font size="-1">
+Orville, R., Warner, T., Marshall, J. L., and Huggins, K. 2011, J. Geophys. Res., 116, D12210, <a href="https://ui.adsabs.harvard.edu/abs/2011JGRD..11612210W/abstract" target="_blank">adsabs: 2011JGRD..11612210W</a>
+</font>
+<h3 id="the-carnegie-supernova-project-second-photometry-data-release-of-low-redshift-type-ia-supernovae"><a href="http://iopscience.iop.org/1538-3881/142/5/156/" style="text-decoration:none" target="_blank">The Carnegie Supernova Project: Second Photometry Data Release of Low-redshift Type Ia Supernovae</a></h3>
+<font size="+0">The Astronomical Journal, Volume 142, Number 5 (2011)</font>
+<font size="-1">
+Stritzinger, Maximilian D.; Phillips, M. M.; Boldt, Luis N.; Burns, Chris; Campillay, Abdo; Contreras, Carlos; Gonzalez, Sergio; Folatelli, Gastón; Morrell, Nidia; Krzeminski, Wojtek; Roth, Miguel; Salgado, Francisco; DePoy, D. L.; Hamuy, Mario; Freedman, Wendy L.; Madore, Barry F.; Marshall, J. L.; Persson, Sven E.; Rheault, Jean-Philippe; Suntzeff, Nicholas B.; Villanueva, Steven; Li, Weidong; Filippenko, Alexei V.; 2011, Astronomical Journal, Volume 142, Issue 5; <a href="http://iopscience.iop.org/1538-3881/142/5/156/" target="_blank">doi:10.1088/0004-6256/142/5/156</a>
+</font>
+<h2>White Papers</h2>
+<h3><a href="http://instrumentation.tamu.edu/publications/DES_WhitePaper_Abdalla_2012.pdf" style="text-decoration:none" target="_blank">The Dark Energy Spectrometer (DESpec): A Multi-Fiber Spectroscopic Upgrade of the Dark Energy Camera and Survey for the Blanco Telescope</a></h3>
+<font size="-1">F. Abdalla, J. Annis, D. Bacon, S. Bridle, F. Castander, M. Colless, D. DePoy, H. T. Diehl, M. Eriksen, B. Flaugher, J. Frieman, E. Gaztanaga, C. Hogan, S. Jouvel, S. Kent, D. Kirk, R. Kron, S. Kuhlmann, O. Lahav , J. Lawrence, H. Lin, J. Marriner, J. Marshall, J. Mohr, R. C. Nichol, M. Sako, W. Saunders, M. Soares-Santos, D. Thomas, R. Wechsler, A. West, H. Wu <a href="http://arxiv.org/abs/1209.2451" target="_blank">arxiv: :1209.2451</a></font>
 
         
       </section>
@@ -435,7 +416,7 @@
     </div>
 
     
-  <script src="http://localhost:4000/jekylltest/_site/assets/js/main.min.js"></script>
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
 
 
 

@@ -2,7 +2,7 @@
 layout: single
 title: "Contact Us"
 sidebar:
-  nav: "side"
+  nav: "info"
 ---
 **Office:** (979) 862-2099  
 **Fax:** (979) 845-2768  
@@ -22,6 +22,4 @@ College Station, Texas 77843-4242
 |Monique S. Glover   |Lead Office Assistant   |mglover@physics.   |MUNN 205   |(979) 862-2099   |
 |Mary Anne Limbach   |Research Associate   |malimbach@physics.   |MUNN 209B   |   |
 |Sarah Cantu   |Graduate Student   |scantu3@   |MUNN 207   |   |
-|Peter Ferguson   |Graduate Student   |peterferguson@gmail.com<br>(do not append)   |MUNN 207   |   |
-|Marcus Sauseda   |Undergraduate   |sauseda.marcus@gmail.com<br>(do not append)   |MUNN 200   |   |
-|Nate Peirson   |Undergraduate<br>Webmaster   |npeirson@   |MUNN 200   |   |
+|Peter Ferguson   |Graduate Student   |peterferguson@gmail.com<br>(do not append)   |

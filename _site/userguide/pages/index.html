@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
+  Munnerlyn Astronomical Instrumentation Laboratory site 2.0 by the Kwisatz Haderach, built on Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
   Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
@@ -19,7 +19,7 @@
 
 
 
-<title>Making New Pages - Astronomical Instrumentation Laboratory</title>
+<title>Adding Pages - Astronomical Instrumentation Laboratory</title>
 
 
 
@@ -33,11 +33,11 @@
 
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="Astronomical Instrumentation Laboratory">
-<meta property="og:title" content="Making New Pages">
+<meta property="og:title" content="Adding Pages">
 
 
-  <link rel="canonical" href="http://localhost:4000/jekylltest/_site/userguide/pages/">
-  <meta property="og:url" content="http://localhost:4000/jekylltest/_site/userguide/pages/">
+  <link rel="canonical" href="http://localhost:4000/userguide/pages/">
+  <meta property="og:url" content="http://localhost:4000/userguide/pages/">
 
 
 
@@ -77,7 +77,7 @@
       "@context" : "http://schema.org",
       "@type" : "Person",
       "name" : "Astronomical Instrumentation Laboratory",
-      "url" : "http://localhost:4000/jekylltest/_site",
+      "url" : "http://localhost:4000",
       "sameAs" : null
     }
   </script>
@@ -91,7 +91,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/jekylltest/_site/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -103,7 +103,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/jekylltest/_site/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
 
 <!--[if lte IE 9]>
   <style>
@@ -123,10 +123,31 @@
 
 
     <!-- start custom head snippets -->
-
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
+<script defer src="/assets/js/jquery.flexslider.js"></script>
 <!-- end custom head snippets -->
+<style type="text/css">
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgb(80,0,0);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+</style>
+<script>
+$(window).on('load',function(){
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
   </head>
 
   <body class="layout--single">
@@ -139,20 +160,23 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav" style="background-color:#0a0a0a;">
         <img src="http://instrumentation.tamu.edu/jekylltest/_site/assets/tamu/TAM-Logo-white-reduced.png"  class="tamu-logo">
-        <a class="site-title" href="http://localhost:4000/jekylltest/_site/">Astronomical Instrumentation Laboratory</a>
+        <a class="site-title" href="http://localhost:4000/">Astronomical Instrumentation Laboratory</a>
         <ul class="visible-links" style="background-color:#0a0a0a;">
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/instruments/">Instruments</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/instruments/">Instruments</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/people/">People</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/pages/">Information</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/publications/">Publications</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/people/">People</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/press/">Press</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/press/">Press</a></li>
           
         </ul>
         <button type="button" style="background-color:#0a0a0a; overflow: auto;">
@@ -171,6 +195,16 @@
 
 
 <div id="main" role="main">
+  <!-- Scroll to Top -->
+<script>
+  $(window).scroll(function() {
+      if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+          $('#return-to-top').fadeIn(200);    // Fade in the arrow
+      } else {
+          $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+      }
+  });
+</script>
   
   <div class="sidebar sticky">
   
@@ -203,7 +237,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/" class="">Overview</a>
+            <li><a href="http://localhost:4000/userguide/" class="">Overview</a>
 
             
             </li>
@@ -214,7 +248,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/pages/" class="active">Making New Pages</a>
+            <li><a href="http://localhost:4000/userguide/pages/" class="active">Making New Pages</a>
 
             
             </li>
@@ -225,7 +259,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/posts/" class="">Making New Press Releases</a>
+            <li><a href="http://localhost:4000/userguide/posts/" class="">Making New Press Releases</a>
 
             
             </li>
@@ -236,7 +270,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/permalinks/" class="">Permalinks</a>
+            <li><a href="http://localhost:4000/userguide/figtabcap/" class="">Figures, Tables, Captions</a>
 
             
             </li>
@@ -247,7 +281,29 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/figtabcap/" class="">Figures, Tables, Captions</a>
+            <li><a href="http://localhost:4000/userguide/imagestuff/" class="">Image Overlays and Sliders</a>
+
+            
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/userguide/rebuilding/" class="">Rebuilding</a>
+
+            
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/userguide/notes/" class="">Rolling Developer's Notes</a>
 
             
             </li>
@@ -267,7 +323,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Making New Pages">
+    <meta itemprop="headline" content="Adding Pages">
     
     
     
@@ -275,7 +331,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Making New Pages
+          <h1 class="page__title" itemprop="headline">Adding Pages
 </h1>
           
         </header>
@@ -288,56 +344,121 @@
               <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Quick Navigation</h4></header>
               <div style="text-align:left">
 <ul class="toc__menu">
-  <li><a href="#basics">Basics</a></li>
-  <li><a href="#header-options">Header Options</a>
+  <li><a href="#where-they-go">Where they go</a></li>
+  <li><a href="#header">Header</a>
     <ul>
-      <li><a href="#left-side-navigation-bar">Left-Side Navigation Bar</a></li>
-      <li><a href="#right-side-quick-nav-bar">Right-Side Quick Nav Bar</a></li>
+      <li><a href="#layout">Layout</a></li>
+      <li><a href="#title">Title</a></li>
+      <li><a href="#header-image">Header image</a></li>
+      <li><a href="#sidebar-navigation">Sidebar navigation</a></li>
+      <li><a href="#table-of-contents">Table of Contents</a></li>
+      <li><a href="#return-to-top-button">Return-to-Top button</a></li>
+      <li><a href="#permalinks">Permalinks</a></li>
     </ul>
   </li>
+  <li><a href="#content">Content</a></li>
+  <li><a href="#upload-and-rebuild">Upload and Rebuild</a></li>
+  <li><a href="#note-about-the-homepage">Note about the homepage</a></li>
 </ul>
 </div>
 
             </nav>
           </aside>
         
-        <h2 id="basics">Basics</h2>
-<p>To create a page, follow these steps:</p>
-<ol>
-  <li>Create a new markdown file with the name of your choice. For example, <code class="highlighter-rouge">mypage.md</code></li>
-  <li>Add a header to the top of the markdown file. At minimum, this must be:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ---
-  layout: single
-  title: my page title
-  ---
-</code></pre></div>    </div>
-  </li>
-  <li>Add your content anywhere below the header dashes</li>
-  <li>Save your new page, upload it to the server, and <a href="/userguide/">rebuild the site</a></li>
+        
+          <aside class="sidebar__right">
+            <div style="display:block;position:absolute;right:50px;);"><a href="#site-nav" id="return-to-top"><i class="icon-chevron-up"></i></a></div>
+          </aside>
+        
+        
+        <ol>
+  <li>Create your new page as a markdown file</li>
+  <li>Add a header</li>
+  <li>Add your content</li>
+  <li>Upload and recompile</li>
 </ol>
 
-<p>Note: Unless otherwise specified with a <a href="/userguide/permalinks">permalink</a>, the name of your markdown file becomes its URL. For example, <code class="highlighter-rouge">about.md</code> in the root directory becomes the webpage <code class="highlighter-rouge">http://instrumentation.tamu.edu/about/</code>
-Similarly a markdown file in a directory, like <code class="highlighter-rouge">/somefolder/example.md</code>, will become the webpage <code class="highlighter-rouge">http://instrumentation.tamu.edu/somefolder/example/</code></p>
-<h2 id="header-options">Header Options</h2>
-<p>There are many features that can be added to your page with only a few lines of code.</p>
-<h3 id="left-side-navigation-bar">Left-Side Navigation Bar</h3>
-<p>Add the following to your header:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sidebar:
-  nav: "side"
-</code></pre></div></div>
-<p>Note: <code class="highlighter-rouge">"side"</code> refers to the sidebar named ‘side’ in the <code class="highlighter-rouge">_/data/navigation.yml</code> file. Other navigation bars can be made and used. For example, the left-side navigation bar for this user manual is named <code class="highlighter-rouge">"userguide"</code>, so the header for this page (without quick-nav) looks like this:</p>
+<h2 id="where-they-go">Where they go</h2>
+<ul>
+  <li>If you create a new <code class="highlighter-rouge">something.md</code> file in the root directory, it will compile to <code class="highlighter-rouge">http://instrumentation.tamu.edu/something/</code>.</li>
+  <li>The same effect can be achieved by creating a new folder (e.g. <code class="highlighter-rouge">this_folder/</code>) in the root directory, then adding an <code class="highlighter-rouge">index.md</code> file to it. <code class="highlighter-rouge">/this_folder/index.md</code> would compile, just as before, to <code class="highlighter-rouge">http://instrumentation.tamu.edu/this_folder/</code></li>
+  <li>Other html files in a subfolder (such as <code class="highlighter-rouge">this_folder</code>) will assume similar structure. For example, <code class="highlighter-rouge">/this_folder/another_page.md</code> would compile to <code class="highlighter-rouge">http://instrumention.tamu.edu/this_folder/another_page/</code>.</li>
+  <li>These assignments can be overridden by including a <code class="highlighter-rouge">permalink</code> in a page’s header. For example,
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: single
+title: "Example page"
+permalink: /specific_place/
+---
+</code></pre></div>    </div>
+    <p>would compile the page to <code class="highlighter-rouge">http://instrumenttion.tamu.edu/specific_place/</code> <em>no matter where the page file resides in the source code.</em></p>
+  </li>
+  <li>Be aware that any files and folders with the prefix <code class="highlighter-rouge">_</code> such as <code class="highlighter-rouge">_layouts</code> are only used in compilation, and do not exist in the published site.</li>
+</ul>
+
+<h2 id="header">Header</h2>
+<p>Headers, which preceed all else in a page markdown file, must have at minimum a layout specified. E.g.:</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 layout: single
-title: "Making New Pages"
-sidebar:
-  nav: "userguide"
----   
+---
 </code></pre></div></div>
-<h3 id="right-side-quick-nav-bar">Right-Side Quick Nav Bar</h3>
-<p>Add the following to your header:</p>
+
+<h3 id="layout">Layout</h3>
+<p>There are several page layouts, but they are for purposes like the splash page, archives, etc — you’re welcome to check them out in <code class="highlighter-rouge">_layouts</code>.<br />
+In the vast majority of cases, you’ll probably be looking to add pages using the <code class="highlighter-rouge">single.html</code> layout.</p>
+
+<h3 id="title">Title</h3>
+<p>The <code class="highlighter-rouge">title</code> parameter becomes the header-1 (<code class="highlighter-rouge">&lt;h1&gt;</code>) block at the top of the compiled page. For example, in this very page’s <code class="highlighter-rouge">.md</code> file, the header contains <code class="highlighter-rouge">title: "Adding pages"</code>, the result of which is the page’s header at the very top.</p>
+
+<h3 id="header-image">Header image</h3>
+<p>Header images can be added to any page by including the following in the header:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>header:
+  image: /path_to/my_image.jpg
+</code></pre></div></div>
+
+<h3 id="sidebar-navigation">Sidebar navigation</h3>
+<p>The optional left-side navigation bar can be included in a page by adding the following to header:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sidebar:
+  nav: "my-sidebar"
+</code></pre></div></div>
+<p>The contents of the sidebar (in this case, <code class="highlighter-rouge">my-sidebar</code>) is defined in <code class="highlighter-rouge">/_data/navigation.yml</code>. A quick look in that file will make it pretty clear how to add or change sidebars.</p>
+
+<h3 id="table-of-contents">Table of Contents</h3>
+<p>The optional right-side table-of-contents can be enabled by adding the following to header:</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>toc: true
 </code></pre></div></div>
-<p>The quick navigation bar is auto-populated based on the sections and subsections of the page. The title of the bar is “Quick Navigation” by default (defined in <code class="highlighter-rouge">_data/ui-text.yml</code>), but can be made unique to the page with a header. See the <a href="https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents">full manual</a> for detailed options.</p>
+<p>The table of contents is automatically populated by any headers 2 and 3 (i.e. <code class="highlighter-rouge">##</code> and <code class="highlighter-rouge">###</code> in Markdown, <code class="highlighter-rouge">&lt;h2&gt;</code> and <code class="highlighter-rouge">&lt;h3&gt;</code> in HTML) within the page.<br />
+Note: if you use the TOC on a page with HTML format headers, you will need to include a unique <code class="highlighter-rouge">id</code> in order to link the TOC target to the header’s section. For example: <code class="highlighter-rouge">&lt;h2 id="section2"&gt;Section 2&lt;/h2&gt;</code> If the <code class="highlighter-rouge">id</code> parameter is left blank, the section header will be displayed in the TOC, but will not be targetted thereby. An example of this can be found in the <code class="highlighter-rouge">pages/phdalumni.md</code> file.</p>
+
+<h3 id="return-to-top-button">Return-to-Top button</h3>
+<p>The Return-to-Top button is a small round button which glides along the bottom right of any <code class="highlighter-rouge">layout: single</code> page’s content frame, which allows the user to clickly (that’s a quick click) return to the top of the page. You can find it toward the bottom right of this very page. It can be added to your page by including the following in page header:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rtt: true
+</code></pre></div></div>
+<p>The CSS for this is in <code class="highlighter-rouge">_sass/_page.scss</code>, the JS is in <code class="highlighter-rouge">_includes/rtt.html</code>, and the HTML is in <code class="highlighter-rouge">_layouts/single.html</code>.</p>
+
+<h3 id="permalinks">Permalinks</h3>
+<p>As aforementioned, a page’s specific location in the site file-structure can be hard-coded regardless of the page file’s actual location. For example, <code class="highlighter-rouge">/some_folder/some_page.md</code> would normally compile to <code class="highlighter-rouge">http://instrumentation.tamu.edu/some_folder/some_page/</code>, but the header clause <code class="highlighter-rouge">permalink: /mighty_page/</code> would cause it to compile to <code class="highlighter-rouge">http://instrumentation.tamu.edu/mighty_page/</code> despite the markdown file’s actual position in the file-structure.</p>
+
+<h2 id="content">Content</h2>
+<p>Your page’s content will be everything following the header. For example:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: single
+title: "Example page"
+rtt: true
+---
+This is my content!
+</code></pre></div></div>
+<p>The content can be entered as Markdown or HTML. Markdown is easier, but HTML may be necessary for advanced formatting.<br />
+Note that Markdown can contain HTML, but HTML cannot contain Markdown; if you open an HTML span of any kind (e.g. <code class="highlighter-rouge">&lt;div&gt;</code>, <code class="highlighter-rouge">&lt;a&gt;</code>,<code class="highlighter-rouge">&lt;i&gt;</code>), you cannot use Markdown again until it has been closed. For example:</p>
+<ul>
+  <li><code class="highlighter-rouge">## &lt;a href="www.google.com"&gt;Google&lt;/a&gt;</code> will result in a header-2 (<code class="highlighter-rouge">&lt;h2&gt;</code>) block with hyperlink text ‘Google’ directing to the referenced URL. HTML can exist within Markdown.</li>
+  <li><code class="highlighter-rouge">&lt;h2&gt;[Google](www.google.com)&lt;/h2&gt;</code> will result in a useless mess, despite appearing to have the same components. Markdown cannot exist within HTML.</li>
+</ul>
+
+<h2 id="upload-and-rebuild">Upload and Rebuild</h2>
+<p>Please see the detailed <a href="/userguide/rebuilding/">rebuilding</a> document.</p>
+
+<h2 id="note-about-the-homepage">Note about the homepage</h2>
+<p>Assets for the home page (splash page) go in <code class="highlighter-rouge">/assets/front/</code>. The featured content is described in the <strong>YAML header</strong> of <code class="highlighter-rouge">/index.html</code> Images should be <code class="highlighter-rouge">640x360</code>.</p>
 
         
       </section>
@@ -377,7 +498,7 @@ sidebar:
     </div>
 
     
-  <script src="http://localhost:4000/jekylltest/_site/assets/js/main.min.js"></script>
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
 
 
 

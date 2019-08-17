@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
+  Munnerlyn Astronomical Instrumentation Laboratory site 2.0 by the Kwisatz Haderach, built on Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
   Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
@@ -36,8 +36,8 @@
 <meta property="og:title" content="Making New Posts">
 
 
-  <link rel="canonical" href="http://localhost:4000/jekylltest/_site/userguide/posts/">
-  <meta property="og:url" content="http://localhost:4000/jekylltest/_site/userguide/posts/">
+  <link rel="canonical" href="http://localhost:4000/userguide/posts/">
+  <meta property="og:url" content="http://localhost:4000/userguide/posts/">
 
 
 
@@ -77,7 +77,7 @@
       "@context" : "http://schema.org",
       "@type" : "Person",
       "name" : "Astronomical Instrumentation Laboratory",
-      "url" : "http://localhost:4000/jekylltest/_site",
+      "url" : "http://localhost:4000",
       "sameAs" : null
     }
   </script>
@@ -91,7 +91,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/jekylltest/_site/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -103,7 +103,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/jekylltest/_site/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
 
 <!--[if lte IE 9]>
   <style>
@@ -123,10 +123,31 @@
 
 
     <!-- start custom head snippets -->
-
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
+<script defer src="/assets/js/jquery.flexslider.js"></script>
 <!-- end custom head snippets -->
+<style type="text/css">
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgb(80,0,0);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+</style>
+<script>
+$(window).on('load',function(){
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
   </head>
 
   <body class="layout--single">
@@ -139,20 +160,23 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav" style="background-color:#0a0a0a;">
         <img src="http://instrumentation.tamu.edu/jekylltest/_site/assets/tamu/TAM-Logo-white-reduced.png"  class="tamu-logo">
-        <a class="site-title" href="http://localhost:4000/jekylltest/_site/">Astronomical Instrumentation Laboratory</a>
+        <a class="site-title" href="http://localhost:4000/">Astronomical Instrumentation Laboratory</a>
         <ul class="visible-links" style="background-color:#0a0a0a;">
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/instruments/">Instruments</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/instruments/">Instruments</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/people/">People</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/pages/">Information</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/publications/">Publications</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/people/">People</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/press/">Press</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/press/">Press</a></li>
           
         </ul>
         <button type="button" style="background-color:#0a0a0a; overflow: auto;">
@@ -171,6 +195,7 @@
 
 
 <div id="main" role="main">
+  
   
   <div class="sidebar sticky">
   
@@ -203,7 +228,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/" class="">Overview</a>
+            <li><a href="http://localhost:4000/userguide/" class="">Overview</a>
 
             
             </li>
@@ -214,7 +239,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/pages/" class="">Making New Pages</a>
+            <li><a href="http://localhost:4000/userguide/pages/" class="">Making New Pages</a>
 
             
             </li>
@@ -225,7 +250,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/posts/" class="active">Making New Press Releases</a>
+            <li><a href="http://localhost:4000/userguide/posts/" class="active">Making New Press Releases</a>
 
             
             </li>
@@ -236,7 +261,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/permalinks/" class="">Permalinks</a>
+            <li><a href="http://localhost:4000/userguide/figtabcap/" class="">Figures, Tables, Captions</a>
 
             
             </li>
@@ -247,7 +272,29 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/userguide/figtabcap/" class="">Figures, Tables, Captions</a>
+            <li><a href="http://localhost:4000/userguide/imagestuff/" class="">Image Overlays and Sliders</a>
+
+            
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/userguide/rebuilding/" class="">Rebuilding</a>
+
+            
+            </li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="http://localhost:4000/userguide/notes/" class="">Rolling Developer's Notes</a>
 
             
             </li>
@@ -289,19 +336,18 @@
               <div style="text-align:left">
 <ul class="toc__menu">
   <li><a href="#basics">Basics</a></li>
-  <li><a href="#categories-and-tags">Categories and Tags</a>
-    <ul>
-      <li><a href="#example-post">Example Post</a></li>
-    </ul>
-  </li>
+  <li><a href="#categories-and-tags">Categories and Tags</a></li>
+  <li><a href="#example-post">Example Post</a></li>
+  <li><a href="#categoriestags-pages">Categories/Tags Pages</a></li>
 </ul>
 </div>
 
             </nav>
           </aside>
         
+        
+        
         <h2 id="basics">Basics</h2>
-
 <p>To make a press release, follow these steps:</p>
 <ol>
   <li>In the <code class="highlighter-rouge">_posts</code> folder, create a new markdown file using simple date format <code class="highlighter-rouge">YYYY-MM-DD-postname.md</code></li>
@@ -312,11 +358,10 @@
 </code></pre></div>    </div>
   </li>
   <li>Add your content below the header.</li>
-  <li>Save your new page, and <a href="/userguide/">rebuild the site</a></li>
+  <li>Save your new page, and <a href="/userguide/rebuilding/">rebuild the site</a></li>
 </ol>
 
 <h2 id="categories-and-tags">Categories and Tags</h2>
-
 <p>For a variety of archiving features like categories, related reading recommendations, and search functions, it’s advisable to include categories and tags. These are added to your header like so:</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 title: Example News Story
@@ -324,15 +369,13 @@ categories:
   - Interviews
 tags:
   - gmt
-  - e-macs
+  - gmacs
   - etc
 ---
 </code></pre></div></div>
 
-<h3 id="example-post">Example Post</h3>
-
-<p>As an example, the press release post for the eclipse is a markdown file titled <code class="highlighter-rouge">2017-08-22-eclipse-success.md</code>
-And contains the following code:</p>
+<h2 id="example-post">Example Post</h2>
+<p>As an example, the press release post for the eclipse is a markdown file titled <code class="highlighter-rouge">2017-08-22-eclipse-success.md</code>, and contains the following code:</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 title: "Solar Eclipse Viewing Event: Success"
 categories:
@@ -342,8 +385,12 @@ tags:
   - eclipse
 ---
 The partial solar eclipse viewing event was a success! Hundreds of people joined Professor Darren DePoy, Dr. Luke Schmidt and the members of the Star Party team in Rudder Plaza. Read more about solar eclipse and the event on [The Eagle](http://www.theeagle.com/news/local/science-community-mingle-during-eclipse-viewing-party-at-texas-a/article_24a68c34-fe2e-5a5a-bfdb-0ef4f97bf200.html) and [The Battalion!](http://www.thebatt.com/science-technology/community-comes-together-to-witness-rare-solar-eclipse/article_05b43fd2-87aa-11e7-84ac-1330d0dd54f1.html)
-
 </code></pre></div></div>
+
+<p>Located in the <code class="highlighter-rouge">_posts</code> folder, this file build into <a href="/outreach/eclipse-success/">this press release</a>, and becomes automatically chronologically listed on the <a href="/press/">press page</a>.</p>
+
+<h2 id="categoriestags-pages">Categories/Tags Pages</h2>
+<p>Dedicated tags and categories pages are automatically generated. The word clouds are an implementation of <a href="https://mistic100.github.io/jQCloud/">jQCloud</a>. Custom layouts <code class="highlighter-rouge">default-archive</code> feed unique js/css to layouts <code class="highlighter-rouge">archive</code>, which are the basis of layouts <code class="highlighter-rouge">categories</code> and <code class="highlighter-rouge">tags</code>. This is where you can change the cloud parameters (colors, size, shape, etc). Permalinked pages <code class="highlighter-rouge">categories.md</code> and <code class="highlighter-rouge">tags.md</code> therefore automatically populate their contents, including word cloud form (based on frequency of tag/category). Note that the only exception to this is the cloud’s link hover colors, which are defined in <code class="highlighter-rouge">/assets/css/jqcloud.min.css</code>.</p>
 
         
       </section>
@@ -383,7 +430,7 @@ The partial solar eclipse viewing event was a success! Hundreds of people joined
     </div>
 
     
-  <script src="http://localhost:4000/jekylltest/_site/assets/js/main.min.js"></script>
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
 
 
 

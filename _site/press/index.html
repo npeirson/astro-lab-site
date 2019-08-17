@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
+  Munnerlyn Astronomical Instrumentation Laboratory site 2.0 by the Kwisatz Haderach, built on Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
   Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
@@ -36,8 +36,8 @@
 <meta property="og:title" content="Press Releases">
 
 
-  <link rel="canonical" href="http://localhost:4000/jekylltest/_site/press/">
-  <meta property="og:url" content="http://localhost:4000/jekylltest/_site/press/">
+  <link rel="canonical" href="http://localhost:4000/press/">
+  <meta property="og:url" content="http://localhost:4000/press/">
 
 
 
@@ -67,6 +67,8 @@
 
 
 
+
+  <link rel="next" href="http://localhost:4000/press/page2/">
 
 
 
@@ -77,7 +79,7 @@
       "@context" : "http://schema.org",
       "@type" : "Person",
       "name" : "Astronomical Instrumentation Laboratory",
-      "url" : "http://localhost:4000/jekylltest/_site",
+      "url" : "http://localhost:4000",
       "sameAs" : null
     }
   </script>
@@ -91,7 +93,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/jekylltest/_site/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -103,7 +105,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/jekylltest/_site/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
 
 <!--[if lte IE 9]>
   <style>
@@ -123,10 +125,34 @@
 
 
     <!-- start custom head snippets -->
-
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
+<script defer src="/assets/js/jquery.flexslider.js"></script>
 <!-- end custom head snippets -->
+<style type="text/css">
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgb(80,0,0);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+</style>
+<script>
+$(window).on('load',function(){
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
+    <!-- only for use in archive pages -->
+<script src="/assets/js/jqcloud.min.js"></script>
+<link rel="stylesheet" href="/assets/css/jqcloud.min.css">
   </head>
 
   <body class="layout--home">
@@ -139,20 +165,23 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav" style="background-color:#0a0a0a;">
         <img src="http://instrumentation.tamu.edu/jekylltest/_site/assets/tamu/TAM-Logo-white-reduced.png"  class="tamu-logo">
-        <a class="site-title" href="http://localhost:4000/jekylltest/_site/">Astronomical Instrumentation Laboratory</a>
+        <a class="site-title" href="http://localhost:4000/">Astronomical Instrumentation Laboratory</a>
         <ul class="visible-links" style="background-color:#0a0a0a;">
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/instruments/">Instruments</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/instruments/">Instruments</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/people/">People</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/pages/">Information</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/publications/">Publications</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/people/">People</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/press/">Press</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/press/">Press</a></li>
           
         </ul>
         <button type="button" style="background-color:#0a0a0a; overflow: auto;">
@@ -177,7 +206,97 @@
     
       <h1 class="page__title">Press Releases</h1>
     
-    <h3 class="archive__subtitle">Recent Posts</h3>
+    <!-- uncomment below to add categorical and tag pages -->
+    <!--
+    <style>
+      .chronButton {
+        background-color:#500000;
+        width: 33%;
+        -moz-border-top-left-radius:12px;
+        -moz-border-bottom-left-radius:12px;
+        -webkit-border-top-left-radius:12px;
+        -webkit-border-bottom-left-radius:12px;
+        border-top-left-radius:12px;
+        border-bottom-left-radius:12px;
+        display:inline-block;
+        cursor:pointer;
+        color:white;
+        float:left;
+        font-size:17px;
+        padding-top:8px;
+        padding-bottom:8px;
+        text-align: center;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #3b1515;
+      }
+      .chronButton:hover {
+        background-color:#800000;
+      }
+      .chronButton:active {
+        position:relative;
+        top:1px;
+      }
+      .catButton {
+        background-color:#500000;
+        width: 33%;
+        display:inline-block;
+        cursor:pointer;
+        color:white;
+        float:left;
+        font-size:17px;
+        padding-top:8px;
+        padding-bottom:8px;
+        text-align: center;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #3b1515;
+        margin-left:1px;
+        margin-right:1px;
+      }
+      .catButton:hover {
+        background-color:#800000;
+      }
+      .catButton:active {
+        position:relative;
+        top:1px;
+      }
+      .tagButton {
+        background-color:#500000;
+        width: 33%;
+        -moz-border-top-right-radius:12px;
+        -moz-border-bottom-right-radius:12px;
+        -webkit-border-top-right-radius:12px;
+        -webkit-border-bottom-right-radius:12px;
+        border-top-right-radius:12px;
+        border-bottom-right-radius:12px;
+        display:inline-block;
+        cursor:pointer;
+        color:white;
+        float:left;
+        font-size:17px;
+        padding-top:8px;
+        padding-bottom:8px;
+        text-align: center;
+        vertical-align:middle;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #3b1515;
+      }
+      .tagButton:hover {
+        background-color:#800000;
+      }
+      .tagButton:active {
+        position:relative;
+        top:1px;
+      }
+    </style>
+    <div style="color:white;clear:both">
+      <a href="/press/" class="chronButton">Chronological</a>
+      <a href="/categories/" class="catButton">Categorical</a>
+      <a href="/tags/" class="tagButton">By Tag</a>
+    </div>
+    <div style="clear:both"></div>
+    -->
+    <div style="margin-top:8px;">
+      <h3 class="archive__subtitle">Recent Posts</h3>
 
 
   
@@ -189,20 +308,15 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/jekylltest/_site/outreach/new-website/" rel="permalink">Laboratory Website Overhaul
+        <a href="http://localhost:4000/projects/interviews/kbtx-gmt/" rel="permalink">KBTX Interviews Professor DePoy and REU Student
 </a>
       
     </h2>
-    
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
-
-
-
-
-  4 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nos...</p>
+    <div>
+      
+      <p class="page__meta" style="display:inline"> <i class="fa fa-calendar" aria-hidden="true"></i> July 19, 2019</p>
+    </div>
+    <p class="archive__item-excerpt" itemprop="description">Professor Darren DePoy and summer research student Samantha Hudson interviewed on KBTX, discussing Texas A&amp;M’s role in building the Giant Magellan Telesc...</p>
   </article>
 </div>
 
@@ -215,20 +329,15 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/jekylltest/_site/outreach/eclipse-success/" rel="permalink">Solar Eclipse Viewing Event: Success
+        <a href="http://localhost:4000/projects/recognition/mse-announce/" rel="permalink">Professor Jennifer Marshall Selected for MSE Project
 </a>
       
     </h2>
-    
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
-
-
-
-
-  less than 1 minute read
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">The partial solar eclipse viewing event was a success! Hundreds of people joined Professor Darren DePoy, Dr. Luke Schmidt and the members of the Star Party t...</p>
+    <div>
+      
+      <p class="page__meta" style="display:inline"> <i class="fa fa-calendar" aria-hidden="true"></i> January 31, 2019</p>
+    </div>
+    <p class="archive__item-excerpt" itemprop="description">Professor Jennifer Marshall has been selected as Project Scientist for the Maunakea Spectroscopic Explorer (MSE) project! Read more here and the full article...</p>
   </article>
 </div>
 
@@ -241,28 +350,120 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="http://localhost:4000/jekylltest/_site/outreach/eagle-interview/" rel="permalink">Local Newspaper Interviews Lab Members
+        <a href="http://localhost:4000/outreach/events/stella-two/" rel="permalink">Second Star Party at the Stella
 </a>
       
     </h2>
-    
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
-
-
-
-
-  less than 1 minute read
+    <div>
+      
+      <p class="page__meta" style="display:inline"> <i class="fa fa-calendar" aria-hidden="true"></i> July 17, 2018</p>
+    </div>
+    <p class="archive__item-excerpt" itemprop="description">Professor Jennifer Marshall and the Texas A&amp;M Astronomy Team are hosting the second star party of a three-event series at The Stella Hotel! Read more!
 </p>
+  </article>
+</div>
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
-    <p class="archive__item-excerpt" itemprop="description">The Eagle interviewed Professor Jennifer Marshall, Professor Nicholas Suntzeff, and a Star Party team member about solar eclipse! Read more!
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/outreach/events/stella-starparties/" rel="permalink">Upcoming Star Parties at the Stella
+</a>
+      
+    </h2>
+    <div>
+      
+      <p class="page__meta" style="display:inline"> <i class="fa fa-calendar" aria-hidden="true"></i> June 19, 2018</p>
+    </div>
+    <p class="archive__item-excerpt" itemprop="description">Professor Jennifer Marshall and the Texas A&amp;M Astronomy Team are hosting three-event series star parties at The Stella slated for the third Thursday of e...</p>
+  </article>
+</div>
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/recognition/pbs-nova/" rel="permalink">Lab Members Appear on PBS Nova
+</a>
+      
+    </h2>
+    <div>
+      
+      <p class="page__meta" style="display:inline"> <i class="fa fa-calendar" aria-hidden="true"></i> May 30, 2018</p>
+    </div>
+    <p class="archive__item-excerpt" itemprop="description">Professor Jennifer Marshall and Erika Cook were on PBS Nova Wonders episode on dark energy and dark matter, “What’s the Universe Made Of?”
 </p>
   </article>
 </div>
 
 
 
+<nav class="pagination">
+  
+  <ul>
+    
+    
+    <li><a href="#" class="disabled"><span aria-hidden="true">Previous</span></a></li>
+    
+
+    
+    
+      <li><a href="#" class="disabled current">1</a></li>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+        
+        
+        
+        <li><a href="http://localhost:4000/press/page2/">2</a></li>
+      
+    
+      
+        
+        
+        
+        <li><a href="http://localhost:4000/press/page3/">3</a></li>
+      
+    
+
+    
+    
+      <li><a href="#" class="disabled">&hellip;</a></li>
+    
+
+    
+      <li><a href="http://localhost:4000/press/page14/">14</a></li>
+    
+
+    
+    
+      <li><a href="http://localhost:4000/press/page2/">Next</a></li>
+    
+  </ul>
+</nav>
 
 
+
+    </div>
+  
   </div>
 </div>
 
@@ -280,7 +481,7 @@
     </div>
 
     
-  <script src="http://localhost:4000/jekylltest/_site/assets/js/main.min.js"></script>
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
 
 
 

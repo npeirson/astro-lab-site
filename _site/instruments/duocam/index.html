@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
+  Munnerlyn Astronomical Instrumentation Laboratory site 2.0 by the Kwisatz Haderach, built on Minimal Mistakes Jekyll Theme 4.7.0 by Michael Rose
   Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
@@ -36,8 +36,8 @@
 <meta property="og:title" content="DuOCam">
 
 
-  <link rel="canonical" href="http://localhost:4000/jekylltest/_site/instruments/duocam/">
-  <meta property="og:url" content="http://localhost:4000/jekylltest/_site/instruments/duocam/">
+  <link rel="canonical" href="http://localhost:4000/instruments/duocam/">
+  <meta property="og:url" content="http://localhost:4000/instruments/duocam/">
 
 
 
@@ -77,7 +77,7 @@
       "@context" : "http://schema.org",
       "@type" : "Person",
       "name" : "Astronomical Instrumentation Laboratory",
-      "url" : "http://localhost:4000/jekylltest/_site",
+      "url" : "http://localhost:4000",
       "sameAs" : null
     }
   </script>
@@ -91,7 +91,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/jekylltest/_site/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Astronomical Instrumentation Laboratory Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -103,7 +103,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/jekylltest/_site/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
 
 <!--[if lte IE 9]>
   <style>
@@ -123,10 +123,31 @@
 
 
     <!-- start custom head snippets -->
-
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css">
+<script defer src="/assets/js/jquery.flexslider.js"></script>
 <!-- end custom head snippets -->
+<style type="text/css">
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgb(80,0,0);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+</style>
+<script>
+$(window).on('load',function(){
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
   </head>
 
   <body class="layout--single">
@@ -139,20 +160,23 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav" style="background-color:#0a0a0a;">
         <img src="http://instrumentation.tamu.edu/jekylltest/_site/assets/tamu/TAM-Logo-white-reduced.png"  class="tamu-logo">
-        <a class="site-title" href="http://localhost:4000/jekylltest/_site/">Astronomical Instrumentation Laboratory</a>
+        <a class="site-title" href="http://localhost:4000/">Astronomical Instrumentation Laboratory</a>
         <ul class="visible-links" style="background-color:#0a0a0a;">
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/instruments/">Instruments</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/instruments/">Instruments</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/people/">People</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/pages/">Information</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/publications/">Publications</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/people/">People</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/jekylltest/_site/press/">Press</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/press/">Press</a></li>
           
         </ul>
         <button type="button" style="background-color:#0a0a0a; overflow: auto;">
@@ -171,6 +195,7 @@
 
 
 <div id="main" role="main">
+  
   
   <div class="sidebar sticky">
   
@@ -194,7 +219,7 @@
           
           
 
-          <a href="http://localhost:4000/jekylltest/_site/instruments/"><span class="nav__sub-title">Instruments</span></a>
+          <a href="http://localhost:4000/instruments/"><span class="nav__sub-title">Instruments</span></a>
         
 
         
@@ -206,7 +231,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/instruments/gmt/" class="">Giant Magellan Telescope</a>
+            <li><a href="http://localhost:4000/instruments/gmt/" class="">Giant Magellan Telescope</a>
 
             
               <ul>
@@ -215,19 +240,13 @@
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/gmacs/" class="">GMACS</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/gmacs/" class="">GMACS</a></h5></li>
                 
                   
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/cargille/" class="">Cargille Test</a></h5></li>
-                
-                  
-
-                  
-
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/moosci/" class="">MooSci</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/moosci/" class="">MooSci</a></h5></li>
                 
               </ul>
             
@@ -239,7 +258,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/instruments/des/" class="">Dark Energy Survey</a>
+            <li><a href="http://localhost:4000/instruments/des/" class="">Dark Energy Survey</a>
 
             
               <ul>
@@ -248,19 +267,19 @@
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/decal/" class="">DECal</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/decal/" class="">DECal</a></h5></li>
                 
                   
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/astrocal/" class="">Astrocal</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/astrocal/" class="">Astrocal</a></h5></li>
                 
                   
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/atmcam/" class="">aTmCam</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/atmcam/" class="">aTmCam</a></h5></li>
                 
               </ul>
             
@@ -272,7 +291,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/instruments/hetdex/" class="">HETDEX</a>
+            <li><a href="http://localhost:4000/instruments/hetdex/" class="">HETDEX</a>
 
             
               <ul>
@@ -281,7 +300,7 @@
 
                   
 
-                  <li><h5 class="tab"><a href="http://localhost:4000/jekylltest/_site/instruments/hetdex/" class="">VIRUS</a></h5></li>
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/hetdex/" class="">VIRUS</a></h5></li>
                 
               </ul>
             
@@ -293,7 +312,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">DuOCam</a>
+            <li><a href="http://localhost:4000/instruments/duocam/" class="active">DuOCam</a>
 
             
             </li>
@@ -304,7 +323,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">B&C Telescope</a>
+            <li><a href="http://localhost:4000/instruments/aggiespec/" class="">AggieSpec</a>
 
             
             </li>
@@ -315,32 +334,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Past Projects</a>
-
-            
-            </li>
-          
-
-        </ul>
-
-        
-      </li>
-    
-      <li>
-        
-          <span class="nav__sub-title">Other Pages</span>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Awards and Honors</a>
+            <li><a href="http://localhost:4000/instruments/precal/" class="">PreCal</a>
 
             
             </li>
@@ -351,7 +345,7 @@
             
             
 
-            <li><a href="http://mitchell.tamu.edu/research/astronomy/" class="">TAMU Astronomy</a>
+            <li><a href="http://localhost:4000/instruments/madlasr/" class="">MADLaSR</a>
 
             
             </li>
@@ -362,7 +356,7 @@
             
             
 
-            <li><a href="http://observatory.tamu.edu/" class="">TAMU Observatory</a>
+            <li><a href="http://localhost:4000/instruments/reflectance/" class="">Reflectance</a>
 
             
             </li>
@@ -373,62 +367,7 @@
             
             
 
-            <li><a href="http://localhost:4000/jekylltest/_site/pages/starparty/" class="">Star Parties</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Useful Documents</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site/pages/physicsfestival/" class="">Physics Festival</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">REU Program</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site" class="">Calendar</a>
-
-            
-            </li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/jekylltest/_site/pages/contact/" class="">Contact Us</a>
+            <li><a href="http://localhost:4000/instruments/pastprojects/" class="">Past Projects</a>
 
             
             </li>
@@ -481,6 +420,8 @@
             </nav>
           </aside>
         
+        
+        
         <p><strong>A Two-Channel Camera for Simultaneous Photometric Observations of Stellar Clusters</strong></p>
 
 <div style="float:center;margin:auto;max-width:99%;text-align:center;">
@@ -493,7 +434,7 @@
 </div>
 
 <h2 id="introduction">Introduction</h2>
-<p>We have designed the Dual Observation Camera (DuOCam), which is capable of simultaneous photometric observations at red and blue wavelengths. The instrument was designed for implementation on the 0.9 m, f/13.5  telescope at McDonald Observatory. Light collected by the telescope passes into DuOCam’s optical assembly, where it is collimated, split into red and blue wavelengths and focused onto two independent charge-coupled devices (CCDs). In order to test the effectiveness of the camera, observations of both open and globular stellar clusters were carried out at McDonald Observatory. The resulting data was used to construct an R vs. B-R color-magnitude diagram for the cluster M 56.</p>
+<p>We have designed the Dual Observation Camera (DuOCam), which is capable of simultaneous photometric observations at red and blue wavelengths. The instrument was designed for implementation on the 0.9m, f/13.5  telescope at McDonald Observatory. Light collected by the telescope passes into DuOCam’s optical assembly, where it is collimated, split into red and blue wavelengths and focused onto two independent charge-coupled devices (CCDs). In order to test the effectiveness of the camera, observations of both open and globular stellar clusters were carried out at McDonald Observatory. The resulting data was used to construct an R vs. B-R color-magnitude diagram for the cluster M 56.</p>
 
 <p>Color-magnitude diagrams are used to determine key attributes of stellar clusters, including age, metallicity, and distance, which can shed light on the evolution of stars and the formation of structure in our Galaxy (Figure 1). They are created by plotting the magnitude of stars in a cluster in a color band versus the difference in magnitude of that color band and another color band. When these values are plotted for a stellar cluster, a clear evolutionary track can be seen, the parameters of which are used to determine cluster attributes.</p>
 
@@ -533,19 +474,22 @@
 <div class="clearfix" />
 
 <div style="margin:auto;">
-<figure>
-  <img src="../assets/duo9.jpg" alt="DuOCam Optical System" style="float:right;max-width:45%;" />
-  <figcaption>Figure 4a: The 0.9 m telescope at McDonald Observatory.</figcaption>
+<div style="margin:auto;">
+<figure style="margin:auto;">
+  <img src="../assets/duo9.jpg" alt="DuOCam Optical System" style="max-width:55%;" />
+  <figcaption>Figure 4a: The 0.9m telescope at McDonald Observatory.</figcaption>
 </figure>
-<figure>
-  <img src="../assets/duo10.jpg" alt="DuOCam Optical System" style="float:right;max-width:45%;" />
-  <figcaption>Figure 4b: DuOCam installed on the 0.9 m telescope.
-</figcaption>
+</div>
+<div style="margin:auto;">
+<figure style="margin:auto;">
+  <img src="../assets/duo10.jpg" alt="DuOCam Optical System" style="max-width:45%;" />
+  <figcaption>Figure 4b: DuOCam installed on the 0.9m telescope.</figcaption>
 </figure>
+</div>
 </div>
 <div class="clearfix" />
 
-<p>Observations occurred on four nights from July 21 to July 24 using the 0.9 m telescope at McDonald Observatory (Figure 4). The first night was devoted to focusing both CCDs. Data taking of previously selected stellar clusters (Table 1) began on the second night, using the OBSCCD_M software designed by Don Carona, which allows simultaneous data collection from multiple CCDs. Exposures of various lengths (10s, 30s, 60s, 90s, and 120s) were taken. The 60s exposures proved the most effective, balancing the need for a long exposure to capture dimmer stars with the telescope’s limited tracking ability.</p>
+<p>Observations occurred on four nights from July 21 to July 24 using the 0.9m telescope at McDonald Observatory (Figure 4). The first night was devoted to focusing both CCDs. Data taking of previously selected stellar clusters (Table 1) began on the second night, using the OBSCCD_M software designed by Don Carona, which allows simultaneous data collection from multiple CCDs. Exposures of various lengths (10s, 30s, 60s, 90s, and 120s) were taken. The 60s exposures proved the most effective, balancing the need for a long exposure to capture dimmer stars with the telescope’s limited tracking ability.</p>
 
 <table>
   <thead>
@@ -633,7 +577,7 @@
 <p>Overall, DuOCam performed within expectations, allowing the creation of a color-magnitude diagram, though steps could be taken to improve its performance and allow for more accurate measurements of the stars in stellar clusters.</p>
 
 <h2 id="references">References</h2>
-<p>(2007, June 19). Hertzsprung-Russell diagram. European southern observatory. Retrieved from <a href="https://www.eso.org/public/images/eso0728c/">ESO</a>.</p>
+<p>(2007, June 19). Hertzsprung-Russell diagram. European southern observatory. Retrieved from the <a href="https://www.eso.org/public/images/eso0728c/">European Southern Observatory (ESO)</a>.</p>
 
 <p>Barmettler, A. (2016, June 18). <a href="https://www.calsky.com/">CalSky</a> [computer software].
 Available from https://www.calsky.com/</p>
@@ -678,7 +622,7 @@ Available from https://www.calsky.com/</p>
     </div>
 
     
-  <script src="http://localhost:4000/jekylltest/_site/assets/js/main.min.js"></script>
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
 
 
 

@@ -1,0 +1,10 @@
+---
+title: "Labors of the Lab features Nicholas Mondrik"
+excerpt_separator: "<!--more-->"
+categories:
+  - interviews
+tags:
+  - feature
+---
+Labors of the Lab featured Nicholas Mondrik, who discusses data driven science and his favorite aspects of astronomy!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/veHCsy1VWcs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
