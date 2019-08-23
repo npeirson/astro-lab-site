@@ -195,7 +195,16 @@ $(window).on('load',function(){
 
 
 <div id="main" role="main">
-  
+  <!-- Scroll to Top -->
+<script>
+  $(window).scroll(function() {
+      if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+          $('#return-to-top').fadeIn(200);    // Fade in the arrow
+      } else {
+          $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+      }
+  });
+</script>
   
   <div class="sidebar sticky">
   
@@ -363,6 +372,28 @@ $(window).on('load',function(){
         
       </li>
     
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/instruments/"><span class="nav__sub-title">Instruments</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/publications/"><span class="nav__sub-title">Publications</span></a>
+        
+
+        
+      </li>
+    
   </ul>
 </nav>
 
@@ -389,6 +420,10 @@ $(window).on('load',function(){
       <section class="page__content" itemprop="text">
         
         
+          <aside class="sidebar__right">
+            <div style="display:block;position:absolute;right:50px;);"><a href="#site-nav" id="return-to-top"><i class="icon-chevron-up"></i></a></div>
+          </aside>
+        
         
         <h2 id="2015">2015</h2>
 <ul>
@@ -404,7 +439,7 @@ $(window).on('load',function(){
 <ul>
   <li>
     <p>Congratulations to <strong>Emily Boster</strong> on receiving the prestigious 2012 Astronaut Scholarship Foundation Award! See the flyer below for more information.<br /><br />
-<img src="../assets/LovellInvitationvle.jpg" alt="invitation" /></p>
+<img src="/instruments/assets/LovellInvitationvle.jpg" alt="invitation" /></p>
   </li>
   <li>
     <p><strong>Emily Martin, Tyler Behm, and Steven Villaneuva</strong> were awarded travel funds from Honors Undergraduate Research to attend the <a href="http://us.tamu.edu/2012/08/aggie-academics-invade-amsterdam/">International Society of Optical Engineering Conference</a> this summer in Amsterdam.</p>

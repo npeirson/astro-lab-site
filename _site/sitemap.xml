@@ -557,13 +557,10 @@
 <loc>http://localhost:4000/userguide/imagestuff/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/press/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/userguide/</loc>
+<loc>http://localhost:4000/press/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/instruments/</loc>
@@ -573,6 +570,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/people/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/userguide/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/publications/</loc>
@@ -618,6 +618,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/instruments/precal/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/instruments/precal_docs/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/publications/presentations/</loc>

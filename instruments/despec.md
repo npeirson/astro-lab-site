@@ -13,6 +13,6 @@ Past DESpec workshops:
 - December 2012, Texas A&M University  
 
 DESpec publications:  
-- [White paper](../assets/Abdalla_DESpec.pdf)  
-- [2012 SPIE paper](../assets/darkenergyspec.pdf)  
-- [2012 SPIE poster](../assets/darkenergyspecposter.pdf)  
+- [White paper](/instruments/assets/Abdalla_DESpec.pdf)  
+- [2012 SPIE paper](/instruments/assets/darkenergyspec.pdf)  
+- [2012 SPIE poster](/instruments/assets/darkenergyspecposter.pdf)  

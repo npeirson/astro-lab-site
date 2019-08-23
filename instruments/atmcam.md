@@ -6,6 +6,7 @@ sidebar:
 header:
   image: /instruments/assets/banner_des.jpg
 toc: true
+rtt: true
 ---
 Story by PHYS.org available [here](https://phys.org/news/2014-10-grad-student-atmcam-cosmic-insight.html).
 ## Overview

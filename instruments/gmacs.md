@@ -6,9 +6,11 @@ sidebar:
 toc: true
 header:
   image: /instruments/assets/Banner_GMACS.jpg
+rtt: true
 ---
 The Giant Magellan Telescope Multi-object Astronomical and Cosmological Spectrograph (GMACS) is a wide field, multi-object, moderate-resolution, optical spectrograph being designed for the Giant Magellan Telescope (GMT). Our goal is to create an instrument capable of spectroscopically observing the faintest possible targets, which are currently known only from imaging observations. High throughput, simultaneous wide wavelength coverage, accurate and precise sky subtraction, moderate resolution, relatively wide field, and substantial multiplexing are crucial design drivers for the instrument.  
-## Web Tools
+## Software & Tools
+- [GMACS Mask Simulator](/instruments/gmacs-ms/)
 - [GMACS Exposure Time Calculator](/)  
 - [GMACS Configurations Explorer](/)  
 

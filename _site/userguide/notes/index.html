@@ -335,39 +335,23 @@ $(window).on('load',function(){
         <h2 id="general-notes">General Notes</h2>
 <h3 id="things-that-must-be-done-before-deployment">Things that must be done before deployment</h3>
 <ul>
-  <li>GMACS ETC and MODES applets are not included in this package, and <strong>need to be added.</strong> After they have been added, be sure to <strong>link them up</strong> on the <code class="highlighter-rouge">instruments/gmacs/</code> page.</li>
+  <li>GMACS MODES and ETC applets are not included in this package, and need to be added. After they have been added, be sure to link them up on the <code class="highlighter-rouge">instruments/gmacs/</code> page.</li>
 </ul>
 
 <h3 id="the-rest">The rest</h3>
 <ul>
+  <li>This package doesn’t include the DES Collaboration site. It’s still on the server, though, if you want to keep it/add it.</li>
   <li>There are some extra splash images (and credits) in <code class="highlighter-rouge">/assets/splash</code>, maybe they need some color changes but just giving a couple options/ideas.</li>
   <li>In <code class="highlighter-rouge">Publications</code>, URLs to papers’ <code class="highlighter-rouge">adsabs</code> page have been updated in accordance with their new database system.</li>
   <li>In <code class="highlighter-rouge">Previous Team Members</code> page (through <code class="highlighter-rouge">People</code> page), please ensure that information is accurate.</li>
   <li>In <code class="highlighter-rouge">Past Lab Projects</code>, LIGOcam does not have a page, as it did not previously have a page.</li>
-  <li>On <code class="highlighter-rouge">Honors and Awards</code> page, dead link to Ethel Ashworth-Tsutsui Memorial Award for Mentoring was excluded. (dead link: http://us.tamu.edu/2012/08/aggie-academics-invade-amsterdam/)</li>
-  <li>On <code class="highlighter-rouge">Calendar</code> and <code class="highlighter-rouge">REU</code> pages, the Google calendars are in <code class="highlighter-rouge">iframe</code> blocks. This is how Google says to do it. Note that some server attacks can be performed through iframes.</li>
-</ul>
-
-<p>To make thing: (something not quite right tho)</p>
-<div id="overlay" onclick="off()"><div style="max-height: 80%;max-width: 80%"><img id="overlay_display" /></div></div>
-<script>
-function on(plot) {
-	document.getElementById("overlay_display").src = plot;
-	document.getElementById("overlay").style.display = "block";
-}
-
-function off() {
-  document.getElementById("overlay").style.display = "none";
-}
-</script>
-
-<p><a onclick="on('../assets/disappearingGlassFish.png'); return false;" href="../assets/disappearingGlassFish.png" target="_blank">Click this to overlay</a></p>
-
-<ul>
+  <li>
+    <p>On <code class="highlighter-rouge">Honors and Awards</code> page, dead link to Ethel Ashworth-Tsutsui Memorial Award for Mentoring was excluded. (dead link: http://us.tamu.edu/2012/08/aggie-academics-invade-amsterdam/)</p>
+  </li>
   <li>I suspect the <code class="highlighter-rouge">Reflectivity</code> page needs to be re-worked with new black and white studies and supporting data.</li>
   <li>In <code class="highlighter-rouge">Ph.D. Degree Alumni</code> page, the lines <code class="highlighter-rouge">Current Position</code> and <code class="highlighter-rouge">Advisor</code>  have been omitted, as they do not yet have content on the old page. <em>I’ve left those lines commented so someone can easily add them as they become known.</em></li>
   <li>REU 2019 not included because I don’t have any of the information.</li>
-  <li>I really like <code class="highlighter-rouge">/instruments/assets/LastPieceofGlass_wb.jpg</code> as the header image for the GMT instrument page (<code class="highlighter-rouge">/instruments/gmt</code>). However, they require that a proper permission request be made by contacting `info@gmto.org.</li>
+  <li>I really like <code class="highlighter-rouge">/instruments/assets/LastPieceofGlass_wb.jpg</code> as the header image for the GMT instrument page (<code class="highlighter-rouge">/instruments/gmt</code>). However, they require that a proper permission request be made by contacting <code class="highlighter-rouge">info@gmto.org.</code></li>
 </ul>
 
 <h2 id="deployment">Deployment</h2>

@@ -6,6 +6,7 @@ sidebar:
 header:
   image: /instruments/assets/banner_virus.jpg
 toc: true
+rtt: true
 ---
 ## Overview
 The Visible Integral-Field Replicable Unit Spectrograph (VIRUS) instrument is being built at Texas A&M University in collaboration with University of Texas--Austin. [VIRUS](http://hetdex.org/hetdex/virus.html) is the instrument that enables observations for the Hobby-Eberly Telescope Dark Energy Experiment [HETDEX project](http://hetdex.org/), an experiment designed to learn more about Dark Energy--a mysterious force in our Universe that astronomers are only now beginning to be able to describe.
@@ -74,20 +75,8 @@ The Visible Integral-Field Replicable Unit Spectrograph (VIRUS) instrument will 
       <p class="flex-caption">Seal selected for the enclosure door.</p>
     </li>
     <li>
-      <center><img src="/instruments/assets/VirusEnclosureFigure8.png" style="height:400px;width:auto;"/></center>
-      <p class="flex-caption"><small>Illustration of the two HVAC zones. The blue area on the right is for the enclosure which houses the VIRUS units, and the yellow area is for the enclosure annex which holds the VIRUS electronics equipment and enclosure cooling system.</small></p>
-    </li>
-    <li>
       <center><img src="/instruments/assets/VirusEnclosureFigure9.png" style="height:400px;width:auto;"/></center>
       <p class="flex-caption">The thermoelectric cooler used in the enclosure HVAC system.</p>
-    </li>
-    <li>
-      <center><img src="/instruments/assets/VirusEnclosureFigure10.png" style="height:400px;width:auto;"/></center>
-      <p class="flex-caption"><small>Temperatures of the air inside and out of the closed loop test system. The bump in internal temperature starts when the 220W heat is activated.</small></p>
-    </li>
-    <li>
-      <center><img src="/instruments/assets/VirusEnclosureFigure11.png" style="height:400px;width:auto;"/></center>
-      <p class="flex-caption"><small>Differential temperatures of the air inside and out of the closed loop test system. The bump in internal temperature starts when the 220W heat is activated. This shows that for the test loop, it was able to track the temperatures within 0.1°C.</small></p>
     </li>
     <li>
       <center><img src="/instruments/assets/VirusEnclosureFigure12l.png" style="height:400px;width:auto;"/></center>
@@ -99,145 +88,128 @@ The Visible Integral-Field Replicable Unit Spectrograph (VIRUS) instrument will 
     </li>
   </ul>
 </div>
-
-## VIRUS Collimators
-The Visual Integral-Field Replicable Unit Spectrograph (VIRUS) instrument is a baseline array of 150 identical fiber fed optical spectrographs designed to support observations for the Hobby-Eberly Telescope Dark Energy Experiment (HETDEX). 130 VIRUS collimator sub-assemblies have been assembled in a production line and are now complete. Here we review the design choices and assembly practices used to produce a suite of identical low-cost spectrographs in a timely fashion using primarily unskilled labor.
 <figure>
-  <a href="/instruments/assets/collimatorsfigure1.png" target="_blank"><img src="/instruments/assets/collimatorsfigure1.png"></a>
-  <figcaption>
-    The VIRUS spectrograph pairs will be mounted inside two climate-controlled enclosures located on either side of the telescope.
+  <a href="/instruments/assets/VirusEnclosureFigure8.png" target="_blank"><img src="/instruments/assets/VirusEnclosureFigure8.png"></a>
+  <figcaption style="padding-right:25%">
+    Illustration of the two HVAC zones. The blue area on the right is for the enclosure which houses the VIRUS units, and the yellow area is for the enclosure annex which holds the VIRUS electronics equipment and enclosure cooling system.
+  </figcaption>
+</figure>
+<figure>
+    <a href="/instruments/assets/VirusEnclosureFigure10.png" target="_blank"><img src="/instruments/assets/VirusEnclosureFigure10.png"></a>
+    <figcaption style="padding-right:25%">
+    Temperatures of the air inside and out of the closed loop test system. The bump in internal temperature starts when the 220W heat is activated.
+  </figcaption>
+</figure>
+<figure>
+  <a href="/instruments/assets/VirusEnclosureFigure11.png" target="_blank"><img src="/instruments/assets/VirusEnclosureFigure11.png"/></a>
+  <figcaption style="padding-right:25%">
+    Differential temperatures of the air inside and out of the closed loop test system. The bump in internal temperature starts when the 220W heat is activated. This shows that for the test loop, it was able to track the temperatures within 0.1°C.
   </figcaption>
 </figure>
 
+## VIRUS Collimators
+The Visual Integral-Field Replicable Unit Spectrograph (VIRUS) instrument is a baseline array of 150 identical fiber fed optical spectrographs designed to support observations for the Hobby-Eberly Telescope Dark Energy Experiment (HETDEX). 130 VIRUS collimator sub-assemblies have been assembled in a production line and are now complete. Here we review the design choices and assembly practices used to produce a suite of identical low-cost spectrographs in a timely fashion using primarily unskilled labor.
+<center>
+  <figure>
+  <a href="/instruments/assets/virus_telescope.jpg" target="_blank"><img src="/instruments/assets/virus_telescope.jpg" alt="Virus Telescope"></a>
+  <figcaption>The VIRUS spectrograph pairs will be mounted inside two climate-controlled enclosures located on either side of the telescope.</figcaption>
+</figure>
+</center>
+<figure style='float:left;width:49%;padding:12px'>
+  <a href="/instruments/assets/collimatorsfigure2.png" target="_blank"><img src="/instruments/assets/collimatorsfigure2.png"></a>
+  <figcaption style="padding:12px">
+    Section-view drawing of a pair of VIRUS spectrographs.
+  </figcaption>
+</figure>
+<figure style="padding:12px">
+  <a href="/instruments/assets/collimatorsfigure3.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure3.jpg"></a>
+  <figcaption style="padding:12px">
+    One complete collimator with all optics installed. Additional completed collimators (with their protective covers installed) may be seen in the background.
+  </figcaption>
+</figure>
+
+<div class="flex-container">
+  <div>
+    <a href="/instruments/assets/collimatorsfigure4.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure4.jpg" style='max-height:285px'></a>
+  </div>
+  <div>
+    <a href="/instruments/assets/collimatorsfigure5.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure5.jpg" style='max-height:285px'></a>
+  </div>
+  <div>
+    <a href="/instruments/assets/collimatorsfigure6.jpg" target="_blank">
+    <img src="/instruments/assets/collimatorsfigure6.jpg" style='max-height:230px'></a>
+  </div>
+  <div>
+    <a href="/instruments/assets/collimatorsfigure7.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure7.jpg" style='max-height:230px'></a>
+  </div>
+</div>
+<figcaption>
+  Installation fixture used to install the folding flat into the head plate. Two pairs of mirrors are installed into two head plates in one setup. The fold mirrors are precisely positioned with respect to the head plates using a Faro coordinate measuring machine (CMM) arm having a measurement accuracy of ~25 microns and are held in place with metal shims while RTV is applied around the edges of the mirror.
+</figcaption>
+<figure>
+  <a href="/instruments/assets/collimatorsfigure8.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure8.jpg"></a>
+  <figcaption>
+    Collimator mirrors are installed in the instrument using an Invar mounting puck that is bonded to the back of the mirror. The puck is precisely located with respect to the edges of the mirror using an alignment fixture.
+  </figcaption>
+</figure>
 <div class="imgrow" style="clear:both;">
   <div class="imgcolumn" style="clear:both;">
-    <a href="/instruments/assets/collimatorsfigure2.png" target="_blank"><img src="/instruments/assets/collimatorsfigure2.png"></a><br>
-    <div style="margin:12px">
-      <font size="-1">Section-view drawing of a pair of VIRUS spectrographs.</font>
-    </div>
+    <a href="/instruments/assets/collimatorsfigure9.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure9.jpg"></a><br>
   </div>
   <div class="imgcolumn" style="clear:both;">
-    <a href="/instruments/assets/collimatorsfigure3.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure3.jpg"></a><br>
-    <div style="margin:12px">
-      <font size="-1">One complete collimator with all optics installed. Additional completed collimators (with their protective covers installed) may be seen in the background.</font>
-    </div>
+    <a href="/instruments/assets/collimatorsfigure10.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure10.jpg"></a><br>
   </div>
 </div>
-
-<div class="img_container">
-  <div class="img_inner">
-    <a href="/instruments/assets/collimatorsfigure4.jpg" target="_blank"><img src="https://instrumentation.tamu.edu/images/virus/collimators/collimatorsfigure4.jpg"></a>
-    <img src="https://instrumentation.tamu.edu/images/virus/collimators/collimatorsfigure5.jpg">
-    <img src="https://instrumentation.tamu.edu/images/virus/collimators/collimatorsfigure6.jpg">
-    <img src="https://instrumentation.tamu.edu/images/virus/collimators/collimatorsfigure7.jpg">
+<figcaption>
+  VPH gratings are optically aligned in their cell during installation using a laser (left). Internal baffles of the grating housings are installed using a fixture (right). The grating cell is later installed on top of the housing.
+</figcaption>
+<br>
+<div class="imgrow" style="clear:both;">
+  <div class="imgcolumn" style="clear:both;">
+    <a href="/instruments/assets/collimatorsfigure11.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure11.jpg"></a><br>
+  </div>
+  <div class="imgcolumn" style="clear:both;">
+    <a href="/instruments/assets/collimatorsfigure12.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure12.jpg"></a><br>
   </div>
 </div>
-
-<!-- old images thing
-<div style="height:auto;width:99%;padding:5px">
-<div class="clearfix" />
-<div style="margin: 5px; float: left;max-width:48%;height:auto;">
-<figure>
-  <img src="../assets/VirusEnclosureFigure2l.png" alt="Virus Enclosure">
-  <figcaption><center>A rendering of the HET with the VSS, enclosures, and IFUs</center></figcaption>
-</figure>
+<figcaption>
+  Collimator subassemblies were pre-assembled and stored before the final collimator assembly. Shown here are the base plates (left) and side, top, and bottom plates (right). Each of these components has multiple alignment and attachment features to facilitate the final assembly. Collimator mounting plates with attached Invar metering rods can be seen on the top rack of the carts.
+</figcaption>
+<br>
+<div class="flex-container">
+  <div>
+    <a href="/instruments/assets/collimatorsfigure13.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure13.jpg" style='max-height:235px'></a>
+  </div>
+  <div>
+    <a href="/instruments/assets/collimatorsfigure14.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure14.jpg" style='max-height:235px'></a>
+  </div>
+  <div>
+    <a href="/instruments/assets/collimatorsfigure15.jpg" target="_blank">
+    <img src="/instruments/assets/collimatorsfigure15.jpg" style='max-height:235px'></a>
+  </div>
+  <div>
+    <a href="/instruments/assets/collimatorsfigure16.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure16.jpg" style='max-height:235px'></a>
+  </div>
 </div>
-<div style="margin: 5px; float: left;max-width:48%;height:auto;">
-<figure>
-  <img src="../assets/VirusEnclosureFigure2r.png" alt="Virus Enclosure">
-  <figcaption><center>The VSS and enclosures without HET for clarity</center></figcaption>
-</figure>
+<figcaption>
+  In the end, the final mating of collimator subassemblies into a complete collimator unit was accomplished relatively quickly, with the final thirty pairs of collimators being assembled in just over two weeks in December 2013. The record assembly time of fifteen minutes to complete one pair of collimators is shared by the team of Nagasawa and Li.
+</figcaption>
+<br>
+<div class="flex-container">
+  <div>
+    <a href="/instruments/assets/collimatorsfigure17.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure17.jpg" style='max-height:235px'></a>
+  </div>
+  <div>
+    <a href="/instruments/assets/collimatorsfigure18.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure18.jpg" style='max-height:235px'></a>
+  </div>
+  <div>
+    <a href="/instruments/assets/collimatorsfigure19.jpg" target="_blank">
+    <img src="/instruments/assets/collimatorsfigure19.jpg" style='max-height:235px'></a>
+  </div>
+  <div>
+    <a href="/instruments/assets/collimatorsfigure20.jpg" target="_blank"><img src="/instruments/assets/collimatorsfigure20.jpg" style='max-height:235px'></a>
+  </div>
 </div>
-<div class="clearfix" />
-</div>
-
-<div style="height:auto;width:99%;padding:5px">
-<div class="clearfix" />
-<div style="margin: 5px; float: left;max-width:48%;height:auto;">
-<figure>
-  <img src="../assets/VirusEnclosureFigure3l.png" alt="Virus Enclosure">
-  <figcaption><center>The first VIRUS enclosure being stacked at Texas A&M University</center></figcaption>
-</figure>
-</div>
-<div style="margin: 5px; float: left;max-width:48%;height:auto;">
-<figure>
-  <img src="../assets/VirusEnclosureFigure3r.png" alt="Virus Enclosure">
-  <figcaption><center>A model of the enclosure with the added annex</center></figcaption>
-</figure>
-</div>
-<div class="clearfix" />
-</div>
-
-<div style="height:auto;max-width:100%;padding:5px;margin:auto">
-<figure>
-  <img src="../assets/VirusEnclosureFigure4.png" alt="Virus Enclosure">
-  <figcaption><center>A model of the enclosure mounting rails that will hold the VIRUS units</center></figcaption>
-</figure>
-</div>
-
-<div style="height:auto;max-width:100%;padding:5px;margin:auto">
-<figure>
-  <img src="../assets/VirusEnclosureFigure5.png" alt="Virus Enclosure">
-  <figcaption><center>The VIRUS unit will sit on the v-groove and angle iron</center></figcaption>
-</figure>
-</div>
-
-<div style="height:auto;max-width:100%;padding:5px;margin:auto">
-<figure>
-  <img src="../assets/VirusEnclosureFigure6.png" alt="Virus Enclosure">
-  <figcaption><center>Enclosure door design installed on the enclosure prototype to test the amount of pressure it can hold</center></figcaption>
-</figure>
-</div>
-
-<div style="height:auto;max-width:100%;padding:5px;margin:auto">
-<figure>
-  <img src="../assets/VirusEnclosureFigure7.png" alt="Virus Enclosure">
-  <figcaption><center>Seal selected for the enclosure door</center></figcaption>
-</figure>
-</div>
-
-<div style="height:auto;max-width:100%;padding:5px;margin:auto">
-<figure>
-  <img src="../assets/VirusEnclosureFigure8.png" alt="Virus Enclosure">
-  <figcaption><center>Illustration of the two HVAC zones. The blue area on the right is for the enclosure which houses the VIRUS units, and the yellow area is for the enclosure annex which holds the VIRUS electronics equipment and enclosure cooling system</center></figcaption>
-</figure>
-</div>
-
-<div style="height:auto;max-width:100%;padding:5px;margin:auto">
-<figure>
-  <img src="../assets/VirusEnclosureFigure9.png" alt="Virus Enclosure">
-  <figcaption><center>Temperatures of the air inside and out of the closed loop test system. The bump in internal temperature starts when the 220W heat is activated</center></figcaption>
-</figure>
-</div>
-
-<div style="height:auto;max-width:100%;padding:5px;margin:auto">
-<figure>
-  <img src="../assets/VirusEnclosureFigure10.png" alt="Virus Enclosure">
-  <figcaption><center>The thermoelectric cooler used in the enclosure HVAC system</center></figcaption>
-</figure>
-</div>
-
-<div style="height:auto;max-width:100%;padding:5px;margin:auto">
-<figure>
-  <img src="../assets/VirusEnclosureFigure10.png" alt="Virus Enclosure">
-  <figcaption><center>Differential temperatures of the air inside and out of the closed loop test system. The bump in internal temperature starts when the 220W heat is activated. This shows that for the test loop, it was able to track the temperatures within 0.1°C</center></figcaption>
-</figure>
-</div>
-
-<div style="height:auto;width:99%;padding:5px">
-<div class="clearfix" />
-<div style="margin: 5px; float: left;max-width:48%;height:auto;">
-<figure>
-  <img src="../assets/VirusEnclosureFigure12l.png" alt="Virus Enclosure">
-  <figcaption><center>The VIRUS electronics box airflow adapter sitting on a mock electronics box</center></figcaption>
-</figure>
-</div>
-<div style="margin: 5px; float: left;max-width:48%;height:auto;">
-<figure>
-  <img src="../assets/VirusEnclosureFigure12r.png" alt="Virus Enclosure">
-  <figcaption><center>The adapter on a production electronics box in the enclosure, attached to the flexible hosing and duct work</center></figcaption>
-</figure>
-</div>
-<div class="clearfix" />
-</div>
--->
+<figcaption>
+  Once the final collimator assembly is complete no further optical alignment is required at this stage. The completed collimators are fitted with a plastic cover that remains with the collimators once installed on the telescope, protected from dust with plastic wrap, and finally packaged and shipped to UT-Austin for integration with the VIRUS cameras and final optical alignment.
+</figcaption>

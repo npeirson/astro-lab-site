@@ -2,7 +2,7 @@
 layout: single
 title: "People"
 sidebar:
-  nav: "side"
+  nav: "info"
 toc: true
 rtt: true
 ---

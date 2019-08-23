@@ -195,7 +195,16 @@ $(window).on('load',function(){
 
 
 <div id="main" role="main">
-  
+  <!-- Scroll to Top -->
+<script>
+  $(window).scroll(function() {
+      if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+          $('#return-to-top').fadeIn(200);    // Fade in the arrow
+      } else {
+          $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+      }
+  });
+</script>
   
   <div class="sidebar sticky">
   
@@ -247,6 +256,12 @@ $(window).on('load',function(){
                   
 
                   <li><h5 class="tab"><a href="http://localhost:4000/instruments/moosci/" class="">MooSci</a></h5></li>
+                
+                  
+
+                  
+
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/cargille/" class="">Cargille Test</a></h5></li>
                 
               </ul>
             
@@ -378,6 +393,28 @@ $(window).on('load',function(){
         
       </li>
     
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/pages/"><span class="nav__sub-title">Information</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/publications/"><span class="nav__sub-title">Publications</span></a>
+        
+
+        
+      </li>
+    
   </ul>
 </nav>
 
@@ -404,25 +441,29 @@ $(window).on('load',function(){
       <section class="page__content" itemprop="text">
         
         
+          <aside class="sidebar__right">
+            <div style="display:block;position:absolute;right:50px;);"><a href="#site-nav" id="return-to-top"><i class="icon-chevron-up"></i></a></div>
+          </aside>
+        
         
         <h2 id="specular-reflectance">Specular Reflectance</h2>
-<p><img src="../assets/materials/plots/avgspec2.png" alt="specular1" /><br />
-<img src="../assets/materials/plots/avgspec1.png" alt="specular2" /></p>
+<p><img src="/instruments/assets/materials/plots/avgspec2.png" alt="specular1" /><br />
+<img src="/instruments/assets/materials/plots/avgspec1.png" alt="specular2" /></p>
 
 <h2 id="total-reflectance">Total Reflectance</h2>
-<p><img src="../assets/materials/plots/acktarrhodes.jpg" alt="total1" />
-<img src="../assets/materials/plots/alumblack.jpg" alt="total2" />
-<img src="../assets/materials/plots/alumhard.jpg" alt="total3" />
-<img src="../assets/materials/plots/badsamples.jpg" alt="total4" />
-<img src="../assets/materials/plots/goodsamples.jpg" alt="total5" />
-<img src="../assets/materials/plots/castblack.jpg" alt="total6" />
-<img src="../assets/materials/plots/casthard.jpg" alt="total7" />
-<img src="../assets/materials/plots/edmund.jpg" alt="total8" />
-<img src="../assets/materials/plots/invar.jpg" alt="total9" />
-<img src="../assets/materials/plots/permmarkalum.png" alt="total10" />
-<img src="../assets/materials/plots/srs05.jpg" alt="total11" />
-<img src="../assets/materials/plots/steel.jpg" alt="total12" />
-<img src="../assets/materials/plots/thorlabs.png" alt="total13" /></p>
+<p><img src="/instruments/assets/materials/plots/acktarrhodes.jpg" alt="total1" />
+<img src="/instruments/assets/materials/plots/alumblack.jpg" alt="total2" />
+<img src="/instruments/assets/materials/plots/alumhard.jpg" alt="total3" />
+<img src="/instruments/assets/materials/plots/badsamples.jpg" alt="total4" />
+<img src="/instruments/assets/materials/plots/goodsamples.jpg" alt="total5" />
+<img src="/instruments/assets/materials/plots/castblack.jpg" alt="total6" />
+<img src="/instruments/assets/materials/plots/casthard.jpg" alt="total7" />
+<img src="/instruments/assets/materials/plots/edmund.jpg" alt="total8" />
+<img src="/instruments/assets/materials/plots/invar.jpg" alt="total9" />
+<img src="/instruments/assets/materials/plots/permmarkalum.png" alt="total10" />
+<img src="/instruments/assets/materials/plots/srs05.jpg" alt="total11" />
+<img src="/instruments/assets/materials/plots/steel.jpg" alt="total12" />
+<img src="/instruments/assets/materials/plots/thorlabs.png" alt="total13" /></p>
 
         
       </section>

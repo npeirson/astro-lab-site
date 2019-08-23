@@ -531,6 +531,7 @@
   padding: 5px;
 }
 
+
 /* return-to-top button */
 #return-to-top {
     position: fixed;
@@ -572,21 +573,13 @@
 }
 
 /* image flexbox */
-.img_container {
+.flex-container {
   display: flex;
-  flex-wrap: wrap;
-  height:100%;
-  width:100%;
-}
-.img_inner {
-  flex: 0 1 auto;
-  display: flex;
-  position: absolute;
-  height: 100%;
-  width: 100%;
+  flex-flow: row wrap;
   justify-content: center;
 }
-.img_inner img {
-  flex: 0 1 auto;
-  max-height: 350px;
+
+.flex-container > div {
+  display: inline-flex;
+  margin: 1px;
 }

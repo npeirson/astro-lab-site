@@ -19,8 +19,8 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../assets/outreach/starParty_spring2019_Zachry_M_changedLocation.png" target="_blank">Poster</a></li>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/assets/outreach/starParty_spring2019_Zachry_M_changedLocation.png" target="_blank">Poster</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -34,8 +34,8 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../assets/outreach/starParty_spring2019_Zachry_M_changedLocation.png" target="_blank">Poster</a></li>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/assets/outreach/starParty_spring2019_Zachry_M_changedLocation.png" target="_blank">Poster</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -50,8 +50,8 @@ rtt: true
 		<li>Event contact person: Caroline Sonnier (LAUNCH)</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../assets/outreach/starParty_spring2019_Zachry_M_changedLocation.png" target="_blank">Poster</a></li>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/assets/outreach/starParty_spring2019_Zachry_M_changedLocation.png" target="_blank">Poster</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -65,8 +65,8 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../assets/outreach/starParty_spring2019_Zachry_M_changedLocation.png" target="_blank">Poster</a></li>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/assets/outreach/starParty_spring2019_Zachry_M_changedLocation.png" target="_blank">Poster</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -80,8 +80,8 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../assets/outreach/starparty_fall2018.png" target="_blank">Poster</a></li>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/assets/outreach/starparty_fall2018.png" target="_blank">Poster</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -115,7 +115,7 @@ rtt: true
 		<li>Event contact person: Katelyn Brown</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -130,8 +130,8 @@ rtt: true
 		<li>Event contact person: Caroline Sonnier (LAUNCH)</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../assets/outreach/starparty_fall2018.png" target="_blank">Poster</a></li>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/assets/outreach/starparty_fall2018.png" target="_blank">Poster</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -164,8 +164,8 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../assets/outreach/starparty_fall2018.png" target="_blank">Poster</a></li>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/assets/outreach/starparty_fall2018.png" target="_blank">Poster</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -198,7 +198,7 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -252,7 +252,7 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		  <li><a href="http://www.science.tamu.edu/news/story.php?story_ID=2019#.W2BuWdVKiUk" target="_blank">The A&M College of Science</a></li>
 		</ul>
 	</ul>
@@ -277,7 +277,7 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -312,8 +312,8 @@ rtt: true
 		<li>Event contact person: : Caroline Sonnier (LAUNCH)</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../assets/outreach/starParty_summer2018.png" target="_blank">Poster</a></li>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/assets/outreach/starParty_summer2018.png" target="_blank">Poster</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -328,8 +328,8 @@ rtt: true
 		<li>Event contact person: Katelyn Brown</li>
 		<li>Related pages/articles:</li>
 		<ul>
-			<li><a href="../assets/outreach/starParty_summer2018.png" target="_blank">Poster</a></li>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+			<li><a href="/pages/assets/outreach/starParty_summer2018.png" target="_blank">Poster</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -397,8 +397,8 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../assets/outreach/starparty_spring2018_1.jpg" target="_blank">Poster</a></li>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/assets/outreach/starparty_spring2018_1.jpg" target="_blank">Poster</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -412,8 +412,8 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../assets/outreach/starparty_spring2018_1.jpg" target="_blank">Poster</a></li>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/assets/outreach/starparty_spring2018_1.jpg" target="_blank">Poster</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -427,8 +427,8 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../assets/outreach/starparty_spring2018_1.jpg" target="_blank">Poster</a></li>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/assets/outreach/starparty_spring2018_1.jpg" target="_blank">Poster</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -443,7 +443,7 @@ rtt: true
 		<li>Event contact person: Katelyn Brown</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -457,8 +457,8 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../assets/outreach/starparty_fall2017-1.jpg" target="_blank">Poster</a></li>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/assets/outreach/starparty_fall2017-1.jpg" target="_blank">Poster</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -472,8 +472,8 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		  <li><a href="../assets/outreach/starparty_fall2017-1.jpg" target="_blank">Poster</a></li>
-		  <li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		  <li><a href="/pages/assets/outreach/starparty_fall2017-1.jpg" target="_blank">Poster</a></li>
+		  <li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -488,7 +488,7 @@ rtt: true
 		<li>Event contact person: Katelyn Brown</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -502,7 +502,7 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		 	<li><a href="../assets/outreach/SPeclipse.jpg" target="_blank">Poster</a></li>
+		 	<li><a href="/pages/assets/outreach/SPeclipse.jpg" target="_blank">Poster</a></li>
 		 	<li><a href="http://www.science.tamu.edu/news/story.php?story_ID=1837#.W0UnvtVKhhG" target="_blank">The A&M College of Science</a></li>
 		 	<li><a href="https://today.tamu.edu/2017/08/16/texas-am-astronomy-group-to-host-solar-eclipse-viewing-event-monday/" target="_blank">Texas A&M Today</a></li>
 		 	<li><a href="https://www.theeagle.com/news/local/local-groups-to-host-eclipse-watch-parties/article_c6744bf1-a436-5d33-b4bc-0f17376d65f5.html" target="_blank">The Eagle</a></li>
@@ -522,7 +522,7 @@ rtt: true
 		<li>Event contact person: Katelyn Brown</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -536,8 +536,8 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-			<li><a href="../assets/outreach/starparty_StellaHotel.pdf" target="_blank">Poster</a></li>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+			<li><a href="/pages/assets/outreach/starparty_StellaHotel.pdf" target="_blank">Poster</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		 	<li><a href="http://www.science.tamu.edu/news/story.php?story_ID=1822#.W0Umf9VKiUn" target="_blank">The A&M College of Science</a></li>
 		 	<li><a href="http://www.kbtx.com/content/news/Stargazing-party-set-to-happen-at-The-Stella-Hotel-436723003.html" target="_blank">KBTX</a></li>
 		</ul>
@@ -555,8 +555,8 @@ rtt: true
 		<li>Event contact person: Annabelle Aymond (LAUNCH)</li>
 		<li>Related pages/articles:</li>
 		<ul>
-			<li><a href="../assets/outreach/starparty_summer2017.jpg">Poster</a></li>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+			<li><a href="/pages/assets/outreach/starparty_summer2017.jpg">Poster</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		 	<li><a href="http://www.thebatt.com/science-technology/a-m-provides-a-window-into-the-cosmos/article_75364a00-7bdc-11e7-9430-c301dd3392bc.html" target="_blank">The Battalion</a></li>
 		</ul>
 	</ul>
@@ -572,8 +572,8 @@ rtt: true
 		<li>Event contact person: Annabelle Aymond (LAUNCH)</li>
 		<li>Related pages/articles:</li>
 		<ul>
-			<li><a href="../assets/outreach/starparty_summer2017.jpg">Poster</a></li>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+			<li><a href="/pages/assets/outreach/starparty_summer2017.jpg">Poster</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -607,8 +607,8 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-			<li><a href="../assets/outreach/starparty_2017-01-23.jpg">Poster</a></li>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+			<li><a href="/pages/assets/outreach/starparty_2017-01-23.jpg">Poster</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -622,7 +622,7 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -636,7 +636,7 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -650,7 +650,7 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -664,7 +664,7 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -678,7 +678,7 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -692,7 +692,7 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -706,7 +706,7 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -721,7 +721,7 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -735,7 +735,7 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		 	<li><a href="../starparty/">Mitchell Institute Star Party</a></li>
+		 	<li><a href="/pages/starparty/">Mitchell Institute Star Party</a></li>
 		</ul>
 	</ul>
 </font>
@@ -749,7 +749,7 @@ rtt: true
 		<li>Texas A&M contact person: Dr. Jennifer Marshall</li>
 		<li>Related pages/articles:</li>
 		<ul>
-		 	<li><a href="../assets/outreach/TransitofVenus_lowres.pdf" target="_blank">Poster</a></li>
+		 	<li><a href="/pages/assets/outreach/TransitofVenus_lowres.pdf" target="_blank">Poster</a></li>
 		 	<li><a href="http://www.science.tamu.edu/news/story.php?story_ID=905#.WzumFtVKiUl" target="_blank">The A&M College of Science</a></li>
 		</ul>
 	</ul>

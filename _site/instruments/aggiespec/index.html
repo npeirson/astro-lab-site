@@ -195,7 +195,16 @@ $(window).on('load',function(){
 
 
 <div id="main" role="main">
-  
+  <!-- Scroll to Top -->
+<script>
+  $(window).scroll(function() {
+      if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+          $('#return-to-top').fadeIn(200);    // Fade in the arrow
+      } else {
+          $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+      }
+  });
+</script>
   
   <div class="sidebar sticky">
   
@@ -247,6 +256,12 @@ $(window).on('load',function(){
                   
 
                   <li><h5 class="tab"><a href="http://localhost:4000/instruments/moosci/" class="">MooSci</a></h5></li>
+                
+                  
+
+                  
+
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/cargille/" class="">Cargille Test</a></h5></li>
                 
               </ul>
             
@@ -378,6 +393,28 @@ $(window).on('load',function(){
         
       </li>
     
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/pages/"><span class="nav__sub-title">Information</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/publications/"><span class="nav__sub-title">Publications</span></a>
+        
+
+        
+      </li>
+    
   </ul>
 </nav>
 
@@ -404,12 +441,16 @@ $(window).on('load',function(){
       <section class="page__content" itemprop="text">
         
         
+          <aside class="sidebar__right">
+            <div style="display:block;position:absolute;right:50px;);"><a href="#site-nav" id="return-to-top"><i class="icon-chevron-up"></i></a></div>
+          </aside>
+        
         
         <p><b>An Instrument for the 1.54m Telescope at the Astronomical Observatory of Córdoba</b><br />
 The Department of Physics and Astronomy at Texas A&amp;M University is currently in the process of building AggieSpec, a low resolution spectrograph for the 1.54m telescope at the Astronomical Observatory of Córdoba in Argentina. This instrument is required to cover a broad wavelength range (4000Å &lt; λ &lt; 9000Å) at a resolution of R = λ/Δλ ~ 500 to 1000, allowing its use as a versatile astronomical spectrograph. Such an instrument would allow the 1.54m telescope to be used for a variety of research projects including identification of quasi-stellar objects (QSO’s) and identifying spectral types of variable stars. The telescope’s location in the southern hemisphere enables spectroscopic follow-up of objects found in several large scale imaging surveys such as the Dark Energy Survey (DES) and Large Synoptic Survey Telescope (LSST).</p>
 
 <figure style="margin:auto;">
-  <img src="../assets/aggiespec_prototype.jpg" alt="AggieSpec prototype" />
+  <a href="/instruments/assets/aggiespec_prototype.jpg" target="_blank"><img src="/instruments/assets/aggiespec_prototype.jpg" alt="AggieSpec prototype" /></a>
   <figcaption>A photograph of the prototype of AggieSpec using two Nikon lenses as collimator and camera, a 300 line/mm Shimadzu grating for dispersion, and a SBIG-8300M CCD as a detector. Together, these off-the-shelf components produce an R ~ 500 spectrograph with wavelength coverage of 4000Å to 8000Å.</figcaption>
 </figure>
 
@@ -417,8 +458,8 @@ The Department of Physics and Astronomy at Texas A&amp;M University is currently
 The collimator is a 200mm focal length, f/4 Nikon lens; the camera is a 135mm focal length f/2 Nikon lens. Both lenses were originally designed for 35mm photography, but using the PreCal system in the lab, we have demonstrated that Nikon lenses have adequate throughput and image quality to be used in astronomical instrumentation.</p>
 
 <figure style="margin:auto;">
-  <img src="../assets/ThroughputTests.jpg" alt="AggieSpec throughput" />
-  <figcaption>Throughput of 200mm focal length, f/4 Nikon lens (points) and relative throughput of a similar lens measured with the <a href="../precal/">PreCal system</a> <a href="../../publications/Conceptual design of a low resolution spectrograph for the Astronomical Observatory of Cordoba - Nagasawa et al.pdf">(Nagasawa et al. 2014)</a>.</figcaption>
+  <a href="/instruments/assets/ThroughputTests.jpg" target="_blank"><img src="/instruments/assets/ThroughputTests.jpg" alt="AggieSpec throughput" /></a>
+  <figcaption>Throughput of 200mm focal length, f/4 Nikon lens (points) and relative throughput of a similar lens measured with the <a href="/instruments/precal/">PreCal system</a> <a href="/publications/assets/Conceptual design of a low resolution spectrograph for the Astronomical Observatory of Cordoba - Nagasawa et al.pdf">(Nagasawa et al. 2014)</a>.</figcaption>
 </figure>
 
 <p>AggieSpec will be composed of three modules:</p>

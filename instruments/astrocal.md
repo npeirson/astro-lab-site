@@ -5,6 +5,7 @@ sidebar:
   nav: "side"
 header:
   image: /instruments/assets/banner_des.jpg
+rtt: true
 ---
 **Daniel Freeman**
 
@@ -69,24 +70,27 @@ The fiber optic cable used in Astrocal is a 75 meter fiber bundle consisting of 
 
 In addition to the fiber bundle itself, some thought was given to how the bundle connects to the monochromator. The main problem with the fiber port currently on the monochromator is how inconsistent it is. The fiber ferrule is held in by eight set screws in an aluminum rectangular tube. Its inconsistency stems from the possibility that some of the screws would push the ferrule off-center. In addition to getting less light, the wavelength of light slightly left or right of a slit is different than at the center. Figures 7 and 8 show a more consistent port that doesn't use set screws.
 
-<figure style="width:335px">
-  <a href="/instruments/assets/FerrulePortPlate.jpg" target="_blank"><img src="/instruments/assets/FerrulePortPlate.jpg" alt="Ferrule Port Plate"></a>
-  <figcaption>Figure 7: Ferrule Port Plate</figcaption>
+<figure style='float:left;width:38%;padding:12px'>
+  <a href="/instruments/assets/FerrulePortPlate.jpg" target="_blank"><img src="/instruments/assets/FerrulePortPlate.jpg"></a>
+  <figcaption style="padding:12px">
+    Figure 7: Ferrule Port Plate
+  </figcaption>
 </figure>
-<div class="clearfix" />
-<figure>
-  <a href="/instruments/assets/FiberFerrule.jpg" target="_blank"><img src="/instruments/assets/FiberFerrule.jpg" alt="Fiber Ferrule"></a>
-  <figcaption>Figure 8: Fiber Ferrule</figcaption>
+<figure style="padding:12px">
+  <a href="/instruments/assets/FiberFerrule.jpg" target="_blank"><img src="/instruments/assets/FiberFerrule.jpg"></a>
+  <figcaption style="padding:12px">
+    Figure 8: Fiber Ferrule
+  </figcaption>
 </figure>
-
+<div class="clearfix"></div>
 The plate bolts to the exit slit of the monochromator. The fiber ferrule connects to the plate via two bolts.
 
-<a href="../assets/DanielFreemanAstrocal_Poster.pdf" target="_blank">Click here</a> to view the Astrocal poster.
+<a href="/instruments/assets/DanielFreemanAstrocal_Poster.pdf" target="_blank">Click here</a> to view the Astrocal poster.
 
 ## References
 <ul>
   <li>
-    <small>[1] : Jean-Philippe Rheault, D. L. DePoy, J. L. Marshall, T. Prochaska, R. Allen, J. Wise, E. Martin. (2012) <a href="../assets/DECal_Fermilab2012_Marshall.pdf" target="_blank">"DECal: A Spectrophotometric Calibration System For DECam"</a></small>
+    <small>[1] : Jean-Philippe Rheault, D. L. DePoy, J. L. Marshall, T. Prochaska, R. Allen, J. Wise, E. Martin. (2012) <a href="/instruments/assets/DECal_Fermilab2012_Marshall.pdf" target="_blank">"DECal: A Spectrophotometric Calibration System For DECam"</a></small>
   </li>
   <li>
     <small>[2] : Energetiq. <a href="http://www.energetiq.com/ldls-laser-driven-light-source-duv-broadband.php" target="_blank">EQ-99X LDLS.</a></small>

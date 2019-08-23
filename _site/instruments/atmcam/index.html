@@ -219,7 +219,16 @@ $(window).on('load',function(){
 
 
 <div id="main" role="main">
-  
+  <!-- Scroll to Top -->
+<script>
+  $(window).scroll(function() {
+      if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+          $('#return-to-top').fadeIn(200);    // Fade in the arrow
+      } else {
+          $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+      }
+  });
+</script>
   
   <div class="sidebar sticky">
   
@@ -265,12 +274,6 @@ $(window).on('load',function(){
                   
 
                   <li><h5 class="tab"><a href="http://localhost:4000/instruments/gmacs/" class="">GMACS</a></h5></li>
-                
-                  
-
-                  
-
-                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/gmacs-ms/" class="">GMACS-MS</a></h5></li>
                 
                   
 
@@ -414,6 +417,28 @@ $(window).on('load',function(){
         
       </li>
     
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/pages/"><span class="nav__sub-title">Information</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/publications/"><span class="nav__sub-title">Publications</span></a>
+        
+
+        
+      </li>
+    
   </ul>
 </nav>
 
@@ -454,6 +479,10 @@ $(window).on('load',function(){
             </nav>
           </aside>
         
+        
+          <aside class="sidebar__right">
+            <div style="display:block;position:absolute;right:50px;);"><a href="#site-nav" id="return-to-top"><i class="icon-chevron-up"></i></a></div>
+          </aside>
         
         
         <p>Story by PHYS.org available <a href="https://phys.org/news/2014-10-grad-student-atmcam-cosmic-insight.html">here</a>.</p>

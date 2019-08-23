@@ -3,6 +3,7 @@ layout: single
 title: Calypso
 sidebar:
   nav: "side"
+rtt: true
 ---
 <div style="max-width: 60%;margin:auto;" class="clearfix">
 	<div style="margin:auto;float:left;max-width:60%;"><font size="+0">
@@ -19,13 +20,13 @@ The spectrograph and its optical components will be built on a 900x900x59 mm met
 <div class='clearfix' style="vertical-align: middle;">
 	<div style="max-width: 40%;margin:auto;float:left;display:inline-block">
 		<figure>
-  			<img src="../assets/frontview.png" alt="Front view">
+  			<img src="/instruments/assets/frontview.png" alt="Front view">
   			<figcaption style="margin:auto;max-width: 40%">Front view</figcaption>
 		</figure>
 	</div>
 	<div style="max-width: 40%;margin:auto;float:right;display:inline-block">
 		<figure>
-  			<img src="../assets/sideview.png" alt="Side view">
+  			<img src="/instruments/assets/sideview.png" alt="Side view">
   			<figcaption style="margin:auto">Side view</figcaption>
 		</figure>
 	</div>
@@ -35,13 +36,13 @@ The spectrograph and its optical components will be built on a 900x900x59 mm met
 <div class='clearfix' style="vertical-align: middle;">
 	<div style="max-width: 40%;margin:auto;float:left;display:inline-block">
 		<figure>
-			<img src="../assets/bottomview.png" alt="Bottom view">
+			<img src="/instruments/assets/bottomview.png" alt="Bottom view">
   			<figcaption style="margin:auto;">Bottom view</figcaption>
 		</figure>
 	</div>
 	<div style="max-width: 40%;margin:auto;float:right;display:inline-block">
 		<figure>
-  			<img src="../assets/assembly.png" alt="Assembly">
+  			<img src="/instruments/assets/assembly.png" alt="Assembly">
   			<figcaption style="margin:auto;max-width: 40%">Assembly</figcaption>
 		</figure>
 	</div>

@@ -3,10 +3,11 @@ layout: single
 title: Reflectance Measurements
 sidebar:
   nav: "side"
+rtt: true
 ---
 ## Characterization of the Reflectivity of Various Black Materials  
-[Click here](../samples/) to view materials and their respective plots.  
-[Click here](../reflectance_plots/) to view all plots.  
+[Click here](/instruments/samples/) to view materials and their respective plots.  
+[Click here](/instruments/reflectance_plots/) to view all plots.  
 
 We present total and specular reflectance measurements of various materials that are commonly (and uncommonly) used to provide baffling while simultaneously minimizing the effect of stray light in optical systems. More specifically, we investigate the advantage of using certain black surfaces and their role in suppressing stray light on detectors in optical systems. By sweeping through a broad wavelength range (250-2500 nm), we measure the total reflectance of our samples to observe how they respond in the ultraviolet, visible, and near-infrared regimes. Additionally, we use a helium-neon laser to measure the specular reflectance of the samples at various angles. Finally, we compare these two separate measurements in order to derive the diffuse and specular fractions for each sample.  
 We used the Hitachi High-Tech U-4100 UV-Visible-NIR Spectrophotometer in the Materials Characterization Facility (MCF) at Texas A&M University in order to obtain reflectance profiles for various black materials ranging from anodized metal samples to simple black paints. We also analyzed the reflectivity of everyday tools such as black duct and electrical tapes for their possible use in situations where stray light is unwanted.  
@@ -16,7 +17,7 @@ Experimental setup:
 Below is the experimental setup of the Hitachi High-Tech U-4100 UV-Visible-NIR Spectrophotometer used at the MCF at Texas A&M. The reference and test sample are placed in the 6 o'clock and 3 o'clock positions of the integrating sphere respectively. The U-4100 and all its experimental parameters are controlled by the program UV Solutions through the computer in the MCF.  
 
 <figure style="margin:auto;">
-  <img src="../assets/UV-Vis-NIR_IntegratingSphere.png" alt="Spectrophotometer" style="max-width: 70%">
+  <img src="/instruments/assets/UV-Vis-NIR_IntegratingSphere.png" alt="Spectrophotometer" style="max-width: 70%">
 </figure>
 
 Procedure:  
@@ -31,24 +32,26 @@ Data Analysis:
 2. To see the reflectance profile, plot these new absolute reflectance values versus wavelength.  
 
 
-## Application of [MADLaSR](../madlasr/)
+## Application of [MADLaSR](/instruments/madlasr/)
 We have designed and built a device capable of measuring both the specular reflectivity of black materials, as well as the Lambertian reflectivity of white materials over their full range of incident and observed angles, respectively. The MADLaSR (Multi-Angle Detection of Lambertian and Specular Reflectivity) is a device designed for specular reflectivity testing in the range of 10° < θ < 170° and for Lambertian reflectivity testing in the range of 10° < θ < 85°. Here, we will describe the design and functionality of the MADLaSR.  
 <figure>
-  <img src="../assets/madlasr1.jpg" alt="Figure 1">
+	<a href="/instruments/assets/madlasr1.jpg" target="_blank">
+  <img src="/instruments/assets/madlasr1.jpg" alt="Figure 1"></a>
   <figcaption>Figure 1: MADLaSR Setup in the Munnerlyn Astronomical Instrumentation Laboratory in Texas A&M University</figcaption>
 </figure>
 
 ### Specular Reflectivity Testing  
 When testing for specular reflectivity, the laser and the sensor are moved to different positions symmetrically with respect to the central axis as defined by their pivot rod. An example of this setup is shown in Figure 2. By positioning iris diaphragms in front of both the laser and sensor, the diffuse scattering of the laser beam is minimized to ensure that we are measuring solely the specular reflection.  
 <figure>
-  <img src="../assets/madlasr2.jpg" alt="Figure 2">
+	<a href="/instruments/assets/madlasr2.jpg" target="_blank">
+  <img src="/instruments/assets/madlasr2.jpg" alt="Figure 2"></a>
   <figcaption>Figure 2: MADLaSR's Specular Reflectivity Testing</figcaption>
 </figure>
 
 ### Lambertian Reflectivity Testing  
 When testing for Lambertian reflectivity, the laser must be positioned perpendicular to the surface of the material while the sensor is moved to different angles. This setup, as shown in Figure 3, is designed to test for constant apparent surface brightness regardless of the angle of observation.  
-<figure>
-  <img src="../assets/madlasr3.jpg" alt="Figure 3">
+<figure><a href="/instruments/assets/madlasr3.jpg" target="_blank">
+  <img src="/instruments/assets/madlasr3.jpg" alt="Figure 3"></a>
   <figcaption>Figure 3: MADLaSR Running Lambertian Reflectivity Testing</figcaption>
 </figure>
 Data Analysis:  
@@ -71,7 +74,7 @@ Polished samples were prepared by sanding the faces of the samples in increasing
 
 Thick/Thin Invar: Thick invar refers to regular cast invar and thin invar refers to cold rolled sheet invar.  
 
-Labsphere SRS-05-100 [(calibration certificate link)](../assets/DC13C-0276.pdf) [(data points)](../assets/SRS-05.txt)  
+Labsphere SRS-05-100 [(calibration certificate link)](/instruments/assets/DC13C-0276.pdf) [(data points)](/instruments/assets/SRS-05.txt)  
 
 To send or suggest samples for testing, please contact [lschmidt@physics.tamu.edu](mailto:lschmidt@physics.tamu.edu)  
 Due to variable availability of resources, we cannot guarantee a testing turn around time. We are also unable to return any samples submitted for testing and will publish measurement results on our website. Samples should be no more than 2" square and 0.75" thick, minimum size is 1" square or circular.  

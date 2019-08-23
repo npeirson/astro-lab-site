@@ -219,7 +219,16 @@ $(window).on('load',function(){
 
 
 <div id="main" role="main">
-  
+  <!-- Scroll to Top -->
+<script>
+  $(window).scroll(function() {
+      if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+          $('#return-to-top').fadeIn(200);    // Fade in the arrow
+      } else {
+          $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+      }
+  });
+</script>
   
   <div class="sidebar sticky">
   
@@ -265,12 +274,6 @@ $(window).on('load',function(){
                   
 
                   <li><h5 class="tab"><a href="http://localhost:4000/instruments/gmacs/" class="">GMACS</a></h5></li>
-                
-                  
-
-                  
-
-                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/gmacs-ms/" class="">GMACS-MS</a></h5></li>
                 
                   
 
@@ -414,6 +417,28 @@ $(window).on('load',function(){
         
       </li>
     
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/pages/"><span class="nav__sub-title">Information</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/publications/"><span class="nav__sub-title">Publications</span></a>
+        
+
+        
+      </li>
+    
   </ul>
 </nav>
 
@@ -439,6 +464,10 @@ $(window).on('load',function(){
 
       <section class="page__content" itemprop="text">
         
+        
+          <aside class="sidebar__right">
+            <div style="display:block;position:absolute;right:50px;);"><a href="#site-nav" id="return-to-top"><i class="icon-chevron-up"></i></a></div>
+          </aside>
         
         
         <p>DECal is a spectrophotometric calibration system that will be implemented as part of the DES DECam project at the Blanco 4 meter at CTIO. The system uses a 2nm wide tunable source to measure the instrumental response function of the telescope from 300nm up to 1100nm. This calibration will be performed regularly to monitor any change in the transmission function. The system consists of a monochromator based tunable light source that provides illumination on a dome flat that is monitored by calibrated photodiodes and allow us to measure the throughput as a function of wavelength. Our system has an output power of 2 mW, equivalent to a flux of approximately 800 photons/s/pixel on DECam. We successfully deployed a prototype of this system at the Swope and DuPont telescopes at Las Campanas Observatory. This provided data to help reduce the systematic error budget of the Carnegie Supernova Project.</p>

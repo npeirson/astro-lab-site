@@ -195,7 +195,16 @@ $(window).on('load',function(){
 
 
 <div id="main" role="main">
-  
+  <!-- Scroll to Top -->
+<script>
+  $(window).scroll(function() {
+      if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+          $('#return-to-top').fadeIn(200);    // Fade in the arrow
+      } else {
+          $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+      }
+  });
+</script>
   
   <div class="sidebar sticky">
   
@@ -247,6 +256,12 @@ $(window).on('load',function(){
                   
 
                   <li><h5 class="tab"><a href="http://localhost:4000/instruments/moosci/" class="">MooSci</a></h5></li>
+                
+                  
+
+                  
+
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/cargille/" class="">Cargille Test</a></h5></li>
                 
               </ul>
             
@@ -378,6 +393,28 @@ $(window).on('load',function(){
         
       </li>
     
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/pages/"><span class="nav__sub-title">Information</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/publications/"><span class="nav__sub-title">Publications</span></a>
+        
+
+        
+      </li>
+    
   </ul>
 </nav>
 
@@ -404,18 +441,24 @@ $(window).on('load',function(){
       <section class="page__content" itemprop="text">
         
         
+          <aside class="sidebar__right">
+            <div style="display:block;position:absolute;right:50px;);"><a href="#site-nav" id="return-to-top"><i class="icon-chevron-up"></i></a></div>
+          </aside>
+        
         
         <p><em>by Emily Boster</em><br /><br />
 <strong>Goal:</strong> Design and install two similar flat fielding screens with mounting gear for the Texas A&amp;M Physics and Astronomy Teaching Observatory.<br />
 <strong>Project Supervisors:</strong> Jean-Philippe Rheault, Don W. Carona<br />
 <strong>Status:</strong> Complete<br /><br />
-<img src="../assets/ff_figure1.png" alt="Figure 1" /><br /><br />
+<img src="/instruments/assets/ff_figure1.png" alt="Figure 1" /><br /><br />
 <strong>Dome data:</strong><br />
-<a href="../assets/data_for_flat_fielding_screens">Data for Flat Fielding Screens</a></p>
+<a href="/instruments/assets/data_for_flat_fielding_screens">Data for Flat Fielding Screens</a></p>
 <h2 id="square-frames">Square Frames</h2>
 <p>Texas A&amp;M had designed larger flat fielding screens for certain Chilean observatories in rectangular shape using frame components from ITEM. For simplicity, it was decided that square frames would be used for the Texas A&amp;M flat fielding screens. These would be constructed from ITEM Basic Elements” Profile 6 30X30 light. The length of the sides of the squares were chosen in proportion to the size of the diameter of the respective telescope that each screen would accompany. For the 16 inch telescope, a 22 inch screen was chosen. For the 20 inch telescope, a 26 inch screen was chosen. These dimensions were chosen primarily because these sizes allow for images to be taken without too great of precision in positioning the telescope. They were chosen also in consideration of the screen material that was available. Using an existing flat fielding screen in the lab, these sizes could be cut out and a new screen would not have to be ordered. The frames were ordered in September, 2010 and received in October, 2010.</p>
 <figure>
-  <img src="../assets/ff_figure2.jpg" alt="Figure 2" />
+  <a href="/instruments/assets/ff_figure2.jpg" target="_blank">
+    <img src="/instruments/assets/ff_figure2.jpg" alt="Figure 2" />
+  </a>
   <figcaption>Solidworks images of the 22 inch square frame constructed out of ITEM profile 6 30X30 light.</figcaption>
 </figure>
 
@@ -429,39 +472,48 @@ This design was altered over the course of the project, with the final design re
   <li><strong>Custom Attachment Blocks</strong> to hold rod ends to respective surface;</li>
 </ul>
 <figure>
-  <img src="../assets/ff_figure3.jpg" alt="Figure 3" />
+  <a href="/instruments/assets/ff_figure3.jpg" target="_blank">
+    <img src="/instruments/assets/ff_figure3.jpg" alt="Figure 3" />
+  </a>
   <figcaption>Image of the finalized solidworks model of the assembly.</figcaption>
 </figure>
 <figure>
-  <img src="../assets/ff_figure4.jpg" alt="Figure 4" />
+  <a href="/instruments/assets/ff_figure4.jpg" target="_blank">
+  <img src="/instruments/assets/ff_figure4.jpg" alt="Figure 4" /></a>
   <figcaption>Turnbuckle, Rod Ends, Attachment Blocks, Single Hook.</figcaption>
 </figure>
 <figure>
-  <img src="../assets/ff_figure5.jpg" alt="Figure 5" />
+  <a href="/instruments/assets/ff_figure5.jpg" target="_blank">
+  <img src="/instruments/assets/ff_figure5.jpg" alt="Figure 5" /></a>
   <figcaption>Hinge attachment.</figcaption>
 </figure>
-<p>This assembly will be used for both flat fielding screens. A complete parts list can be found <a href="../assets/part_list">here</a>.<br /><br />
-Part sizes and configurations were determined though direct measurement of the domes, solidworks measurements of actual-size model of domes, and part availability. McMaster solidworks files were used for the assembly. They can be accessed below:<br />
-<a href="../assets/hinge.SLDPRT">Hinge</a><br />
-<a href="../assets/rod_end_left_thread.SLDPRT">Rod End Left Thread</a><br />
-<a href="../assets/rod_end_right_thread.SLDPRT">Rod End Right Thread</a><br />
-<a href="../assets/turnbuckle.SLDPRT">Turnbuckle</a><br />
-<br />
-Custom parts were made to fit McMaster parts.</p>
+<p>This assembly will be used for both flat fielding screens. A complete parts list can be found <a href="/instruments/assets/part_list">here</a>.<br /><br />
+Part sizes and configurations were determined though direct measurement of the domes, solidworks measurements of actual-size model of domes, and part availability. McMaster solidworks files were used for the assembly. They can be accessed below:</p>
+<ul>
+  <li><a href="/instruments/assets/hinge.SLDPRT">Hinge</a></li>
+  <li><a href="/instruments/assets/rod_end_left_thread.SLDPRT">Rod End Left Thread</a></li>
+  <li><a href="/instruments/assets/rod_end_right_thread.SLDPRT">Rod End Right Thread</a></li>
+  <li><a href="/instruments/assets/turnbuckle.SLDPRT">Turnbuckle</a><br />
+Custom parts were made to fit McMaster parts.</li>
+</ul>
 
 <h2 id="design-process">Design Process</h2>
 <p>After measurements were taken of the domes, Solidworks models were built to depict the area where the screen would be mounted and to take additional measurements from. All of the following images and information is from the 18.5 diameter dome.</p>
 <figure>
-  <img src="../assets/ff_figure6.jpg" alt="Figure 6" />
+  <a href="/instruments/assets/ff_figure6.jpg" target="_blank">
+  <img src="/instruments/assets/ff_figure6.jpg" alt="Figure 6" /></a>
   <figcaption>Once the respective sizes for each frame were chosen, measurements were made to determine how large the mounting gear would have to be, and what pitch angle was needed in order for the screen to be normal to the line of sight of the telescope. A sketch on the plane bisecting the dome proved that the screen would have to be pitched from the bottom to be normal to the line of sight from the telescope.</figcaption>
 </figure>
 <figure>
-  <img src="../assets/ff_figure7.jpg" alt="Figure 7" />
+  <a href="/instruments/assets/ff_figure7.jpg" target="_blank">
+    <img src="/instruments/assets/ff_figure7.jpg" alt="Figure 7" />
+  </a>
   <figcaption>The 30.25 inch line is the distance from the top pipering to the bottom pipering. The line that is at 59.2 degrees from the horizontal is parallel to the telescope's face, or normal to the line of sight. A small amount of rotation is needed to correct the screen, about 3 degrees. Note: the 24 inch rectangle depicts the screen with mounting gear.
 </figcaption>
 </figure>
 <figure>
-  <img src="../assets/ff_figure8.jpg" alt="Figure 8" />
+  <a href="/instruments/assets/ff_figure8.jpg" target="_blank">
+    <img src="/instruments/assets/ff_figure8.jpg" alt="Figure 8" /></a>
 </figure>
 
 <h2 id="machining-parts">Machining Parts</h2>

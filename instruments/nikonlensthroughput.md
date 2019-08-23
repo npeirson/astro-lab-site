@@ -3,6 +3,7 @@ layout: single
 title: Studying the Throughput of a Commercial Lens
 sidebar:
   nav: "side"
+rtt: true
 ---
 Brendan Hill, May 2015
 
@@ -17,11 +18,11 @@ We mounted a Nikon Nikkor 135mm lens onto a CCD and fixed the CCD to a post on o
 
 <div class="imgrow" style="clear:both;">
   <div class="imgcolumn" style="clear:both;">
-    <img src="../assets/setup1.png" alt="View 1" style="clear:both;">
+    <img src="/instruments/assets/setup1.png" alt="View 1" style="clear:both;">
     <font size="-1"><br>The setup on the lab bench, with the CCD and lens pointed at the pinhole, mounted to the integrating sphere. The sphere is draped in a dark cloth. The laser is mounted under the cloth on the right of the sphere</font>
   </div>
   <div class="imgcolumn" style="clear:both;">
-    <img src="../assets/setup2.png" alt="View 2" style="clear:both;">
+    <img src="/instruments/assets/setup2.png" alt="View 2" style="clear:both;">
     <font size="-1"><br>The 10-micron pinhole, covered in a black mask to prevent light from leaking around the pinhole housing</font>
   </div>
 </div>
@@ -35,24 +36,24 @@ Using these methods, we rejected any combination of f/# and focal length which p
 ## Results  
 We examined the dependence of FWHM on f/# – the results are:  
 <div style="clear:both;width:100%" class="clearfix"><center>
-  <img src="../assets/figure3edited.png" alt="Figure 3" style="margin:auto"></center>
+  <img src="/instruments/assets/figure3edited.png" alt="Figure 3" style="margin:auto"></center>
 </div>
 As expected, a smaller aperture leads to a smaller FWHM, with a different curve for each focal length. There are clear fluctuations in the data, and the curves also level off at a point. The levelling off can be attributed to the limitations of the IRAF software to measure FWHM below a value of ~0.9. When the image was in focus, IRAF recognized it as a point source of light, which is one of the things we were looking for.  
 We also plotted Flux vs. f/# on both a linear and log-log scale. We would expect that a smaller aperture area would allow a proportionally smaller amount of flux to reach the CCD – the results are below:  
 <div class="clearfix" style="clear:both;">
 	<div class="imgrow">
 	  <div class="imgcolumn">
-	    <img src="../assets/figure1edited.png" alt="Result left">
+	    <img src="/instruments/assets/figure1edited.png" alt="Result left">
 	  </div>
 	  <div class="imgcolumn">
-	    <img src="../assets/figure2edited.png" alt="Result right">
+	    <img src="/instruments/assets/figure2edited.png" alt="Result right">
 	  </div>
 	</div>
 </div>
 The deviations are somewhat easier to see on the log-log plot. The 2m focal length (in focus) appears to agree nicely with what we expected to see, while the other focal lengths appear to diverge from the theoretical calculations.  
 To show this further, we took the residuals at each point and divided by the calculated (expected) values at each point. The results:  
 <div style="clear:both;width:100%" class="clearfix"><center>
-  <img src="../assets/figure4edited.png" style="margin:auto"></center>
+  <img src="/instruments/assets/figure4edited.png" style="margin:auto"></center>
 </div>
 This plot shows two possible trends. First, flux appears to slightly increase relative to expected amounts for higher f/#. Second, flux appears to decrease relative to expected amounts for more focused images.  
 ## Conclusion

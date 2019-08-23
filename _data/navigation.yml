@@ -20,8 +20,6 @@ side:
           kiddos:
           - title: "GMACS"
             url: /instruments/gmacs/
-          - title: "GMACS-MS"
-            url: /instruments/gmacs-ms/
           - title: "MooSci"
             url: /instruments/moosci/
           - title: Cargille Test
@@ -52,6 +50,10 @@ side:
           url: /instruments/reflectance/
         - title: Past Projects
           url: /instruments/pastprojects/
+    - title: Information
+      url: /pages/
+    - title: Publications
+      url: /publications/
 info:    
     - title: Information
       url: /pages/
@@ -80,9 +82,14 @@ info:
           url: /pages/calendar/
         - title: Contact Us
           url: /pages/contact/
+    - title: Instruments
+      url: /instruments/
+    - title: Publications
+      url: /publications/
 
 publications:
-    - title: Documents
+    - title: Publications
+      url: /publications/
       children:
         - title: Journal Articles
           url: /publications/journals/
@@ -98,6 +105,10 @@ publications:
           url: /pages/phdalumni/
         - title: Useful Documents
           url: /pages/usefuldocs/
+    - title: Instruments
+      url: /instruments/
+    - title: Publications
+      url: /pages/
 
 userguide:
     - title: User Guide

@@ -219,7 +219,16 @@ $(window).on('load',function(){
 
 
 <div id="main" role="main">
-  
+  <!-- Scroll to Top -->
+<script>
+  $(window).scroll(function() {
+      if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+          $('#return-to-top').fadeIn(200);    // Fade in the arrow
+      } else {
+          $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+      }
+  });
+</script>
   
   <div class="sidebar sticky">
   
@@ -265,12 +274,6 @@ $(window).on('load',function(){
                   
 
                   <li><h5 class="tab"><a href="http://localhost:4000/instruments/gmacs/" class="active">GMACS</a></h5></li>
-                
-                  
-
-                  
-
-                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/gmacs-ms/" class="">GMACS-MS</a></h5></li>
                 
                   
 
@@ -414,6 +417,28 @@ $(window).on('load',function(){
         
       </li>
     
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/pages/"><span class="nav__sub-title">Information</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/publications/"><span class="nav__sub-title">Publications</span></a>
+        
+
+        
+      </li>
+    
   </ul>
 </nav>
 
@@ -444,7 +469,7 @@ $(window).on('load',function(){
               <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Quick Navigation</h4></header>
               <div style="text-align:left">
 <ul class="toc__menu">
-  <li><a href="#web-tools">Web Tools</a></li>
+  <li><a href="#software--tools">Software &amp; Tools</a></li>
   <li><a href="#current-development">Current Development</a></li>
   <li><a href="#how-gmacs-fits-into-the-gmt">How GMACS fits into the GMT</a></li>
   <li><a href="#history">History</a></li>
@@ -456,10 +481,15 @@ $(window).on('load',function(){
           </aside>
         
         
+          <aside class="sidebar__right">
+            <div style="display:block;position:absolute;right:50px;);"><a href="#site-nav" id="return-to-top"><i class="icon-chevron-up"></i></a></div>
+          </aside>
+        
         
         <p>The Giant Magellan Telescope Multi-object Astronomical and Cosmological Spectrograph (GMACS) is a wide field, multi-object, moderate-resolution, optical spectrograph being designed for the Giant Magellan Telescope (GMT). Our goal is to create an instrument capable of spectroscopically observing the faintest possible targets, which are currently known only from imaging observations. High throughput, simultaneous wide wavelength coverage, accurate and precise sky subtraction, moderate resolution, relatively wide field, and substantial multiplexing are crucial design drivers for the instrument.</p>
-<h2 id="web-tools">Web Tools</h2>
+<h2 id="software--tools">Software &amp; Tools</h2>
 <ul>
+  <li><a href="/instruments/gmacs-ms/">GMACS Mask Simulator</a></li>
   <li><a href="/">GMACS Exposure Time Calculator</a></li>
   <li><a href="/">GMACS Configurations Explorer</a></li>
 </ul>
