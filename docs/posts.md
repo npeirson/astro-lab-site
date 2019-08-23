@@ -15,7 +15,7 @@ To make a press release, follow these steps:
   ---
   ```
 3. Add your content below the header.
-4. Save your new page, and [rebuild the site](/userguide/rebuilding/)
+4. Save your new page, and [rebuild the site](/docs/rebuilding/)
 
 ## Categories and Tags  
 For a variety of archiving features like categories, related reading recommendations, and search functions, it's advisable to include categories and tags. These are added to your header like so:

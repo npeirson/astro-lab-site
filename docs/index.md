@@ -25,7 +25,7 @@ The **entire project's** root folder *is not* the same as the **site's** root fo
 To be clear: do not make content alterations within the `_site` folder---allow it to be populated programmatically. Instead, make your changes/additions to the content in the other folders, which will become built into `_site`.
 
 ## Rebuilding the site
-After any changes are made, the site must be rebuilt before they will become live. Please follow [these instructions](/userguide/rebuilding/).
+After any changes are made, the site must be rebuilt before they will become live. Please follow [these instructions](/docs/rebuilding/).
 
 ## The Markdown thing
 Pages are written as Markdown files (suffix `.md`), but contain YAML headers, and can contain Markdown or HTML content. Markdown is much easier than HTML, as you'll soon see.  
