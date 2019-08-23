@@ -2,7 +2,7 @@
 layout: single
 title: "Conference Presentations"
 sidebar:
-  nav: "publications"
+  nav: "info"
 toc: true
 rtt: true
 ---

@@ -19,11 +19,10 @@ Anything hidden from direct link on the old site (like the meeting powerpoint su
 - I suspect the `Reflectivity` page needs to be re-worked with new black and white studies and supporting data.  
 - In `Ph.D. Degree Alumni` page, the lines `Current Position` and `Advisor`  have been omitted, as they do not yet have content on the old page. *I've left those lines commented so someone can easily add them as they become known.*  
 - REU 2019 not included because I don't have any of the information.  
-- `Awards and Honors` and `Ph.D. Alumni` both presently reside in the `/pages/` ('information') subset, but may be preferred in the `/publications/` subset. Something to consider.
 - I really like `/instruments/assets/LastPieceofGlass_wb.jpg` as the header image for the GMT instrument page (`/instruments/gmt`). However, they require that a proper permission request be made by contacting `info@gmto.org.`  
 
 ## Deployment
-If you don't wish to deploy the site to the root directory of the web portal (http://instrumentation.tamu.edu), you'll need to change the (currently empty) `baseurl:` paraemter in `/_config.yaml`. For example, while testing previously, this was set to `baseurl: jekylltest/_site`.  
+If you *don't* wish to deploy the site to the root directory of the web portal (http://instrumentation.tamu.edu), you'll need to change the (currently empty) `baseurl:` paraemter in `/_config.yaml`. For example, while testing previously, this was set to `baseurl: jekylltest/_site`.  
 Otherwise, if you're ready to make the switch, make the `_site` folder the root directory of http://instrumentation.tamu.edu.  
 **All the contents for public viewing are contained in `_site`**
 

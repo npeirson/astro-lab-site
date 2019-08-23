@@ -6,8 +6,6 @@ main:
     url: /pages/
   - title: "People"
     url: /people/
-  - title: "Publications"
-    url: /publications/
   - title: "Press"
     url: /press/
 
@@ -50,10 +48,7 @@ side:
           url: /instruments/reflectance/
         - title: Past Projects
           url: /instruments/pastprojects/
-    - title: Information
-      url: /pages/
-    - title: Publications
-      url: /publications/
+
 info:    
     - title: Information
       url: /pages/
@@ -82,12 +77,6 @@ info:
           url: /pages/calendar/
         - title: Contact Us
           url: /pages/contact/
-    - title: Instruments
-      url: /instruments/
-    - title: Publications
-      url: /publications/
-
-publications:
     - title: Publications
       url: /publications/
       children:
@@ -97,18 +86,6 @@ publications:
           url: /publications/presentations/
         - title: Reports
           url: /publications/reports/
-    - title: Recognition
-      children:
-        - title: Awards and Honors
-          url: /pages/honors/
-        - title: Ph.D. Degree Alumni
-          url: /pages/phdalumni/
-        - title: Useful Documents
-          url: /pages/usefuldocs/
-    - title: Instruments
-      url: /instruments/
-    - title: Publications
-      url: /pages/
 
 userguide:
     - title: User Guide

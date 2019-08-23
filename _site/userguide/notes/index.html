@@ -173,9 +173,6 @@ $(window).on('load',function(){
             <li class="masthead__menu-item"><a href="http://localhost:4000/people/">People</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
-          
-            
             <li class="masthead__menu-item"><a href="http://localhost:4000/press/">Press</a></li>
           
         </ul>
@@ -335,7 +332,8 @@ $(window).on('load',function(){
         <h2 id="general-notes">General Notes</h2>
 <h3 id="things-that-must-be-done-before-deployment">Things that must be done before deployment</h3>
 <ul>
-  <li>GMACS MODES and ETC applets are not included in this package, and need to be added. After they have been added, be sure to link them up on the <code class="highlighter-rouge">instruments/gmacs/</code> page.</li>
+  <li>GMACS MODES and ETC applets are not included in this package, and need to be added. After they have been added, be sure to link them up on the <code class="highlighter-rouge">instruments/gmacs/</code> page.<br />
+Anything hidden from direct link on the old site (like the meeting powerpoint submission page) is also not included. I suspect there are other hidden things that I wasn’t aware of.</li>
 </ul>
 
 <h3 id="the-rest">The rest</h3>
@@ -349,12 +347,11 @@ $(window).on('load',function(){
   <li>I suspect the <code class="highlighter-rouge">Reflectivity</code> page needs to be re-worked with new black and white studies and supporting data.</li>
   <li>In <code class="highlighter-rouge">Ph.D. Degree Alumni</code> page, the lines <code class="highlighter-rouge">Current Position</code> and <code class="highlighter-rouge">Advisor</code>  have been omitted, as they do not yet have content on the old page. <em>I’ve left those lines commented so someone can easily add them as they become known.</em></li>
   <li>REU 2019 not included because I don’t have any of the information.</li>
-  <li><code class="highlighter-rouge">Awards and Honors</code> and <code class="highlighter-rouge">Ph.D. Alumni</code> both presently reside in the <code class="highlighter-rouge">/pages/</code> (‘information’) subset, but may be preferred in the <code class="highlighter-rouge">/publications/</code> subset. Something to consider.</li>
   <li>I really like <code class="highlighter-rouge">/instruments/assets/LastPieceofGlass_wb.jpg</code> as the header image for the GMT instrument page (<code class="highlighter-rouge">/instruments/gmt</code>). However, they require that a proper permission request be made by contacting <code class="highlighter-rouge">info@gmto.org.</code></li>
 </ul>
 
 <h2 id="deployment">Deployment</h2>
-<p>If you don’t wish to deploy the site to the root directory of the web portal (http://instrumentation.tamu.edu), you’ll need to change the (currently empty) <code class="highlighter-rouge">baseurl:</code> paraemter in <code class="highlighter-rouge">/_config.yaml</code>. For example, while testing previously, this was set to <code class="highlighter-rouge">baseurl: jekylltest/_site</code>.<br />
+<p>If you <em>don’t</em> wish to deploy the site to the root directory of the web portal (http://instrumentation.tamu.edu), you’ll need to change the (currently empty) <code class="highlighter-rouge">baseurl:</code> paraemter in <code class="highlighter-rouge">/_config.yaml</code>. For example, while testing previously, this was set to <code class="highlighter-rouge">baseurl: jekylltest/_site</code>.<br />
 Otherwise, if you’re ready to make the switch, make the <code class="highlighter-rouge">_site</code> folder the root directory of http://instrumentation.tamu.edu.<br />
 <strong>All the contents for public viewing are contained in <code class="highlighter-rouge">_site</code></strong></p>
 

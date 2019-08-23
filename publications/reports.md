@@ -2,7 +2,7 @@
 layout: single
 title: "Reports and Undergraduate Theses"
 sidebar:
-  nav: "publications"
+  nav: "info"
 ---
 ## Reports
 - <a href="/publications/assets/GMACS_Conceptual_Design_Report_2011.pdf" target="_blank">GMACS Conceptual Design Report</a>
