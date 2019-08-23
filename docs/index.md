@@ -9,12 +9,12 @@ In addition to a visual overhaul, there are loads of new features just beneath t
 
 ## The docs / user manual
 If you view it without serving the whole site (e.g. from desktop or github pages) the sidebar won't show. Here are the other pages:  
-- [Making New Pages](/docs/pages/)  
-- [Making New Press Releases](/docs/posts/)  
-- [Figures, Tables, Captions](/docs/figtabcap/)  
-- [Image Overlays and Sliders](/docs/imagestuff/)  
-- [Rebuilding](/docs/rebuilding/)  
-- [Rolling Developer's Notes](/docs/notes/)  
+- [Making New Pages](pages/)  
+- [Making New Press Releases](posts/)  
+- [Figures, Tables, Captions](figtabcap/)  
+- [Image Overlays and Sliders](imagestuff/)  
+- [Rebuilding](rebuilding/)  
+- [Rolling Developer's Notes](notes/)  
 
 
 ## Overview
