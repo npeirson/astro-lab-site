@@ -7,6 +7,16 @@ sidebar:
 ## Introduction
 In addition to a visual overhaul, there are loads of new features just beneath the surface, which serve to improve user experience. While browsing the site, don't just look at it; click around, and you'll see these features emerge.
 
+## The docs / user manual
+If you view it without serving the whole site (e.g. from desktop or github pages) the sidebar won't show. Here are the other pages:  
+- [Making New Pages](/docs/pages/)  
+- [Making New Press Releases](/docs/posts/)  
+- [Figures, Tables, Captions](/docs/figtabcap/)  
+- [Image Overlays and Sliders](/docs/imagestuff/)  
+- [Rebuilding](/docs/rebuilding/)  
+- [Rolling Developer's Notes](/docs/notes/)  
+
+
 ## Overview
 This website uses the static site generator Jekyll. When you want to change something, you'll need to recompile the website after making changes to the source code. This is ideal because the vast majority of laborous coding can be left to automation. Although this is intended to make it easier to design new pages, you'll need to know the syntax, which spans six or seven programming languages. It's easy, I promise.
 
