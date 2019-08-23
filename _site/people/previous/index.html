@@ -24,7 +24,7 @@
 
 
 
-<meta name="description" content="Space. Yeah.">
+<meta name="description" content="Space. We can see it.">
 
 
 
@@ -195,7 +195,16 @@ $(window).on('load',function(){
 
 
 <div id="main" role="main">
-  
+  <!-- Scroll to Top -->
+<script>
+  $(window).scroll(function() {
+      if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+          $('#return-to-top').fadeIn(200);    // Fade in the arrow
+      } else {
+          $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+      }
+  });
+</script>
   
   <div class="sidebar sticky">
   
@@ -247,6 +256,12 @@ $(window).on('load',function(){
                   
 
                   <li><h5 class="tab"><a href="http://localhost:4000/instruments/moosci/" class="">MooSci</a></h5></li>
+                
+                  
+
+                  
+
+                  <li><h5 class="tab"><a href="http://localhost:4000/instruments/cargille/" class="">Cargille Test</a></h5></li>
                 
               </ul>
             
@@ -378,6 +393,28 @@ $(window).on('load',function(){
         
       </li>
     
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/pages/"><span class="nav__sub-title">Information</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="http://localhost:4000/publications/"><span class="nav__sub-title">Publications</span></a>
+        
+
+        
+      </li>
+    
   </ul>
 </nav>
 
@@ -403,6 +440,10 @@ $(window).on('load',function(){
 
       <section class="page__content" itemprop="text">
         
+        
+          <aside class="sidebar__right">
+            <div style="display:block;position:absolute;right:50px;);"><a href="#site-nav" id="return-to-top"><i class="icon-chevron-up"></i></a></div>
+          </aside>
         
         
         <h3 id="former-full-time-employees">Former Full Time Employees</h3>

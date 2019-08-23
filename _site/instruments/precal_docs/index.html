@@ -24,7 +24,7 @@
 
 
 
-<meta name="description" content="Space. Yeah.">
+<meta name="description" content="Space. We can see it.">
 
 
 
@@ -542,7 +542,8 @@ With the values listed under the columns. This program assumes you are using one
 <h2 id="a-quick-iraf-introduction">A Quick IRAF Introduction</h2>
 <p>I won’t go through the grueling task that is installing IRAF. Instead, I will forget all those horrid memories and imagine a world in which IRAF is already installed on whatever computer you’re using. (Actually, its not that bad. You can go to <a href="http://www.astrosen.unam.mx/~favilac/IRAF/">this site</a> to get an .iso file for your appropriate Linux distro, then follow <a href="https://instrumentation.tamu.edu/files/precaldocumentation/irafinstructions.txt">these instruction</a> to install it).<br />
 Now that IRAF is fired up and running, you can do the following:<br />
-Within IRAF, navigate to the directory with all the .fits files. (cl&gt; cd /your/directory/here/).<br />
+Within IRAF, navigate to the directory with all the .fits files.<br />
+<code class="highlighter-rouge">(cl&gt; cd /your/directory/here/).</code><br />
 Use the files command, and pipe the output to a file for later access. It should look something like this:</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cl&gt; files *nm.fits &gt; LightList.txt  
 cl&gt; files *dark.fits &gt; DarkList.txt  

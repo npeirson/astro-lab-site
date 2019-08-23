@@ -24,7 +24,7 @@
 
 
 
-<meta name="description" content="Space. Yeah.">
+<meta name="description" content="Space. We can see it.">
 
 
 
@@ -345,12 +345,11 @@ $(window).on('load',function(){
   <li>In <code class="highlighter-rouge">Publications</code>, URLs to papers’ <code class="highlighter-rouge">adsabs</code> page have been updated in accordance with their new database system.</li>
   <li>In <code class="highlighter-rouge">Previous Team Members</code> page (through <code class="highlighter-rouge">People</code> page), please ensure that information is accurate.</li>
   <li>In <code class="highlighter-rouge">Past Lab Projects</code>, LIGOcam does not have a page, as it did not previously have a page.</li>
-  <li>
-    <p>On <code class="highlighter-rouge">Honors and Awards</code> page, dead link to Ethel Ashworth-Tsutsui Memorial Award for Mentoring was excluded. (dead link: http://us.tamu.edu/2012/08/aggie-academics-invade-amsterdam/)</p>
-  </li>
+  <li>On <code class="highlighter-rouge">Honors and Awards</code> page, dead link to Ethel Ashworth-Tsutsui Memorial Award for Mentoring was excluded. (dead link: http://us.tamu.edu/2012/08/aggie-academics-invade-amsterdam/)</li>
   <li>I suspect the <code class="highlighter-rouge">Reflectivity</code> page needs to be re-worked with new black and white studies and supporting data.</li>
   <li>In <code class="highlighter-rouge">Ph.D. Degree Alumni</code> page, the lines <code class="highlighter-rouge">Current Position</code> and <code class="highlighter-rouge">Advisor</code>  have been omitted, as they do not yet have content on the old page. <em>I’ve left those lines commented so someone can easily add them as they become known.</em></li>
   <li>REU 2019 not included because I don’t have any of the information.</li>
+  <li><code class="highlighter-rouge">Awards and Honors</code> and <code class="highlighter-rouge">Ph.D. Alumni</code> both presently reside in the <code class="highlighter-rouge">/pages/</code> (‘information’) subset, but may be preferred in the <code class="highlighter-rouge">/publications/</code> subset. Something to consider.</li>
   <li>I really like <code class="highlighter-rouge">/instruments/assets/LastPieceofGlass_wb.jpg</code> as the header image for the GMT instrument page (<code class="highlighter-rouge">/instruments/gmt</code>). However, they require that a proper permission request be made by contacting <code class="highlighter-rouge">info@gmto.org.</code></li>
 </ul>
 
@@ -358,6 +357,11 @@ $(window).on('load',function(){
 <p>If you don’t wish to deploy the site to the root directory of the web portal (http://instrumentation.tamu.edu), you’ll need to change the (currently empty) <code class="highlighter-rouge">baseurl:</code> paraemter in <code class="highlighter-rouge">/_config.yaml</code>. For example, while testing previously, this was set to <code class="highlighter-rouge">baseurl: jekylltest/_site</code>.<br />
 Otherwise, if you’re ready to make the switch, make the <code class="highlighter-rouge">_site</code> folder the root directory of http://instrumentation.tamu.edu.<br />
 <strong>All the contents for public viewing are contained in <code class="highlighter-rouge">_site</code></strong></p>
+
+<h2 id="access-permissions">Access Permissions</h2>
+<p>An access control list (ACL) must be created for the Jekyll folder, all its contents, and anything that is added/copied into it (inheritance).</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chmod +a "group:examplegroup allow list,add_file,search,add_subdirectory,delete_child,readattr,writeattr,readextattr,writeextattr,readsecurity,file_inherit,directory_inherit" /path/to/folder
+</code></pre></div></div>
 
         
       </section>

@@ -3,6 +3,7 @@ layout: single
 title: "Previous Team Members"
 sidebar:
   nav: "side"
+rtt: true
 ---
 
 ### Former Full Time Employees

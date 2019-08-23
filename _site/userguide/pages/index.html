@@ -24,7 +24,7 @@
 
 
 
-<meta name="description" content="Space. Yeah.">
+<meta name="description" content="Space. We can see it.">
 
 
 
@@ -433,7 +433,7 @@ Note: if you use the TOC on a page with HTML format headers, you will need to in
 <p>The Return-to-Top button is a small round button which glides along the bottom right of any <code class="highlighter-rouge">layout: single</code> page’s content frame, which allows the user to clickly (that’s a quick click) return to the top of the page. You can find it toward the bottom right of this very page. It can be added to your page by including the following in page header:</p>
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rtt: true
 </code></pre></div></div>
-<p>The CSS for this is in <code class="highlighter-rouge">_sass/_page.scss</code>, the JS is in <code class="highlighter-rouge">_includes/rtt.html</code>, and the HTML is in <code class="highlighter-rouge">_layouts/single.html</code>.</p>
+<p>The CSS for this is in <code class="highlighter-rouge">/_sass/_page.scss</code>, the JS is in <code class="highlighter-rouge">/_includes/rtt.html</code>, and the HTML is in <code class="highlighter-rouge">/_layouts/single.html</code>.</p>
 
 <h3 id="permalinks">Permalinks</h3>
 <p>As aforementioned, a page’s specific location in the site file-structure can be hard-coded regardless of the page file’s actual location. For example, <code class="highlighter-rouge">/some_folder/some_page.md</code> would normally compile to <code class="highlighter-rouge">http://instrumentation.tamu.edu/some_folder/some_page/</code>, but the header clause <code class="highlighter-rouge">permalink: /mighty_page/</code> would cause it to compile to <code class="highlighter-rouge">http://instrumentation.tamu.edu/mighty_page/</code> despite the markdown file’s actual position in the file-structure.</p>
@@ -448,10 +448,11 @@ rtt: true
 This is my content!
 </code></pre></div></div>
 <p>The content can be entered as Markdown or HTML. Markdown is easier, but HTML may be necessary for advanced formatting.<br />
-Note that Markdown can contain HTML, but HTML cannot contain Markdown; if you open an HTML span of any kind (e.g. <code class="highlighter-rouge">&lt;div&gt;</code>, <code class="highlighter-rouge">&lt;a&gt;</code>,<code class="highlighter-rouge">&lt;i&gt;</code>), you cannot use Markdown again until it has been closed. For example:</p>
+Note that Markdown can contain HTML, but HTML cannot contain Markdown; if you open an HTML object of any kind (e.g. <code class="highlighter-rouge">&lt;div&gt;</code>, <code class="highlighter-rouge">&lt;a&gt;</code>,<code class="highlighter-rouge">&lt;i&gt;</code>), you cannot use Markdown again until it has been closed. For example:</p>
 <ul>
   <li><code class="highlighter-rouge">## &lt;a href="www.google.com"&gt;Google&lt;/a&gt;</code> will result in a header-2 (<code class="highlighter-rouge">&lt;h2&gt;</code>) block with hyperlink text ‘Google’ directing to the referenced URL. HTML can exist within Markdown.</li>
   <li><code class="highlighter-rouge">&lt;h2&gt;[Google](www.google.com)&lt;/h2&gt;</code> will result in a useless mess, despite appearing to have the same components. Markdown cannot exist within HTML.</li>
+  <li>There are occasional exceptions to this, but don’t count on them.</li>
 </ul>
 
 <h2 id="upload-and-rebuild">Upload and Rebuild</h2>

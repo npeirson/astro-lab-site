@@ -45,4 +45,4 @@ Cynthia Froning is a visiting scholar.
 <div class="clearfix" />
 <br>
 ## Previous Team Members
-[Click here](./previous/) for a list of previous team members. *Please note that some information may be outdated.*
+[Click here](/people/previous/) for a list of previous team members. *Please note that some information may be outdated.*

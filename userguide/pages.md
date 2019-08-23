@@ -69,7 +69,7 @@ The Return-to-Top button is a small round button which glides along the bottom r
 ```
 rtt: true
 ```  
-The CSS for this is in `_sass/_page.scss`, the JS is in `_includes/rtt.html`, and the HTML is in `_layouts/single.html`.
+The CSS for this is in `/_sass/_page.scss`, the JS is in `/_includes/rtt.html`, and the HTML is in `/_layouts/single.html`.
 
 ### Permalinks
 As aforementioned, a page's specific location in the site file-structure can be hard-coded regardless of the page file's actual location. For example, `/some_folder/some_page.md` would normally compile to `http://instrumentation.tamu.edu/some_folder/some_page/`, but the header clause `permalink: /mighty_page/` would cause it to compile to `http://instrumentation.tamu.edu/mighty_page/` despite the markdown file's actual position in the file-structure.
@@ -88,6 +88,7 @@ The content can be entered as Markdown or HTML. Markdown is easier, but HTML may
 Note that Markdown can contain HTML, but HTML cannot contain Markdown; if you open an HTML object of any kind (e.g. `<div>`, `<a>`,`<i>`), you cannot use Markdown again until it has been closed. For example:  
 - `## <a href="www.google.com">Google</a>` will result in a header-2 (`<h2>`) block with hyperlink text 'Google' directing to the referenced URL. HTML can exist within Markdown.
 - `<h2>[Google](www.google.com)</h2>` will result in a useless mess, despite appearing to have the same components. Markdown cannot exist within HTML.
+- There are occasional exceptions to this, but don't count on them.
 
 ## Upload and Rebuild
 Please see the detailed [rebuilding](/userguide/rebuilding/) document.
