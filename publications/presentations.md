@@ -13,7 +13,7 @@ rtt: true
 	<a href="/publications/assets/2018-SPIE-10706-195-BlackMaterialsII_paper.pdf" target="_blank">(PDF)</a> <a href="/publications/assets/2018-SPIE-10706-195-BlackMaterialsII_poster.pdf" target="_blank">(Poster)</a>
 </font>
 
-<h4>"Characterization of the reflectivity of various white materials</h4>
+<h4>Characterization of the reflectivity of various white materials</h4>
 <font size="-1">
 	Schmidt, Luke M.; Gomez, Madelynn; Kim, Doyeon; Torregosa, Michael; Sauseda, Marcus; Prochaska, Travis; DePoy, D. L.; Marshall, J. L.; Gardner, Lawrence; and Grant, Walter. In Proc.SPIE, 10706–196, 2018.<br>
 	<a href="/publications/assets/2018-SPIE-10706-196-WhiteMaterials_paper.pdf" target="_blank">(PDF)</a> <a href="/publications/assets/2018-SPIE-10706-196-WhiteMaterials_poster.pdf" target="_blank">(Poster)</a>
