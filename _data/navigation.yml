@@ -91,16 +91,16 @@ userguide:
     - title: User Guide
       children:
         - title: Overview
-          url: /userguide/
+          url: /docs/
         - title: Making New Pages
-          url: /userguide/pages/
+          url: /docs/pages/
         - title: Making New Press Releases
-          url: /userguide/posts/
+          url: /docs/posts/
         - title: Figures, Tables, Captions
-          url: /userguide/figtabcap/
+          url: /docs/figtabcap/
         - title: Image Overlays and Sliders
-          url: /userguide/imagestuff/
+          url: /docs/imagestuff/
         - title: Rebuilding
-          url: /userguide/rebuilding/
+          url: /docs/rebuilding/
         - title: Rolling Developer's Notes
-          url: /userguide/notes/
+          url: /docs/notes/
