@@ -8,7 +8,7 @@ sidebar:
 In addition to a visual overhaul, there are loads of new features just beneath the surface, which serve to improve user experience. While browsing the site, don't just look at it; click around, and you'll see these features emerge.
 
 ## The docs / user manual
-If you view it without serving the whole site (e.g. from desktop or github pages) the sidebar won't show. Here are the other pages:  
+To view properly, serve the site to yourself and view the docs rendered. Otherwise, some things won't display, including the sidebar. For that reason, if you need to read this without serving the site, here are more links the other pages:  
 - [Making New Pages](pages.html)  
 - [Making New Press Releases](posts.html)  
 - [Figures, Tables, Captions](figtabcap.html)  
